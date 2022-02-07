@@ -161,7 +161,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Amphibious"],
-	        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+	        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 {
@@ -171,11 +171,12 @@
 		"uniqueTo": "Ethiopia",
 		"movement": 2,
 		"strength": 24,
-		"cost": 135,
+		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["Shock I"],
+                "uniques": ["Can move immediately once bought"],
 		"attackSound": "shot"
 	},
 {
@@ -421,7 +422,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"promotions": ["Formation I"],
-                "uniques": ["Can move immediately once bought" ],
+                "uniques": ["Can move immediately once bought"],
 		"attackSound": "metalhit"
 	},
 {
