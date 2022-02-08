@@ -245,7 +245,6 @@
 		"rangedStrength": 20,
 		"cost": 150,
 		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
