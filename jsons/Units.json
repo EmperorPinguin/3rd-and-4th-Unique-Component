@@ -75,17 +75,19 @@
 	},
 {
 		"name": "Numidian",
-		"unitType": "Mounted",
-		"replaces": "Spearman",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
 		"uniqueTo": "Carthage",
 		"movement": 4,
-		"strength": 11,
+		"strength": 6,
+		"rangedStrength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
-		"attackSound": "horse"
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
 	},
 {
 		"name": "Carpentom",
