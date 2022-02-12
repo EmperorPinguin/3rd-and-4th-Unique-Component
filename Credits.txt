@@ -1,35 +1,65 @@
 Some images are taken from RekMOD and other mods, all other images are listed here (they are from the Noun Project):
-Eagle Warrior: by Gab Bandala
-Dao Swordsman: by Michael T
-Khopesh: by Ian Childers
-Oromo: by Smashing Stocks
-Chasqui: by Vectorstall
-Daimyo: by Amethyst Studio
-Carpenthom: by Andrew Doane
-Auxilliary: by sergio Morozov
-Halberdman: by L Nimis
-Great Bombard: by Vectors Market
-Dar-e Mehr: Renee Ramsay-Passmore
-Blood Altar: by Denis Moskowitz
-Shadoof: by Eucalyp
-Qullqa: by Start Up Graphic Design
-Jarliq: by Gregor Cresnar
-Forum Romanum: by Mochamad Ilham
-Examination Hall: by Creative Stall
-Seowon: by Joh Gurn
-Metalworker: by Ben Avery
-Obsidian Warrior: by Misha Petrishchev
-Treasury: by Delwar Hossain
-Winter Palace: by P Thanga Vignesh
-Viking Longhouse: by evan gerard kalerasan
-Fale Tele: by Eucalyp
-Harvard University: by NATAPON CHANTABUTR
-Gribeauval: by Melvin Salas
-Alcazar: by Felipe Alvarado
-Redcoat: by Luis Prado
-Longship: Ole Sturm
-Numidian: by RIZCA
-Blue Dragon: by Icons Producer
-Hammam: by Adrien Coquet
-Mughal Elephant: by Hannah Storey
-Pit House: by Sandhi Priyasmoro
+Acropolis: Acropolis by Wolf Böse
+Alcazar: Alcazar of Segovia by Felipe Alvarado
+Auxilliary: horse racing by sergio Morozov
+Ballista Elephant: Elephant by FBianchi
+Ball Court: Ball by Benjamin Sommerlad
+Blood Altar: ara by Denis Moskowitz
+Blue Dragon: dragon by Icons Producer
+Byzantine Walls: Great Wall of China by Hea Poh Lin
+Carpenthom: Chariot and Horse by Andrew Doane
+Chasqui: Runner by Vectorstall
+Clibanarii: Knight by Hey Rabbit
+Cothon: Harbor by Dolly Holmes
+Cur: Crusader by Anton
+Daimyo: tairano masakado by Amethyst Studio
+Dao Swordsman: dao by Michael T
+Dar-e Mehr: Zoroastrianism Renee Ramsay-Passmore
+Deutsches Heer: Pickelhaube Helmet by Henry Ryder
+Dojo: Kendo by Jems Mayor
+Eagle Warrior: Eagle by Gab Bandala
+Embassy: Embassy by Adrien Coquet
+Examination Hall: testing by Creative Stal
+Factorij: Castle by Kusdarti
+Fale Tele: pavilion by Eucalyp
+Forum Romanum: Pillar by Mochamad Ilham
+Golden Horde: Horse by Nestor Arellano
+Great Bombard: Cannon by Vectors Market
+Gribeauval: Cannon by Melvin Salas
+Gruva: Mine by David Khai
+Halberdman: Halbert by L Nimis
+Hammam: sauna by Adrien Coquet
+Harvard University: Harvard University by NATAPON CHANTABUTR
+Hippodrome: Hippodrome by P Thanga Vignesh
+Iroquois Warrior: Axe by Eucalyp
+Jarliq: Scroll by Gregor Cresnar
+Khopesh: Khopesh by Ian Childers
+Koa: Spear by Loritas Medina
+Landwehr: forester by Alexander Wiefel
+Longship: Viking Ship by Ole Sturm
+Madrasah: Mustansiriya Madrasa by József Balázs-Hegedüs
+Mamluk: scheich by Andrejs Kirma
+Mandir: katas raj temple by Vectors Point
+Metalworker: metalworking by Ben Avery
+Mission: Cathedral by IconMark
+Mughal Elephant: Asian elephant by Hannah Storey
+Numidian: Spear by sam maulidna
+Obsidian Warrior: Stone Age Knife by Misha Petrishchev
+Orchestra: orchestra by Adrien Coquet
+Oromo: Maasai by Smashing Stocks
+Pioneer: American Eagle by Raymond
+Pit House: Camping by Sandhi Priyasmoro
+Qullqa: pachacamac by Start Up Graphic Design
+Redcoat: Queen's Guard by Luis Prado
+Rock-Hewn Church: Monument by IconMark
+Sabum Kibittum: spear and shield by Andrejs Kirma
+Sala: Sala by Krisada
+Seowon: hanok by Joh Gurn
+Shadoof: irrigate by Eucalyp
+Sofa: Archer by Evgeni Moryakov
+Sorbonne: books by Jakub Čaja
+Textile Mill: silk by luketaibai
+Treasury: gold by Delwar Hossain
+Viking Longhouse: building by evan gerard kalerasan
+Winter Palace: Palace by P Thanga Vignesh
+Yurt: Ger by Laurens

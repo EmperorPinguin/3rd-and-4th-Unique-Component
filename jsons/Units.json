@@ -332,7 +332,6 @@
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
                 "promotions": ["Amphibious"],
-                "uniques": ["Defense bonus when embarked"],
 		"attackSound": "nonmetalhit"
 	},
 {
