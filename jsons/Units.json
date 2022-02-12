@@ -207,6 +207,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
+                "promotions": ["Mobility"],
 		"attackSound": "shot"
 	},
 {
