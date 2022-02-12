@@ -201,7 +201,7 @@
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Germany",
-		"movement": 3,
+		"movement": 2,
 		"strength": 55,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
