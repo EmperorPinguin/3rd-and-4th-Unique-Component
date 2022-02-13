@@ -197,7 +197,7 @@
 		"attackSound": "cannon"
 	},
 {
-		"name": "Deutsches Heer",
+		"name": "Pickelhaube",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Germany",
