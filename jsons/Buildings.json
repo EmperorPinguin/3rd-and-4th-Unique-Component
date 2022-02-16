@@ -136,7 +136,7 @@
 		"uniqueTo": "Egypt",
 		"food": 3,
 		"production": 1,
-		"uniques": ["[+10]% growth [in this city]", "Must be next to [Flood plains]""],
+		"uniques": ["[+10]% growth [in this city]", "Must be next to [Flood plains]"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel"
