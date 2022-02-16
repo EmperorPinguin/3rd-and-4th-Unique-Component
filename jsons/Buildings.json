@@ -190,7 +190,7 @@
 		"name": "Acropolis",
 		"replaces": "Walls",
 		"uniqueTo": "Greece",
-                "culture": 2
+            "culture": 2
 		"cost": 65,
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -237,12 +237,14 @@
 //Pit Houses were more common in the western and southern part of what is now the United States, but I couldn't really find something better
 {
 		"name": "Dojo",
-		"replaces": "Barracks",
+		"replaces": "Armory",
 		"uniqueTo": "Japan",
 		"hurryCostModifier": 25,
+            "cost": 100,
 		"maintenance": 0,
+		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [30] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Steel"
 	},
 {
 		"name": "Jarliq",
