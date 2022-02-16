@@ -5,11 +5,11 @@
 		"name": "Harvard University",
 		"replaces": "Oxford University",
 		"uniqueTo": "America",
-		"cost": 125,
+		"cost": 145,
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "[2] Free Technologies", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [University] in all cities", "[2] Free Technologies", "Cost increases by [10] per owned city"],
 		"requiredTech": "Education"
 	},
 {
@@ -52,22 +52,22 @@
 		"name": "Etemenanki",
 		"replaces": "National Epic",
 		"uniqueTo": "Babylon",
-		"cost": 125,
+		"cost": 145,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [30] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [10] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
 		"requiredTech": "Drama and Poetry"
 	},
 {
 		"name": "Byzantine Walls",
 		"replaces": "National Epic",
 		"uniqueTo": "Byzantium",
-		"cost": 125,
+		"cost": 145,
 		"cityStrength": 7,
 		"cityHealth": 70,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [10] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
 {
@@ -136,7 +136,7 @@
 		"uniqueTo": "Egypt",
 		"food": 3,
 		"production": 1,
-		"uniques": ["[+10]% growth [in this city]", "Must be on [Flood plains]"],
+		"uniques": ["[+10]% growth [in this city]", "Must be next to [Flood plains]""],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel"
@@ -168,11 +168,11 @@
 		"name": "Sorbonne",
 		"replaces": "Oxford University",
 		"uniqueTo": "France",
-		"cost": 125,
+		"cost": 145,
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [30] per owned city", "[+2 Science] [in all cities] <after discovering [Steam Power]>"],
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+2 Science] [in all cities] <after discovering [Steam Power]>"],
 		"requiredTech": "Education"
 	},
 {
@@ -294,7 +294,7 @@
 		"name": "Forum Romanum",
 		"replaces": "National Epic",
 		"uniqueTo": "Rome",
-		"cost": 125,
+		"cost": 145,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "[+1 Culture, +1 Happiness] [in all cities]", "Cost increases by [10] per owned city"],
@@ -368,11 +368,11 @@
 		"name": "Embassy",
 		"replaces": "National Treasury",
 		"uniqueTo": "Sweden",
-		"cost": 125,
+		"cost": 145,
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city","[-25]% City-State Influence degradation"],
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city","[-25]% City-State Influence degradation"],
 		"requiredTech": "Guilds"
 	},
 {
