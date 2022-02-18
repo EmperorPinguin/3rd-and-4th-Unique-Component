@@ -170,9 +170,9 @@
 		"uniqueTo": "France",
 		"cost": 145,
 		"science": 3,
-		"culture": 1,
+		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+2 Science] [in all cities] <after discovering [Steam Power]>"],
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+1 Science] from every [University]"],
 		"requiredTech": "Education"
 	},
 {
