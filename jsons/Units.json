@@ -30,6 +30,20 @@
 		"attackSound": "metalhit"
 	},
 {
+		"name": "Royal Guard",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Assyria",
+		"movement": 2,
+            "strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+20]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	},
+{
 		"name": "Landwehr",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
@@ -56,7 +70,7 @@
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
-                "promotions": ["Woodsman"],
+            "promotions": ["Woodsman"],
 		"attackSound": "nonmetalhit"
 	},
 {
@@ -72,6 +86,21 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+1] Sight"],
 		"attackSound": "metalhit"
+	},
+{
+		"name": "Bandeirante",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Brazil",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
+            "promotions": ["Woodsman"],
+		"attackSound": "shot"
 	},
 {
 		"name": "Numidian",
@@ -254,6 +283,20 @@
 		"attackSound": "elephant"
 	},
 {
+		"name": "Kapal Jung",
+		"unitType": "Ranged Water",
+		"replaces": "Galleass",
+		"uniqueTo": "Indonesia",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"attackSound": "arrow"
+	},
+{
 		"name": "Iroquois Warrior",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
@@ -305,6 +348,21 @@
 		"attackSound": "horse"
 	},
 {
+		"name": "Goumier",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Morocco",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["[+25]% Strength <when fighting in [Desert] tiles>"],
+            "promotions": ["Drill I"],
+		"attackSound": "shot"
+	},
+{
 		"name": "Clibanarii",
 		"unitType": "Mounted",
 		"uniqueTo": "Persia",
@@ -321,6 +379,21 @@
 		"attackSound": "horse"
 	},
 {
+		"name": "Uhlan",
+		"unitType": "Mounted",
+		"uniqueTo": "Poland",
+		"replaces": "Cavalry",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "[+15]% Strength <when attacking>"],
+		"attackSound": "horse"
+	},
+{
 		"name": "Koa",
 		"unitType": "Sword",
 		"uniqueTo": "Polynesia",
@@ -332,8 +405,22 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-                "promotions": ["Amphibious"],
+            "promotions": ["Amphibious"],
 		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Galleon",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Portugal",
+		"movement": 4,
+		"strength": 28,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["May capture killed [Water] units", "[+20]% Strength <when fighting in [Coast] tiles>"],
+		"attackSound": "cannon"
 	},
 {
 		"name": "Auxilliary",
@@ -441,5 +528,14 @@
 		"upgradesTo": "Cannon",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
+	},
+{
+		"name": "Induna",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Zulu",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"movement": 3
 	},
 ]

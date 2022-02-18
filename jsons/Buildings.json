@@ -26,6 +26,17 @@
 		"requiredTech": "Education"
 	},
 {
+		"name": "Walls of Sargon",
+		"replaces": "Walls",
+		"cost": 75,
+		"uniqueTo": "Assyria",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured", "[+15]% Production when constructing [Land] units [in this city]"]
+	},
+{
 		"name": "Orchestra",
 		"replaces": "Opera House",
 		"uniqueTo": "Austria",
@@ -57,6 +68,15 @@
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [10] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
 		"requiredTech": "Drama and Poetry"
+	},
+{
+		"name": "Landscape Garden",
+                "replaces": "Garden",
+                "uniqueTo": "Brazil",
+		"uniques": ["[+2 Culture] from [Jungle] tiles [in this city]", "[+25]% great person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
 	},
 {
 		"name": "Byzantine Walls",
@@ -222,6 +242,18 @@
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 {
+		"name": "Pesantren",
+		"replaces": "Public School",
+		"uniqueTo": "Indonesia",
+		"science": 0,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [1] population [in this city]", "[+1 Faith] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+{
 		"name": "Pit House",
 		"replaces": "Granary",
 		"uniqueTo": "Iroquois",
@@ -231,7 +263,7 @@
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-                        "[+1 Production] from [Forest] tiles [in this city]"],
+                  "[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 //Pit Houses were more common in the western and southern part of what is now the United States, but I couldn't really find something better
@@ -250,13 +282,23 @@
 		"name": "Jarliq",
 		"replaces": "Courthouse",
 		"uniqueTo": "Mongolia",
-                "culture": 3,
+            "culture": 3,
 		"maintenance": 1,
-                "cost": 100,
+            "cost": 100,
 		"hurryCostModifier": 0,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+	      "Can only be built [in annexed cities]"],
 		"requiredTech": "Writing"
+	},
+{
+		"name": "Riad",
+		"replaces": "Garden",
+		"uniqueTo": "Morocco",
+            "percentStatBonus": {"culture": 15},
+		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
 	},
 {
 		"name": "Seowon",
@@ -272,12 +314,24 @@
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
 		"uniqueTo": "Persia",
-                "culture": 1,
+            "culture": 1,
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 0,
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled"]
+	},
+{
+		"name": "Sukiennice",
+		"replaces": "Bank",
+		"uniqueTo": "Poland",
+		"gold": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+            "uniques": ["[+1 Gold] from [Strategic resource] tiles [in this city]", "[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Banking"
 	},
 {
 		"name": "Fale Tele",
@@ -289,6 +343,17 @@
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]", "[+50]% Production when constructing [Settler] units [in this city]"],
 		"requiredTech": "Optics"
+	},
+{
+		"name": "Casa da India",
+		"replaces": "National Treasury",
+		"uniqueTo": "Portugal",
+		"cost": 145,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city", "[+2 Gold] from every [Harbor]"],
+		"requiredTech": "Guilds"
 	},
 {
 		"name": "Forum Romanum",
@@ -323,10 +388,35 @@
 		"uniques": ["Indicates the capital city", "Provides a [Krepost] in your first [10] cities for free"]
 	},
 {
+		"name": "Tipi",
+		"replaces": "Granary",
+		"uniqueTo": "Shoshone",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+                  "[+1 Culture] from [Camp] tiles [in this city]",
+                  "[+1 Culture] <after discovering [Archaeology]>"],
+		"requiredTech": "Pottery"
+	},
+{
+		"name": "Totem Pole",
+		"replaces": "Shrine",
+		"uniqueTo": "Shoshone",
+            "production": 1,
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 0,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+{
 		"name": "Sala",
 		"replaces": "Garden",
 		"uniqueTo": "Siam",
-                "gold": 2,
+            "gold": 3,
 		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -424,5 +514,42 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
 		"requiredTech": "Engineering"
+	},
+{
+		"name": "Canals",
+		"replaces": "Garden",
+		"uniqueTo": "Venice",
+            "cost": 120,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Coast]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Construction"
+	},
+{
+		"name": "Ca' d'Oro",
+            "replaces": "Courthouse",
+            "uniqueTo": "Venice",
+            "gold": 4,
+		"specialistSlots": {"Merchant": 2},
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["Can only be built [in capital]", "Destroyed when the city is captured"],
+		"requiredTech": "Mathematics"
+	},
+{
+		"name": "Kraal",
+            "replaces": "Stable",
+            "uniqueTo": "Zulu",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"
+                  "[+1 Production] from [Pasture] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
 	},
 ]
