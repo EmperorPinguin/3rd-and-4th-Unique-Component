@@ -192,7 +192,7 @@
 		"science": 3,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+1 Science] from every [University]"],
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+2 Science] from every [University]"],
 		"requiredTech": "Education"
 	},
 {

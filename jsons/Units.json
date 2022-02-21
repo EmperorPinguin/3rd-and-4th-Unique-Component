@@ -217,7 +217,7 @@
 		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 14,
-		"rangedStrength": 22,
+		"rangedStrength": 20,
 		"cost": 185,
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
