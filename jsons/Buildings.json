@@ -254,19 +254,16 @@
 		"requiredTech": "Scientific Theory"
 	},
 {
-		"name": "Pit House",
-		"replaces": "Granary",
+		"name": "Confederacy",
+		"replaces": "Ironworks",
 		"uniqueTo": "Iroquois",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]",
-                  "[+1 Production] from [Forest] tiles [in this city]"],
-		"requiredTech": "Pottery"
+		"cost": 145,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city", "[+1 Production] from [Forest] tiles [in all cities]"],
+		"requiredTech": "Metal Casting"
 	},
-//Pit Houses were more common in the western and southern part of what is now the United States, but I couldn't really find something better
 {
 		"name": "Dojo",
 		"replaces": "Armory",
