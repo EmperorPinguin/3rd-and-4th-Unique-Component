@@ -182,7 +182,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25, "production": 10},
+		"percentStatBonus": {"gold": 25, "production": 20},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
