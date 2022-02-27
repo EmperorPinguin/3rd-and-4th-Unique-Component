@@ -184,7 +184,6 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25, "production": 20},
 		"requiredBuilding": "Market",
-            "replacementTextForUniques": "[+20]% Production [in this city]"
 		"requiredTech": "Banking"
 	},
 {
@@ -220,7 +219,6 @@
 		"hurryCostModifier": 25,
                 "percentStatBonus": {"food": 10},
 		"requiredTech": "Philosophy",
-            "replacementTextForUniques": "[+10]% Food [in this city]"
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 {
