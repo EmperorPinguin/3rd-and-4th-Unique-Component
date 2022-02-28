@@ -289,7 +289,7 @@
 {
 		"name": "Bolshoi Theatre",
 		"replaces": "Hermitage",
-		"uniqueTo": "Rome",
+		"uniqueTo": "Russia",
 		"cost": 145,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Theatre] in all cities", "Cost increases by [10] per owned city", "Free Social Policy", "[+25]% great person generation [in all cities]"],
