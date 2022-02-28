@@ -148,7 +148,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-                "uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"],
+                "uniques": ["[+33]% Strength <when fighting in [Desert] tiles>"],
 		"attackSound": "metalhit"
 	},
 {
