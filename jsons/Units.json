@@ -154,8 +154,8 @@
 {
 		"name": "Redcoat",
 		"unitType": "Gunpowder",
-                "uniqueTo": "England",
-                "replaces": "Rifleman",
+            "uniqueTo": "England",
+            "replaces": "Rifleman",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -163,8 +163,22 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Amphibious"],
-	        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Defense bonus when embarked"],
+	      "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Defense bonus when embarked"],
 		"attackSound": "shot"
+	},
+{
+		"name": "Oromo",
+		"unitType": "Sword",
+            "uniqueTo": "Ethiopia",
+            "replaces": "Musketman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 125,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+            "promotions": ["Shock I"],
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Gribeauval",
