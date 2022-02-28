@@ -249,7 +249,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-                "uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
+            "uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
 		"attackSound": "metalhit"
 	},
 {
@@ -335,6 +335,20 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "All adjacent units heal [+15] HP when healing"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+{
+		"name": "Streltsy",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Russia",
+		"movement": 2,
+		"strength": 34,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+            "uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>"],
+		"attackSound": "shot"
 	},
 {
 		"name": "Ballista Elephant",
