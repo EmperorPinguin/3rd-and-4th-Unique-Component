@@ -361,7 +361,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-            "uniques": ["+[25]% Strength if within [1] tiles of a [Tundra]"],
+            "uniques": "[+33]% Strength <when fighting in [Tundra] tiles>"],
             "attackSound": "shot"
 	},
 {
