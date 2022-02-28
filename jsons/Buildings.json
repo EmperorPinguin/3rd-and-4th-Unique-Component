@@ -308,7 +308,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Theatre] in all cities", "Cost increases by [10] per owned city", "[+25]% great person generation [in all cities]"],
+		"uniques": ["Requires a [Theatre] in all cities", "Cost increases by [10] per owned city"],
 		"requiredTech": "Architecture"
 	},
 {
