@@ -185,7 +185,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[+2 Gold] <after discovering [Flight]>"]
+		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Flight]>"]
 	},
 {
 		"name": "Qullqa",
