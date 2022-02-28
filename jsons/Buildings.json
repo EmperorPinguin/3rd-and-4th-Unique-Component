@@ -149,8 +149,8 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+3 Production] from [Cotton] tiles [in this city]","[+3 Production] from [Dyes] tiles [in this city]","[+3 Production] from [Furs] tiles [in this city]","[+3 Production] from [Silk] tiles [in this city]"],
+		"maintenance": 0,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+2 Production] from [Cotton] tiles [in this city]","[+2 Production] from [Dyes] tiles [in this city]","[+2 Production] from [Furs] tiles [in this city]","[+2 Production] from [Silk] tiles [in this city]"],
 		"requiredTech": "Economics"
 	},
 {
@@ -182,7 +182,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25, "production": 20},
+		"percentStatBonus": {"gold": 25, "production": 10},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
@@ -355,7 +355,7 @@
 		"name": "Mission",
 		"replaces": "Mint",
 		"uniqueTo": "Spain",
-                "faith": 2,
+           "faith": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+34]% Natural religion spread [in this city]"],
@@ -404,14 +404,15 @@
 	},
 {
 		"name": "Factorij",
-		"replaces": "Courthouse",
+		"replaces": "Harbor",
 		"uniqueTo": "The Netherlands",
-		"cityStrength": 8,
-		"maintenance": 0,
-		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Must be next to [Coast]", "[+2 Gold] from [Luxury resource] tiles [in this city]"],
-		"requiredTech": "Mathematics"
-	},
+           "cityStrength": 8,
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]", "[+2 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Optics"
 {
 		"name": "Hammam",
 		"replaces": "Aqueduct",
