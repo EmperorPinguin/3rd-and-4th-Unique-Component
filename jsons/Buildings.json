@@ -150,10 +150,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", 
-                        "[+2 Production] from [Cotton] tiles [in this city]", 
-                        "[+2 Production] from [Dyes] tiles [in this city]","[+2 Production] from [Furs] tiles [in this city]",
-                        "[+2 Production] from [Silk] tiles [in this city]"],
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+2 Production] from [Cotton] tiles [in this city]", "[+2 Production] from [Dyes] tiles [in this city]", "[+2 Production] from [Furs] tiles [in this city]", "[+2 Production] from [Silk] tiles [in this city]"],
 		"requiredTech": "Economics"
 	},
 {
@@ -301,17 +298,6 @@
 		"requiredTech": "Drama and Poetry"
 	},
 {
-		"name": "Bolshoi Theatre",
-		"replaces": "Hermitage",
-		"uniqueTo": "Russia",
-		"cost": 145,
-		"percentStatBonus": {"culture": 50},
-		"culture": 5,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Theatre] in all cities", "Cost increases by [10] per owned city"],
-		"requiredTech": "Architecture"
-	},
-{
 		"name": "Dacha",
 		"replaces": "Garden",
 		"uniqueTo": "Russia",
@@ -383,7 +369,7 @@
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city","[-25]% City-State Influence degradation"],
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city", "[-25]% City-State Influence degradation"],
 		"requiredTech": "Guilds"
 	},
 {
@@ -425,7 +411,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-                        "Connects trade routes over water","Must be next to [Coast]", "[+2 Gold] from [Luxury resource] tiles [in this city]"],
+                        "Connects trade routes over water", "Must be next to [Coast]", "[+2 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Optics"
        },
 {
