@@ -32,30 +32,30 @@ BuildingIcons/Blood Altar
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Byzantine Walls
+BuildingIcons/Bolshoi Theatre
   rotate: false
   xy: 212, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Confederacy
+BuildingIcons/Byzantine Walls
   rotate: false
-  xy: 212, 1044
+  xy: 420, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Cothon
+BuildingIcons/Confederacy
   rotate: false
   xy: 420, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Dacha
+BuildingIcons/Cothon
   rotate: false
-  xy: 836, 1668
+  xy: 628, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -230,26 +230,19 @@ BuildingIcons/Sorbonne
   index: -1
 BuildingIcons/Textile Mill
   rotate: false
-  xy: 1044, 420
+  xy: 1252, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Treasury
   rotate: false
-  xy: 1252, 628
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Viking Longhouse
-  rotate: false
   xy: 1460, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Winter Palace
+BuildingIcons/Viking Longhouse
   rotate: false
   xy: 1668, 1044
   size: 200, 200
@@ -286,28 +279,28 @@ UnitIcons/Blue Dragon
   index: -1
 UnitIcons/Carpentom
   rotate: false
-  xy: 420, 1460
+  xy: 628, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Chasqui
   rotate: false
-  xy: 628, 1668
+  xy: 4, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Clibanarii
   rotate: false
-  xy: 4, 836
+  xy: 212, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cur
   rotate: false
-  xy: 628, 1460
+  xy: 836, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -469,6 +462,13 @@ UnitIcons/Sabum Kibittum
 UnitIcons/Sofa
   rotate: false
   xy: 628, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Streltsy
+  rotate: false
+  xy: 1044, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
