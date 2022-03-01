@@ -6,6 +6,7 @@ Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
 Blood Altar: ara by Denis Moskowitz
 Blue Dragon: dragon by Icons Producer
+Bolshoi Theatre: Bolshoi Theatre by Nikita Kozin
 Byzantine Walls: Great Wall of China by Hea Poh Lin
 Carpenthom: Chariot and Horse by Andrew Doane
 Chasqui: Runner by Vectorstall
@@ -13,7 +14,6 @@ Clibanarii: warrior by Lars Meiertoberens
 Confederacy: six people by Alfredo
 Cothon: Harbor by Dolly Holmes
 Cur: Horse by RIZCA
-Dacha: House by N.Style
 Daimyo: tairano masakado by Amethyst Studio
 Dao Swordsman: dao by Michael T
 Dar-e Mehr: Zoroastrianism Renee Ramsay-Passmore
@@ -60,8 +60,8 @@ Seowon: hanok by Joh Gurn
 Shadoof: irrigate by Eucalyp
 Sofa: Archer by Evgeni Moryakov
 Sorbonne: books by Jakub Čaja
+Streltsy: Rifle by Maurizio Fusillo
 Textile Mill: silk by luketaibai
 Treasury: gold by Delwar Hossain
 Viking Longhouse: building by evan gerard kalerasan
-Winter Palace: Palace by P Thanga Vignesh
 Yurt: Ger by Laurens
