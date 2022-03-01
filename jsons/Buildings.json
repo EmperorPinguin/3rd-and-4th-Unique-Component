@@ -183,8 +183,6 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25, "production": 10},
-            "replacementTextForUniques": "+10% Production in this city",
-		"uniques": [" "],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
@@ -221,7 +219,6 @@
 		"hurryCostModifier": 25,
             "percentStatBonus": {"food": 10},
 		"requiredTech": "Philosophy",
-            "replacementTextForUniques": "+10% Food in this city",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 {
@@ -263,7 +260,6 @@
 		"replaces": "Garden",
 		"uniqueTo": "Korea",
 		"specialistSlots": {"Scientist": 1, "Artist": 1},
-            "replacementTextForUniques": "Scientist Slots 1 vs 0, Artist Slots 1 vs 0, +1 Science from Fishing Boats tiles in this city",
 		"uniques": ["[+25]% great person generation [in this city]", "[+1 Science] from [Fishing Boats] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
