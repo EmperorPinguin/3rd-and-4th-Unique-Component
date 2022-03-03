@@ -6,7 +6,7 @@
 		"replaces": "Oxford University",
 		"uniqueTo": "America",
 		"cost": 145,
-		"science": 3,
+		"science": 0,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [University] in all cities", "[2] Free Technologies", "Cost increases by [10] per owned city"],
