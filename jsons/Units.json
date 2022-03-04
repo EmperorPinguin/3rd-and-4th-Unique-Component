@@ -16,7 +16,7 @@
 	},
 {
 		"name": "Mamluk",
-		"unitType": "Sword",
+		"unitType": "Mounted",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Arabia",
 		"movement": 4,
