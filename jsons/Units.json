@@ -74,6 +74,21 @@
 		"attackSound": "metalhit"
 	},
 {
+		"name": "Bandeirante",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Brazil",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
+            "promotions": ["Woodsman"],
+		"attackSound": "shot"
+	},
+{
 		"name": "Numidian",
 		"unitType": "Archery",
 		"replaces": "Chariot Archer",
