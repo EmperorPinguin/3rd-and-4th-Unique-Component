@@ -10,7 +10,7 @@
 		"strength": 7,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"Requires at least [2] population"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
 	},
@@ -26,7 +26,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-                "uniques": ["Heals [25] damage if it kills a unit", "No defensive terrain bonus"]
+                "uniques": ["Heals [25] damage if it kills a unit", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"]
 		"attackSound": "metalhit"
 	},
 {
@@ -312,8 +312,8 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+1] Sight"],
-		"promotions": ["Formation I"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "[+1] Sight"],
+		"promotions": ["Formation I", "Charge"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
