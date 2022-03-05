@@ -427,7 +427,7 @@
 		"cost": 145,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "[+15]% Production when constructing [Air] units [in this city]", "New [Air] units start with [15] Experience [in this city]"],
+		"uniques": ["Requires a [Monument] in all cities", "[+15]% Production when constructing [Air] units [in this city]", "New [Air] units start with [15] Experience [in this city]", "Cost increases by [10] per owned city"],
 		"requiredTech": "Flight"
 	},
 ]
