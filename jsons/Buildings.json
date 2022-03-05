@@ -59,6 +59,15 @@
 		"requiredTech": "Drama and Poetry"
 	},
 {
+		"name": "Landscape Garden",
+                "replaces": "Garden",
+                "uniqueTo": "Brazil",
+		"uniques": ["[+2 Culture] from [Jungle] tiles [in this city]", "[+25]% great person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+{
 		"name": "Byzantine Walls",
 		"replaces": "National Epic",
 		"uniqueTo": "Byzantium",
