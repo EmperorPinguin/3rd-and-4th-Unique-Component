@@ -420,4 +420,14 @@
 		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
 		"requiredTech": "Engineering"
 	},
+{
+		"name": "El Libertador",
+		"replaces": "National Epic",
+		"uniqueTo": "Venezuela",
+		"cost": 145,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "[+15]% Production when constructing [air] units [in this city]", "New [air] units start with [15] Experience [in this city]"],
+		"requiredTech": "Flight"
+	},
 ]
