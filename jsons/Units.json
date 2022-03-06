@@ -332,6 +332,20 @@
 		"attackSound": "shot"
 	},
 {
+		"name": "Revolutionary",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Mexico",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"attackSound": "shot"
+	},
+{
 		"name": "Golden Horde",
 		"unitType": "Mounted",
 		"replaces": "Lancer",
