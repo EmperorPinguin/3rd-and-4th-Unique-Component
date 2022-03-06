@@ -351,10 +351,10 @@
 		"name": "Mission",
 		"replaces": "Mint",
 		"uniqueTo": "Spain",
-           "faith": 2,
+            "faith": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+34]% Natural religion spread [in this city]"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+34]% Natural religion spread [in this city]", "[+1 Faith, +2 Gold] <on foreign continents>"],
 		"requiredTech": "Currency"
 	},
 {
