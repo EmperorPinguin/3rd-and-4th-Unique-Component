@@ -491,10 +491,9 @@
 		"strength": 14,
 		"rangedStrength": 14,
 		"cost": 120,
-		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Never appears as a Barbarian unit", "Unlocked with [Scholasticism]"],
 		"attackSound": "elephant"
 	},
 {
