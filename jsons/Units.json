@@ -348,6 +348,20 @@
 		"attackSound": "horse"
 	},
 {
+		"name": "First of Line",
+		"uniqueTo": "Paraguay",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Rifling",
+		"uniques": ["Only available <when at war>","Can move immediately once bought",
+				"Unlocked with [Militarism]"],
+		"upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "shot",
+	},
+{
 		"name": "Clibanarii",
 		"unitType": "Mounted",
 		"uniqueTo": "Persia",
