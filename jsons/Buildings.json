@@ -425,10 +425,21 @@
 		"name": "Hammam",
 		"replaces": "Aqueduct",
 		"uniqueTo": "The Ottomans",
-                "happiness": 2,
+            "happiness": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
 		"requiredTech": "Engineering"
+	},
+{
+		"name": "Guri Dam",
+		"replaces": "Hydro Plant",
+		"uniqueTo": "Venezuela",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 50,
+            "Production": 3,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"
 	},
 ]
