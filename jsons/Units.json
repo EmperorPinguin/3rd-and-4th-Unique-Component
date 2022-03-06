@@ -151,6 +151,20 @@
 		"attackSound": "metalhit"
 	},
 {
+		"name": "Arpia",
+		"unitType": "Helicopter",
+		"uniqueTo": "Colombia",
+		"replaces": "Helicopter Gunship",
+		"movement": 7,
+		"strength": 77,
+		"cost": 450,
+		"requiredResource": "Aluminum",
+	        "requiredTech": "Computers",
+		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement",
+			    "Can pass through impassable tiles", "Unable to capture cities"],
+		"attackSound": "machinegun",
+       },
+{
 		"name": "Longship",
 		"unitType": "Melee Water",
 		"replaces": "Caravel",
