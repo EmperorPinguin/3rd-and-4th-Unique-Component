@@ -30,6 +30,23 @@
 		"attackSound": "metalhit"
 	},
 {
+		"name": "Puraca",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Argentina",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
+		"attackSound": "machinegun"
+	},
+{
 		"name": "Landwehr",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
@@ -121,7 +138,7 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Mapuche Warrior",
+		"name": "Mapuche",
 		"unitType": "Mounted",
 		"replaces": "Lancer",
 		"uniqueTo": "Chile",
@@ -130,8 +147,9 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+70]% Strength <vs [Mounted] units>", "Double movement in [Forest]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+34]% Strength <vs [Mounted] units>", "Double movement in [Forest]"],
 		"upgradesTo": "Anti-Tank Gun",
+            "promotions": ["Formation I"],
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
