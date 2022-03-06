@@ -121,6 +121,21 @@
 		"attackSound": "horse"
 	},
 {
+		"name": "Mapuche Warrior",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Chile",
+		"movement": 4,
+		"strength": 25,
+		"cost": 170,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+70]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+{
 		"name": "Zapadores",
 		"unitType": "Gunpowder",
             "uniqueTo": "Chile",
