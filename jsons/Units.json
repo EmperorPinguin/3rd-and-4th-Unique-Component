@@ -132,7 +132,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Amphibious"],
-	      "uniques": ["Defense bonus when embarked", "Double movement in [Coast]"],
+	      "uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "Double movement in [Coast]"],
 		"attackSound": "shot"
 	},
 {
