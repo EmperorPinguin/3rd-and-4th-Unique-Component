@@ -253,6 +253,17 @@
 		"requiredTech": "Steel"
 	},
 {
+		"name": "Taco and Burrito Restaurant",
+		"replaces": "Theatre",
+		"uniqueTo": "Mexico",
+            "food": 2,
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+{
 		"name": "Jarliq",
 		"replaces": "Courthouse",
 		"uniqueTo": "Mongolia",
@@ -419,15 +430,5 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
 		"requiredTech": "Engineering"
-	},
-{
-		"name": "El Libertador",
-		"replaces": "National Epic",
-		"uniqueTo": "Venezuela",
-		"cost": 145,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+15]% Production when constructing [Air] units [in all cities]", "Cost increases by [10] per owned city"],
-		"requiredTech": "Flight"
 	},
 ]
