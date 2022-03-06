@@ -436,14 +436,15 @@
 {
 		"name": "Asado",
 		"replaces": "Stable",
-		"uniqueTo": "Uruguay",
+		"uniqueTo": "Paraguay",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]"],
+			"[+1 Production] from [Sheep] tiles [in this city]",
+                  "[+1 Food, +1 Happiness] from [Cattle] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 {
