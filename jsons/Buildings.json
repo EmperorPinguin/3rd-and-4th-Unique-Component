@@ -254,14 +254,16 @@
 	},
 {
 		"name": "Taco and Burrito Restaurant",
-		"replaces": "Theatre",
+		"replaces": "Opera House",
 		"uniqueTo": "Mexico",
             "food": 2,
-		"happiness": 3,
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
-		"requiredTech": "Printing Press"
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 {
 		"name": "Jarliq",
