@@ -59,6 +59,14 @@
 		"requiredTech": "Drama and Poetry"
 	},
 {
+		"name": "Lithium Mine",
+		"replaces": "Recycling Center",
+		"uniqueTo": "Bolivia",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization", "[+5 Production, +5 Gold] from [Salt] tiles [in this city]"]
+	},
+{
 		"name": "Landscape Garden",
                 "replaces": "Garden",
                 "uniqueTo": "Brazil",
