@@ -121,7 +121,7 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Landing Troops",
+		"name": "Zapadores",
 		"unitType": "Gunpowder",
             "uniqueTo": "Chile",
             "replaces": "Rifleman",
