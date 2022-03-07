@@ -1,4 +1,4 @@
-[
+2[
 
 //Units
 {
@@ -438,8 +438,8 @@
 		"unitType": "Civilian Water",
 		"uniqueTo": "Peru",
 		"replaces": "Work Boats",
-		"movement": 5,
-		"cost": 10,
+		"movement": 4,
+		"cost": 5,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable", "Can move immediately once bought"]
 	},
