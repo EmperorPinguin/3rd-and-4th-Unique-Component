@@ -30,7 +30,7 @@
 		"attackSound": "metalhit"
 	},
 {
-		"name": "Puraca",
+		"name": "Pucara",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "Argentina",
