@@ -434,6 +434,16 @@
 		"attackSound": "horse"
 	},
 {
+		"name": "Caballito de totora",
+		"unitType": "Civilian Water",
+		"uniqueTo": "Peru",
+		"replaces": "Work Boats",
+		"movement": 5,
+		"cost": 10,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable", "Can move immediately once bought"]
+	},
+{
 		"name": "Rabona",
 		"unitType": "Scout",
 		"uniqueTo": "Peru",
