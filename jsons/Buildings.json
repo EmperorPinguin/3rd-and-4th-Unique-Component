@@ -296,6 +296,17 @@
 		"requiredTech": "Theology"
 	},
 {
+		"name": "Itaipu Dam",
+		"replaces": "National Epic",
+		"uniqueTo": "Paraguay",
+		"cost": 145,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"
+	},
+
+{
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
 		"uniqueTo": "Persia",
@@ -440,20 +451,6 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
 		"requiredTech": "Engineering"
-	},
-{
-		"name": "Asado",
-		"replaces": "Stable",
-		"uniqueTo": "Paraguay",
-		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]",
-                  "[+1 Food, +1 Happiness] from [Cattle] tiles [in this city]"],
-		"requiredTech": "Horseback Riding"
 	},
 {
 		"name": "Guri Dam",
