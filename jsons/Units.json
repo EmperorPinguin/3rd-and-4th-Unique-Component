@@ -554,7 +554,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"promotions": ["Formation I"],
-                "uniques": ["Can move immediately once bought"],
+            "uniques": ["Can move immediately once bought"],
 		"attackSound": "metalhit"
 	},
 {
