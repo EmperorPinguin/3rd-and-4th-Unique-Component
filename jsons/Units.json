@@ -26,7 +26,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-                "uniques": ["Heals [30] damage if it kills a unit", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"]
+                "uniques": ["Heals [30] damage if it kills a unit", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
 		"attackSound": "metalhit"
 	},
 {
