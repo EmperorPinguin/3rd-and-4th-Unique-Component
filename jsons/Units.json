@@ -30,15 +30,6 @@
 		"attackSound": "metalhit"
 	},
 {
-		"name": "Immigrant",
-		"replaces": "Great Merchant",
-		"uniqueTo": "Argentina",
-		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable", "Can start an [12]-turn golden age"],
-		"movement": 2
-	},
-{
 		"name": "Pucara",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
