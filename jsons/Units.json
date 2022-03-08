@@ -33,8 +33,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Merchant",
 		"uniqueTo": "Argentina",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable", "Can start an [12]-turn golden age"],
+		"uniques": ["Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable", "Can start an [12]-turn golden age"],
 		"movement": 2
 	},
 {
@@ -438,7 +437,7 @@
 		"uniqueTo": "Peru",
 		"replaces": "Work Boats",
 		"movement": 4,
-		"cost": 5,
+		"cost": 10,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable", "Can move immediately once bought"]
 	},
