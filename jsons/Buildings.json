@@ -64,7 +64,7 @@
 		"uniqueTo": "Bolivia",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization", "[+5 Production, +5 Gold] from [Salt] tiles [in this city]"]
+		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization", "[+2 Production, +2 Gold] from [improved] [Salt] tiles [in all cities]"]
 	},
 {
 		"name": "Landscape Garden",
