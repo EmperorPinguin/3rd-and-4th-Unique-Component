@@ -458,7 +458,7 @@
 		"uniqueTo": "Venezuela",
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 50,
-            "Production": 3,
+            "production": 3,
 		"maintenance": 3,
 		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "Electricity"
