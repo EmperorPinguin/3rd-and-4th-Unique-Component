@@ -67,6 +67,16 @@
 		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization", "[+2 Production, +2 Gold] from [improved] [Salt] tiles [in all cities]"]
 	},
 {
+		"name": "New Constitution",
+		"replaces": "National Epic",
+		"uniqueTo": "Bolivia",
+		"cost": 145,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Free Social Policy"],
+		"requiredTech": "Radio"
+	},
+{
 		"name": "Landscape Garden",
                 "replaces": "Garden",
                 "uniqueTo": "Brazil",
@@ -305,7 +315,6 @@
 		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "Electricity"
 	},
-
 {
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
