@@ -59,6 +59,18 @@
 		"requiredTech": "Drama and Poetry"
 	},
 {
+		"name": "Llama Farm",
+		"replaces": "Water Mill",
+		"uniqueTo": "Bolivia",
+		"food": 2,
+		"production": 1,
+            "culture": 1,
+		"uniques": ["Must be on [Hill]"],
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredTech": "The Wheel"
+	},
+{
 		"name": "Lithium Mine",
 		"replaces": "Recycling Center",
 		"uniqueTo": "Bolivia",
@@ -66,16 +78,7 @@
 		"requiredTech": "Ecology",
 		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization", "[+3 Production, +3 Gold] from [Salt] tiles [in all cities]"]
 	},
-{
-		"name": "New Constitution",
-		"replaces": "National Epic",
-		"uniqueTo": "Bolivia",
-		"cost": 145,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Free Social Policy"],
-		"requiredTech": "Radio"
-	},
+
 {
 		"name": "Landscape Garden",
                 "replaces": "Garden",
