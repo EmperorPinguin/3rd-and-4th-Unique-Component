@@ -465,7 +465,7 @@
 		"requiredTech": "Engineering"
 	},
 {
-		"name": "Guri Dam",
+		"name": "Guri Reservoir",
 		"replaces": "Hydro Plant",
 		"uniqueTo": "Venezuela",
 		"requiredResource": "Aluminum",

@@ -390,7 +390,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["May capture killed [Land] units"],
 		"attackSound": "shot"
 	},
 {
