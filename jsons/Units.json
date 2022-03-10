@@ -382,15 +382,15 @@
 {
 		"name": "Trigarante",
 		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
+		"replaces": "Rifleman",
 		"uniqueTo": "Mexico",
 		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+            "strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"attackSound": "shot"
 	},
 {
