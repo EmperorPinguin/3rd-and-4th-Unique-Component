@@ -380,7 +380,7 @@
 		"attackSound": "shot"
 	},
 {
-		"name": "Revolutionary",
+		"name": "Triguarante",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Mexico",
