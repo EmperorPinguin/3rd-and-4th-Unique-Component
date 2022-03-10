@@ -380,7 +380,7 @@
 		"attackSound": "shot"
 	},
 {
-		"name": "Triguarante",
+		"name": "Trigarante",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Mexico",
