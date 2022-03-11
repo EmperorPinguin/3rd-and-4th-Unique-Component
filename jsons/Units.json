@@ -16,17 +16,17 @@
 {
 		"name": "Mamluk",
 		"unitType": "Mounted",
-		"replaces": "Longswordsman",
+		"replaces": "Pikeman",
 		"uniqueTo": "Arabia",
 		"movement": 4,
-		"strength": 21,
+		"strength": 20,
 		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-            "uniques": ["Heals [30] damage if it kills a unit", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
-		"attackSound": "metalhit"
+            "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
+            "promotions": ["Mamluk ability"],
+		"attackSound": "horse"
 	},
 {
 		"name": "Immigrant",

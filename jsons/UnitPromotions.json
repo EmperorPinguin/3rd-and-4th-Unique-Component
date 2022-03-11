@@ -17,5 +17,8 @@
 		"name": "Dao Swordsman ability",
 		"uniques": ["[+15]% Strength when stacked with [Great General]"]
 	},
-
+{
+		"name": "Mamluk ability",
+		"uniques": ["Heals [30] damage if it kills a unit"]
+	},
 ]
