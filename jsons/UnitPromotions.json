@@ -9,4 +9,8 @@
 		"name": "Streltsy ability",
 		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>"]
 	},
+{
+		"name": "Bandeirante ability",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
+	},
 ]
