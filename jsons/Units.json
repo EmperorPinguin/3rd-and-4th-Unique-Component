@@ -353,7 +353,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-            "promotions": ["Charge"],
+            "promotions": ["Cover"],
 		"attackSound": "metalhit"
 	},
 {
