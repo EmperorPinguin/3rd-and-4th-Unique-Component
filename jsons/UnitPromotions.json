@@ -1,0 +1,12 @@
+[
+
+
+{
+		"name": "Kopesh ability",
+		"uniques": ["[+33]% Strength <when fighting in [Desert] tiles>"]
+	},
+{
+		"name": "Streltsy ability",
+		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>"]
+	},
+]
