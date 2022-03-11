@@ -226,7 +226,7 @@
 		"attackSound": "cannon"
 	},
 {
-		"name": "Khopesh Swordsman",
+		"name": "Khopesh",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Egypt",
