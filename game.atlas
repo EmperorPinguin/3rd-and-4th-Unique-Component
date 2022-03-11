@@ -382,7 +382,7 @@ UnitIcons/Iroquois Warrior
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Khopesh Swordsman
+UnitIcons/Khopesh
   rotate: false
   xy: 420, 420
   size: 200, 200
