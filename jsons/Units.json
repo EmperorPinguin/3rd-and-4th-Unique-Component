@@ -79,8 +79,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
-            "promotions": ["Woodsman"],
+            "promotions": ["Charge"],
 		"attackSound": "nonmetalhit"
 	},
 {
@@ -354,7 +353,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-            "uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
+            "uniques": ["Charge"],
 		"attackSound": "metalhit"
 	},
 {
