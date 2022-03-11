@@ -26,6 +26,20 @@
 		"requiredTech": "Education"
 	},
 {
+		"name": "Argentinian Estable",
+		"replaces": "Stable",
+		"uniqueTo": "Argentina",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]",
+			"[+1 Gold] from [Pasture] tiles [in this city]",
+		"requiredTech": "Horseback Riding"
+	},
+{
 		"name": "Orchestra",
 		"replaces": "Opera House",
 		"uniqueTo": "Austria",

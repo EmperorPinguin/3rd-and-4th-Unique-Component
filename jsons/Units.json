@@ -29,14 +29,6 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Immigrant",
-		"unitType": "Civilian",
-		"replaces": "Great Merchant",
-		"uniqueTo": "Argentina",
-		"uniques": ["Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable", "Can start an [12]-turn golden age"],
-		"movement": 2
-	},
-{
 		"name": "Pucara",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
