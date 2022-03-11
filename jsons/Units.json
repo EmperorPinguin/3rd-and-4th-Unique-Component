@@ -185,7 +185,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[+15]% Strength when stacked with [Great General]"],
+            "promotions": ["Dao Swordsman ability"],
 		"attackSound": "metalhit"
 	},
 {
@@ -349,12 +349,11 @@
 		"uniqueTo": "Iroquois",
 		"movement": 2,
 		"strength": 21,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-            "promotions": ["Charge"],
-		"attackSound": "metalhit"
+		"attackSound": "nonmetalhit"
 	},
 {
 		"name": "Daimyo",
