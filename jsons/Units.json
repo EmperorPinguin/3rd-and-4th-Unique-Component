@@ -496,15 +496,15 @@
 {
 		"name": "Streltsy",
 		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
+		"replaces": "Musketman",
 		"uniqueTo": "Russia",
 		"movement": 2,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
+		"strength": 24,
+		"cost": 125,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
 		"upgradesTo": "Great War Infantry",
-            "uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>"],
+            "promotions": ["Streltsy ability"],
 		"attackSound": "shot"
 	},
 {
