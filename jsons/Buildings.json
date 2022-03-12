@@ -417,17 +417,6 @@
 		"requiredTech": "Currency"
 	},
 {
-		"name": "Embassy",
-		"replaces": "National Treasury",
-		"uniqueTo": "Sweden",
-		"cost": 145,
-		"gold": 8,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city", "[-25]% City-State Influence degradation"],
-		"requiredTech": "Guilds"
-	},
-{
 		"name": "Gruva",
 		"replaces": "Forge",
 		"uniqueTo": "Sweden",
