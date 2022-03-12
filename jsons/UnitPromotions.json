@@ -1,6 +1,9 @@
 [
 
-
+{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
 {
 		"name": "Khopesh ability",
 		"uniques": ["[+33]% Strength <when fighting in [Desert] tiles>"]
