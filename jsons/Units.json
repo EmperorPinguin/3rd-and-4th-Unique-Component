@@ -452,6 +452,21 @@
 		"attackSound": "nonmetalhit",
       },
 {
+		"name": "Uhlan",
+		"unitType": "Mounted",
+		"uniqueTo": "Poland",
+		"replaces": "Cavalry",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"attackSound": "horse"
+	},
+{
 		"name": "Koa",
 		"unitType": "Sword",
 		"uniqueTo": "Polynesia",
