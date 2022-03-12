@@ -541,6 +541,14 @@
 		"attackSound": "machinegun"
 	},
 {
+		"name": "Songwriter",
+		"unitType": "Civilian",
+		"uniqueTo": "Sweden",
+		"replaces": "Great Artist",
+		"uniques": ["Can start an [16]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
 		"name": "Cur",
 		"unitType": "Mounted",
 		"uniqueTo": "The Huns",

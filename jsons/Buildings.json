@@ -417,18 +417,6 @@
 		"requiredTech": "Currency"
 	},
 {
-		"name": "Gruva",
-		"replaces": "Forge",
-		"uniqueTo": "Sweden",
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron", "Copper"],
-		"requiredTech": "Metal Casting",
-		"uniques": ["[+15]% Production when constructing [Spaceship part] buildings [in this city]",
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+2 Production, +2 Science] from [Iron] tiles [in this city]", "[+2 Production, +2 Science] from [Copper] tiles [in this city]"]
-	},
-{
 		"name": "Yurt",
 		"replaces": "Circus",
 		"uniqueTo": "The Huns",
