@@ -526,6 +526,21 @@
 		"attackSound": "arrow"
 	},
 {
+		"name": "Gripen",
+		"unitType": "Helicopter",
+		"uniqueTo": "Sweden",
+		"replaces": "Helicopter Gunship",
+		"movement": 6,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>","[+100]% Strength <vs [Fighter] units>","[+100]% Strength <vs [Bomber] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+            "promotions": ["Great Generals II"],
+		"attackSound": "machinegun"
+	},
+{
 		"name": "Cur",
 		"unitType": "Mounted",
 		"uniqueTo": "The Huns",
