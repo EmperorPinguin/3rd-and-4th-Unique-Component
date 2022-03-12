@@ -531,7 +531,7 @@
 		"uniqueTo": "Sweden",
 		"replaces": "Helicopter Gunship",
 		"movement": 6,
-		"strength": 65,
+		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
