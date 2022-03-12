@@ -344,6 +344,17 @@
 		"uniques": ["Hidden when religion is disabled"]
 	},
 {
+		"name": "Folwark",
+		"replaces": "Windmill",
+		"uniqueTo": "Poland",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+1 Food] from [Pasture] tiles [in this city]", "[+1 Gold] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Economics"
+	},
+{
 		"name": "Fale Tele",
 		"replaces": "Harbor",
 		"uniqueTo": "Polynesia",
