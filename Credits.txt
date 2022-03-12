@@ -29,7 +29,6 @@ Golden Horde: Horse by Nestor Arellano
 Great Bombard: Cannon by Vectors Market
 Gribeauval: Cannon by Melvin Salas
 Gripen: Jet by Setyo Ari Wibowo
-Gruva: Mine by David Khai
 Halberdman: Halbert by L Nimis
 Hammam: sauna by Adrien Coquet
 Harvard University: Harvard University by NATAPON CHANTABUTR
@@ -69,4 +68,6 @@ Treasury: gold by Delwar Hossain
 Viking Longhouse: building by evan gerard kalerasan
 Yurt: Ger by Laurens
 
-I would like to thank Ajmak for suggesting various improvements and balance changes to the game. 
+I would like to thank the following people for contributing to this mod:
+Ajmak, for suggesting many important improvements and balance changes to the game.
+Caballero von Pancakeco, for suggesting new components to add to extend this mod to support Latin American_Civs.  
