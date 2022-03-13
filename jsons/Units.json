@@ -457,14 +457,13 @@
 		"uniqueTo": "Poland",
 		"replaces": "Cavalry",
 		"movement": 5,
-		"strength": 34,
+		"strength": 35,
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-            "promotions": ["Sentry"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "[+1] Sight", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"attackSound": "horse"
 	},
 {
