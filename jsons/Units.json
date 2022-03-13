@@ -199,8 +199,8 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Colombia",
 		"replaces": "Great General",
-		"uniques": ["All adjacent units heal [+20] HP when healing <while the empire is happy>", "Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"uniques": ["All adjacent units heal [+15] HP when healing <while the empire is happy>", "Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
 	},
 {
 		"name": "Longship",
@@ -463,6 +463,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
+            "promotions": ["Sentry"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"attackSound": "horse"
 	},
