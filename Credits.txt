@@ -48,6 +48,7 @@ Metalworker: metalworking by Ben Avery
 Mission: Cathedral by IconMark
 Mughal Elephant: Asian elephant by Hannah Storey
 Numidian: Spear by sam maulidna
+Music Band: Music by Icon Lauk
 Obsidian Warrior: Stone Age Knife by Misha Petrishchev
 Orchestra: orchestra by Adrien Coquet
 Oromo: Maasai by Smashing Stocks
@@ -60,7 +61,6 @@ Sala: Sala by Krisada
 Seowon: hanok by Joh Gurn
 Shadoof: irrigate by Eucalyp
 Sofa: Archer by Evgeni Moryakov
-Songwriter: Music by Icon Lauk
 Sorbonne: books by Jakub Čaja
 Streltsy: Rifle by Maurizio Fusillo
 Textile Mill: silk by luketaibai
