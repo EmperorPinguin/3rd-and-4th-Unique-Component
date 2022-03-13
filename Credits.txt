@@ -24,20 +24,20 @@ Eagle Warrior: Eagle by Gab Bandala
 Examination Hall: testing by Creative Stal
 Factorij: Castle by Kusdarti
 Fale Tele: pavilion by Eucalyp
-Folwark:
+Folwark: Shovel and Pitchfork by Symbolon IT
 Forum Romanum: Pillar by Mochamad Ilham
 Golden Horde: Horse by Nestor Arellano
 Great Bombard: Cannon by Vectors Market
 Gribeauval: Cannon by Melvin Salas
 Gripen: Jet by Setyo Ari Wibowo
-Guri Reservoir:
+Guri Reservoir: Dam by Adrien Coquet
 Halberdman: Halbert by L Nimis
 Hammam: sauna by Adrien Coquet
 Harvard University: Harvard University by NATAPON CHANTABUTR
 Hellenic Trireme: Bireme by Ravignir (not from the Noun Project)
 Hippodrome: Hippodrome by P Thanga Vignesh
 Iroquois Warrior: Axe by Eucalyp
-Itaipu Dam:
+Itaipu Dam: Dam by Chanut is Industries
 Jarliq: Scroll by Gregor Cresnar
 Khopesh: Khopesh by Ian Childers
 Koa: Spear by Loritas Medina
@@ -55,12 +55,12 @@ Metalworker: metalworking by Ben Avery
 Mission: Cathedral by IconMark
 Mughal Elephant: Asian elephant by Hannah Storey
 Numidian: Spear by sam maulidna
-Music Band: Music by Icon Lauk
+Music Group: Music by Icon Lauk
 Obsidian Warrior: Stone Age Knife by Misha Petrishchev
 Orchestra: orchestra by Adrien Coquet
 Oromo: Maasai by Smashing Stocks
 Pioneer: American Eagle by Raymond
-Pucara:
+Pucara: Airplane by icon 54
 Qullqa: pachacamac by Start Up Graphic Design
 Redcoat: Queen's Guard by Luis Prado
 Rock-Hewn Church: Monument by IconMark
@@ -73,12 +73,13 @@ Sorbonne: books by Jakub Čaja
 Streltsy: Rifle by Maurizio Fusillo
 Taco and Burrito Restaurant: Taco by Rasama studio
 Textile Mill: silk by luketaibai
-Tiuna:
+Tiuna: military vehicle by Atif Arshad
 Treasury: gold by Delwar Hossain
-Trigarante: 
+Trigarante: bicorne by Mohamed Amine BENZAKOUR
+Uhlan: lance with banner by Robert Bjurshagen
 Viking Longhouse: building by evan gerard kalerasan
 Yurt: Ger by Laurens
-Zapadores: 
+Zapadores: sabre by Robert Bjurshagen
 
 I would like to thank the following people for contributing to this mod:
 Ajmak, for suggesting many important improvements and balance changes to the game.
