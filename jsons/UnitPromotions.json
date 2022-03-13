@@ -24,4 +24,8 @@
 		"name": "Mamluk ability",
 		"uniques": ["Heals [30] damage if it kills a unit"]
 	},
+{
+		"name": "Uhlan ability",
+		"uniques": ["[+1] Sight", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
+	},
 ]
