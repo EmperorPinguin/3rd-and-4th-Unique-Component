@@ -556,7 +556,7 @@
 		"attackSound": "machinegun"
 	},
 {
-		"name": "Songwriter",
+		"name": "Music Group",
 		"unitType": "Civilian",
 		"uniqueTo": "Sweden",
 		"replaces": "Great Artist",
