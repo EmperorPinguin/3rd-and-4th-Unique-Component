@@ -30,21 +30,27 @@ Golden Horde: Horse by Nestor Arellano
 Great Bombard: Cannon by Vectors Market
 Gribeauval: Cannon by Melvin Salas
 Gripen: Jet by Setyo Ari Wibowo
+Guri Reservoir:
 Halberdman: Halbert by L Nimis
 Hammam: sauna by Adrien Coquet
 Harvard University: Harvard University by NATAPON CHANTABUTR
 Hellenic Trireme: Bireme by Ravignir (not from the Noun Project)
 Hippodrome: Hippodrome by P Thanga Vignesh
 Iroquois Warrior: Axe by Eucalyp
+Itaipu Dam:
 Jarliq: Scroll by Gregor Cresnar
 Khopesh: Khopesh by Ian Childers
 Koa: Spear by Loritas Medina
 Landscape Garden: landscaping by Radon5
 Landwehr: forester by Alexander Wiefel
+Libertador: Flag of Colombia by Loïc Poivet
+Lithium Mine: 003 Lithium Li by Joel Wisneski
+Llama Farm: Llama by Jalele
 Longship: Viking Ship by Ole Sturm
 Madrasah: Mustansiriya Madrasa by József Balázs-Hegedüs
 Mamluk: scheich by Andrejs Kirma
 Mandir: katas raj temple by Vectors Point
+Mapuche: Spear by Made AU
 Metalworker: metalworking by Ben Avery
 Mission: Cathedral by IconMark
 Mughal Elephant: Asian elephant by Hannah Storey
@@ -54,6 +60,7 @@ Obsidian Warrior: Stone Age Knife by Misha Petrishchev
 Orchestra: orchestra by Adrien Coquet
 Oromo: Maasai by Smashing Stocks
 Pioneer: American Eagle by Raymond
+Pucara:
 Qullqa: pachacamac by Start Up Graphic Design
 Redcoat: Queen's Guard by Luis Prado
 Rock-Hewn Church: Monument by IconMark
@@ -64,10 +71,14 @@ Shadoof: irrigate by Eucalyp
 Sofa: Archer by Evgeni Moryakov
 Sorbonne: books by Jakub Čaja
 Streltsy: Rifle by Maurizio Fusillo
+Taco and Burrito Restaurant: Taco by Rasama studio
 Textile Mill: silk by luketaibai
+Tiuna:
 Treasury: gold by Delwar Hossain
+Trigarante: 
 Viking Longhouse: building by evan gerard kalerasan
 Yurt: Ger by Laurens
+Zapadores: 
 
 I would like to thank the following people for contributing to this mod:
 Ajmak, for suggesting many important improvements and balance changes to the game.
