@@ -28,4 +28,8 @@
 		"name": "Uhlan ability",
 		"uniques": ["[+1] Sight", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
 	},
+{
+		"name": "Zapadores ability",
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "Double movement in [Coast]"]
+	},
 ]

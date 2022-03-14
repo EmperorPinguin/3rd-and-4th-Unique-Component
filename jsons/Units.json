@@ -161,8 +161,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"promotions": ["Amphibious"],
-            "uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "Double movement in [Coast]"],
+		"promotions": ["Zapadores ability", "Amphibious"],
 		"attackSound": "shot"
 	},
 {
@@ -214,7 +213,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
-            "promotions": ["Longship ability"],
+            "promotions": ["Coastal Raider I"],
 		"attackSound": "cannon"
 	},
 {
