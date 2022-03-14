@@ -214,65 +214,72 @@ BuildingIcons/Orchestra
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Qullqa
+BuildingIcons/Qolqe Qhoya
   rotate: false
   xy: 836, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Qullqa
+  rotate: false
+  xy: 1044, 364
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Rock-Hewn Church
   rotate: false
-  xy: 1252, 572
+  xy: 1460, 780
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sala
   rotate: false
-  xy: 1668, 988
+  xy: 1044, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Seowon
   rotate: false
-  xy: 1044, 156
+  xy: 1252, 364
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Shadoof
   rotate: false
-  xy: 1252, 364
+  xy: 1460, 572
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sorbonne
   rotate: false
-  xy: 1668, 780
+  xy: 1252, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Taco and Burrito Restaurant
   rotate: false
-  xy: 1460, 364
+  xy: 1668, 572
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Textile Mill
   rotate: false
-  xy: 1668, 572
+  xy: 1460, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Treasury
   rotate: false
-  xy: 1668, 364
+  xy: 1668, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -510,42 +517,35 @@ UnitIcons/Pucara
   index: -1
 UnitIcons/Redcoat
   rotate: false
-  xy: 1044, 364
+  xy: 1252, 572
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sabum Kibittum
   rotate: false
-  xy: 1460, 780
+  xy: 1668, 988
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sofa
   rotate: false
-  xy: 1460, 572
+  xy: 1668, 780
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Streltsy
   rotate: false
-  xy: 1252, 156
+  xy: 1460, 364
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Tiuna
   rotate: false
-  xy: 1460, 156
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Trigarante
-  rotate: false
-  xy: 1668, 156
+  xy: 1668, 364
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -558,77 +558,91 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Viking Longhouse
   rotate: false
-  xy: 212, 4
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Yurt
   rotate: false
-  xy: 420, 4
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Uhlan
+UnitIcons/Trigarante
   rotate: false
   xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Uhlan
+  rotate: false
+  xy: 212, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Zapadores
   rotate: false
-  xy: 628, 4
+  xy: 836, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 unitPromotionIcons/Bandeirante ability
   rotate: false
-  xy: 836, 104
+  xy: 1044, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Cur ability
+  rotate: false
+  xy: 1152, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 unitPromotionIcons/Ignore terrain cost
   rotate: false
-  xy: 944, 104
+  xy: 1260, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 unitPromotionIcons/Khopesh ability
   rotate: false
-  xy: 1052, 104
+  xy: 1368, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 unitPromotionIcons/Mamluk ability
   rotate: false
-  xy: 1160, 104
+  xy: 1476, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 unitPromotionIcons/Streltsy ability
   rotate: false
-  xy: 1268, 104
+  xy: 1584, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 unitPromotionIcons/Uhlan ability
   rotate: false
-  xy: 1376, 104
+  xy: 1692, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 unitPromotionIcons/Zapadores ability
   rotate: false
-  xy: 1484, 104
+  xy: 1800, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

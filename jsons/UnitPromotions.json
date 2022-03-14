@@ -32,4 +32,9 @@
 		"name": "Zapadores ability",
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "Double movement in [Coast]"]
 	},
+{
+		"name": "Cur ability",
+		"uniques": ["No movement cost to pillage"]
+	},
+
 ]

@@ -143,7 +143,7 @@
 		"name": "Metalworker",
 		"replaces": "Mint",
 		"uniqueTo": "Celts",
-                "cost": 100,
+            "cost": 75,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Iron", "Copper"],
 		"hurryCostModifier": 25,
@@ -329,9 +329,9 @@
 		"cost": 145,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
+		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Must be on [River]", "Gain a free [Hydro Plant] [in this city]", "[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "Electricity"
-	},
+	},	
 {
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
@@ -343,6 +343,17 @@
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled"]
 	},
+{
+            "name": "Qolqe Qhoya",
+            "replaces": "Mint",
+	      "uniqueTo": "Peru",
+            "maintenance": 0,
+            "cost": 100,
+            "requiredNearbyImprovedResources": ["Gold Ore","Silver"],
+            "hurryCostModifier": 25,
+	      "uniques": ["[+2 Production, +2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Production, +2 Gold] from [Silver] tiles [in this city]"],
+            "requiredTech": "Currency"
+    },  
 {
 		"name": "Folwark",
 		"replaces": "Windmill",
@@ -475,7 +486,7 @@
 		"hurryCostModifier": 50,
             "production": 3,
 		"maintenance": 3,
-		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]", "[+2 Production] from [Lakes] tiles [in this city]"],
 		"requiredTech": "Electricity"
 	},
 ]

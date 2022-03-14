@@ -190,7 +190,7 @@
 		"requiredResource": "Aluminum",
 	        "requiredTech": "Computers",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement",
-			    "Can pass through impassable tiles", "Unable to capture cities"],
+			    "Can pass through impassable tiles","Ignores Zone of Control", "Unable to capture cities"],
 		"attackSound": "machinegun",
       },
 {
@@ -428,16 +428,6 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Caballito de totora",
-		"unitType": "Civilian Water",
-		"uniqueTo": "Peru",
-		"replaces": "Work Boats",
-		"movement": 4,
-		"cost": 10,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable", "Can move immediately once bought"]
-	},
-{
 		"name": "Rabona",
 		"unitType": "Scout",
 		"uniqueTo": "Peru",
@@ -446,8 +436,8 @@
 		"strength": 6,
 		"cost": 20,
 		"obsoleteTech": "Scientific Theory",
-		"promotions": ["Medic"],
-		"uniques": ["Ignores terrain cost", "May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Medic", "Ignore terrain cost"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
       },
 {
@@ -574,9 +564,9 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"promotions": ["Quick Study", "Great Generals I"],
+		"promotions": ["Quick Study", "Great Generals I", "Cur ability"],
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "No movement cost to pillage"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -599,7 +589,7 @@
 		"replaces": "Longswordsman",
 		"uniqueTo": "The Netherlands",
 		"movement": 2,
-		"strength": 21,
+		"strength": 22,
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
