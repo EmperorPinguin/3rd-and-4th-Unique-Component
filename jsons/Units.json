@@ -209,12 +209,12 @@
 		"uniqueTo": "Denmark",
 		"movement": 4,
 		"strength": 20,
-		"cost": 100,
+		"cost": 90,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
-                "promotions": ["Coastal Raider I"],
+            "promotions": ["Longship ability"],
 		"attackSound": "cannon"
 	},
 {
