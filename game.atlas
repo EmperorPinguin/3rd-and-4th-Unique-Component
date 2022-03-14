@@ -552,7 +552,7 @@ UnitIcons/Trigarante
   index: -1
 
 game2.png
-size: 1024, 256
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -584,9 +584,58 @@ UnitIcons/Zapadores
   orig: 200, 200
   offset: 0, 0
   index: -1
-unitPromotionIcons/Ignore terrain cost
+unitPromotionIcons/Bandeirante ability
   rotate: false
   xy: 836, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Ignore terrain cost
+  rotate: false
+  xy: 944, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Khopesh ability
+  rotate: false
+  xy: 1052, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Longship ability
+  rotate: false
+  xy: 1160, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Mamluk ability
+  rotate: false
+  xy: 1268, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Streltsy ability
+  rotate: false
+  xy: 1376, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Uhlan ability
+  rotate: false
+  xy: 1484, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+unitPromotionIcons/Zapadores ability
+  rotate: false
+  xy: 1592, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
