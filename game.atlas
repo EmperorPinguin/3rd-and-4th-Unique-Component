@@ -605,37 +605,30 @@ unitPromotionIcons/Khopesh ability
   orig: 100, 100
   offset: 0, 0
   index: -1
-unitPromotionIcons/Longship ability
+unitPromotionIcons/Mamluk ability
   rotate: false
   xy: 1160, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-unitPromotionIcons/Mamluk ability
+unitPromotionIcons/Streltsy ability
   rotate: false
   xy: 1268, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-unitPromotionIcons/Streltsy ability
+unitPromotionIcons/Uhlan ability
   rotate: false
   xy: 1376, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-unitPromotionIcons/Uhlan ability
-  rotate: false
-  xy: 1484, 104
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 unitPromotionIcons/Zapadores ability
   rotate: false
-  xy: 1592, 104
+  xy: 1484, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
