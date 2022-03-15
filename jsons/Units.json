@@ -135,22 +135,6 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Mapuche",
-		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"uniqueTo": "Chile",
-		"movement": 4,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[-33]% Strength <vs cities>", "[+34]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Anti-Tank Gun",
-            "promotions": ["Formation I", "Woodsman"],
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
-	},
-{
 		"name": "Zapadores",
 		"unitType": "Gunpowder",
             "uniqueTo": "Chile",
