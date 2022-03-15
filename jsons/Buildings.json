@@ -85,7 +85,7 @@
 		"requiredTech": "The Wheel"
 	},
 {
-		"name": "Lithium Mine",
+		"name": "Kkuya Hayu",
 		"replaces": "Recycling Center",
 		"uniqueTo": "Bolivia",
 		"maintenance": 3,
@@ -149,6 +149,17 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production, +1 Gold] from [Gold Ore] tiles [in this city]", "[+1 Production, +1 Gold] from [Silver] tiles [in this city]", "[+1 Production, +1 Gold] from [Iron] tiles [in this city]", "[+1 Production, +1 Gold] from [Copper] tiles [in this city]"],
 		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Atacama Telescope",
+		"replaces": "Observatory",
+		"uniqueTo": "Chile",
+		"maintenance": 0,
+		"hurryCostModifier": 30,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Desert]"],
+		"requiredTech": "Astronomy"
 	},
 {
 		"name": "Examination Hall",
@@ -324,12 +335,10 @@
 	},
 {
 		"name": "Itaipu Dam",
-		"replaces": "National Epic",
 		"uniqueTo": "Paraguay",
-		"cost": 145,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Must be on [River]", "Gain a free [Hydro Plant] [in this city]", "[+1 Production] from [River] tiles [in this city]"],
+		"uniques": ["Cost increases by [10] per owned city", "Must be on [River]", "Gain a free [Hydro Plant] [in this city]", "[+2 Production] from [Great Improvement] tiles [in this city]"],
 		"requiredTech": "Electricity"
 	},	
 {
