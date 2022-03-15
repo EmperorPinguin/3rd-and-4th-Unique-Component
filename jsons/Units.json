@@ -151,7 +151,7 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Zapadores",
+		"name": "Buin",
 		"unitType": "Gunpowder",
             "uniqueTo": "Chile",
             "replaces": "Rifleman",
