@@ -15,18 +15,18 @@
 	},
 {
 		"name": "Mamluk",
-		"unitType": "Mounted",
-		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
 		"uniqueTo": "Arabia",
-		"movement": 4,
-		"strength": 20,
+		"movement": 3,
+		"strength": 21,
 		"cost": 120,
-		"requiredTech": "Civil Service",
-		"upgradesTo": "Lancer",
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-            "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
-            "promotions": ["Mamluk ability"],
-		"attackSound": "horse"
+		"requiredResource": "Iron",
+		"promotions": ["Morale"],
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Pucara",
