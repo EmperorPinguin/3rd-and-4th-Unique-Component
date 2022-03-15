@@ -135,10 +135,10 @@
 		"attackSound": "horse"
 	},
 {
-		"name": "Zapadores",
+		"name": "Buin",
 		"unitType": "Gunpowder",
-            "uniqueTo": "Chile",
-            "replaces": "Rifleman",
+		"uniqueTo": "Chile",
+		"replaces": "Rifleman",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
