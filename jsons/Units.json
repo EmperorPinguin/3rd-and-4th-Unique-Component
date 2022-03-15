@@ -392,8 +392,8 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "[+1] Sight"],
-		"promotions": ["Formation I"],
-		"upgradesTo": "Cavalry",
+		"promotions": ["Formation I", "Charge"],
+		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
