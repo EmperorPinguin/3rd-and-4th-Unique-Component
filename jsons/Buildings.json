@@ -168,7 +168,8 @@
 		"replaces": "National Epic",
 		"uniqueTo": "Colombia",
 		"cost": 145,
-		"culture": 5,
+		"culture": 3,
+            "gold": 3,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "Land units may cross [Mountain] tiles after the first [Great Engineer] is earned", "No Maintenance costs for improvements in [Mountain] tiles", "Free [Great Engineer] appears", "Cost increases by [10] per owned city"],
 		"requiredTech": "Combustion"
