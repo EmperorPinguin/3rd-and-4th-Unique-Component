@@ -1,0 +1,18 @@
+[	
+
+//Terrains
+
+{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": ["Rough terrain",
+					"Has an elevation of [4] for visibility calculations",
+					"Occurs in chains at high elevations",
+					"Always Fertility [-2] for Map Generation",
+					"Considered [Undesirable] when determining start locations"]
+	},
+
+]	
