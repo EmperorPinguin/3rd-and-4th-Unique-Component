@@ -45,7 +45,6 @@ Khopesh: Khopesh by Ian Childers
 Koa: Spear by Loritas Medina
 Landscape Garden: landscaping by Radon5
 Landwehr: forester by Alexander Wiefel
-Libertador: Flag of Colombia by Loïc Poivet
 Lithium Mine: 003 Lithium Li by Joel Wisneski
 Llama Farm: Llama by Jalele
 Longship: Viking Ship by Ole Sturm
@@ -79,6 +78,7 @@ Textile Mill: silk by luketaibai
 Tiuna: military vehicle by Atif Arshad
 Treasury: gold by Delwar Hossain
 Trigarante: bicorne by Mohamed Amine BENZAKOUR
+Tunel de la Linea: Tunnel by Viktor Feduyk (Tim P)
 Uhlan: Spear by Firza Alamsyah
 Viking Longhouse: building by evan gerard kalerasan
 Yurt: Ger by Laurens
