@@ -190,7 +190,7 @@
 		"requiredResource": "Aluminum",
 	        "requiredTech": "Computers",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement",
-			    "Can pass through impassable tiles","Ignores Zone of Control", "Unable to capture cities"],
+			    "Can pass through impassable tiles","Ignores Zone of Control", "Unable to capture cities", "Can carry [1] [Land] units"],
 		"attackSound": "machinegun",
       },
 {
