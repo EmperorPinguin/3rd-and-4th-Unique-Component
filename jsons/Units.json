@@ -190,7 +190,7 @@
 		"requiredResource": "Aluminum",
 	        "requiredTech": "Computers",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit" "All adjacent units heal [+15] HP when healing"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "All adjacent units heal [+15] HP when healing"],
 		"attackSound": "machinegun",
       },
 {
