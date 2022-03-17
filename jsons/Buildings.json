@@ -81,7 +81,7 @@
             "culture": 1,
 		"uniques": ["Must be on [Hill]"],
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredTech": "The Wheel"
 	},
 {
