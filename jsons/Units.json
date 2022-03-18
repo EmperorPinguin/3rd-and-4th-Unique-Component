@@ -25,8 +25,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Morale"],
+		"promotions": ["Mamluk ability", "Morale"],
 		"attackSound": "metalhit"
 	},
 {
@@ -49,15 +48,17 @@
 {
 		"name": "Royal Guard",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "Swordsman",
 		"uniqueTo": "Assyria",
 		"movement": 2,
-            "strength": 11,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+20]% Strength <when attacking>"],
+            "strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+            "requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Shock I"],
 		"attackSound": "metalhit"
 	},
 {
