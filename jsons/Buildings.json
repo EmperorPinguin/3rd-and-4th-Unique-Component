@@ -42,7 +42,7 @@
 {
 		"name": "Walls of Sargon",
 		"replaces": "Walls",
-		"cost": 75,
+		"cost": 65,
 		"uniqueTo": "Assyria",
 		"cityStrength": 5,
 		"cityHealth": 50,
