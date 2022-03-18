@@ -476,6 +476,7 @@
 		"maintenance": 0,
 		"uniques": ["Destroyed when the city is captured"]
 	},
+//apparently they didn't build totem poles, so I need to find a different name.
 {
 		"name": "Sala",
 		"replaces": "Garden",
