@@ -14,10 +14,7 @@
 	},
 {
 		"name": "Bandeirante ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>",
-                        "[+33]% Strength <when fighting in [Jungle] tiles>",
-                        "Double movement in [Forest]",
-                        "Double movement in [Jungle]"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","Double movement in [Forest]","Double movement in [Jungle]"]
 	},
 {
 		"name": "Dao Swordsman ability",
