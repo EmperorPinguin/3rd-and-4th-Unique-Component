@@ -415,9 +415,8 @@
 		"uniqueTo": "Portugal",
 		"requiredNearbyImprovedResources": ["Cattle","Horses"],
 		"happiness": 2,
-            "culture": 2,
 		"hurryCostModifier": 25,
-            "uniques": ["[+1 Happiness, +1 Gold] from [Cattle] tiles [in this city]"],
+            "uniques": ["[+1 Happiness, +1 Culture] from [Cattle] tiles [in this city]"],
 		"requiredTech": "Trapping"
 	},
 {
