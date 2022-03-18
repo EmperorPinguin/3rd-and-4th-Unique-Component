@@ -411,15 +411,15 @@
 		"requiredTech": "Economics"
 	},
 {
-		"name": "Casa da India",
-		"replaces": "National Treasury",
+		"name": "Bullring",
+		"replaces": "Circus",
 		"uniqueTo": "Portugal",
-		"cost": 145,
-		"gold": 8,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city", "[+2 Gold] from every [Harbor]"],
-		"requiredTech": "Guilds"
+		"requiredNearbyImprovedResources": ["Cattle","Horses"],
+		"happiness": 2,
+            "culture": 2,
+		"hurryCostModifier": 25,
+            "uniques": "[+1 Happiness, +1 Gold] from [Cattle] tiles [in this city]",
+		"requiredTech": "Trapping"
 	},
 {
 		"name": "Fale Tele",
