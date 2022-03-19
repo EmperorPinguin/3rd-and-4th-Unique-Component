@@ -1,6 +1,7 @@
 Some images are taken from RekMOD and other mods, all other images are listed here (they are from the Noun Project):
 Acropolis: Acropolis by Wolf Böse
 Alcazar: Alcazar of Segovia by Felipe Alvarado
+Assyrian Chariot: chariot by ATOM
 Auxilliary: horse racing by sergio Morozov
 Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
@@ -9,7 +10,9 @@ Blue Dragon: dragon by Icons Producer
 Bandeirante: Pith Helmet by M. Oki Orlando
 Bolshoi Theatre: Bolshoi Theatre by Nikita Kozin
 Buin: sabre by Robert Bjurshagen
+Bullring: Bullfighting by Paulo Valkova
 Byzantine Walls: Great Wall of China by Hea Poh Lin
+Canals: Gondola by Luis Prado
 Carpenthom: Chariot and Horse by Andrew Doane
 Chasqui: Runner by Vectorstall
 Clibanarii: warrior by Lars Meiertoberens
@@ -28,7 +31,9 @@ Factorij: Castle by Kusdarti
 Fale Tele: pavilion by Eucalyp
 Folwark: Shovel and Pitchfork by Symbolon 
 Forum Romanum: Pillar by Mochamad Ilham
+Galleon: galleon ship by Kevin
 Golden Horde: Horse by Nestor Arellano
+Goumier: dagger by iconcheese
 Great Bombard: Cannon by Vectors Market
 Gribeauval: Cannon by Melvin Salas
 Gripen: Jet by Setyo Ari Wibowo
@@ -41,6 +46,7 @@ Hippodrome: Hippodrome by P Thanga Vignesh
 Iroquois Warrior: Axe by Eucalyp
 Itaipu Dam: Dam by Chanut is Industries
 Jarliq: Scroll by Gregor Cresnar
+Kapal Jung: junk by Grégory Montigny
 Khopesh: Khopesh by Ian Childers
 Koa: Spear by Loritas Medina
 Landscape Garden: landscaping by Radon5
@@ -65,6 +71,7 @@ Pucara: Airplane by icon 54
 Qolqe Qhoya: Mine by David Khai
 Qullqa: pachacamac by Start Up Graphic Design
 Redcoat: Queen's Guard by Luis Prado
+Riad: house plant by corpus delicti
 Rock-Hewn Church: Monument by IconMark
 Sabum Kibittum: spear and shield by Andrejs Kirma
 Sala: Sala by Krisada
@@ -75,6 +82,7 @@ Sorbonne: books by Jakub Čaja
 Streltsy: Rifle by Maurizio Fusillo
 Taco and Burrito Restaurant: Taco by Rasama studio
 Textile Mill: silk by luketaibai
+Tipi: Tipi by Chanut is Industries
 Tiuna: military vehicle by Atif Arshad
 Treasury: gold by Delwar Hossain
 Trigarante: bicorne by Mohamed Amine BENZAKOUR
