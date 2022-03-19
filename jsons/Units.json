@@ -513,11 +513,12 @@
 		"replaces": "Privateer",
 		"uniqueTo": "Portugal",
 		"movement": 4,
-		"strength": 35,
+		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
+		"uniques": ["May capture killed [Water] units", "[+20]% Strength <when fighting in [Coast] tiles>"],
 		"attackSound": "cannon"
 	},
 {
