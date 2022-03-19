@@ -46,20 +46,20 @@
 		"attackSound": "machinegun"
 	},
 {
-		"name": "Royal Guard",
-		"unitType": "Sword",
-		"replaces": "Swordsman",
+		"name": "Assyrian Chariot",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
 		"uniqueTo": "Assyria",
-		"movement": 2,
-            "strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Steel",
-            "requiredResource": "Iron",
-		"upgradesTo": "Longswordsman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["Shock I"],
-		"attackSound": "metalhit"
+		"movement": 5,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
 	},
 {
 		"name": "Landwehr",
