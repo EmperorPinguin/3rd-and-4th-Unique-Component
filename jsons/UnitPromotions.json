@@ -36,5 +36,8 @@
 		"name": "Cur ability",
 		"uniques": ["No movement cost to pillage"]
 	},
-
+{
+		"name": "Goumier ability",
+		"uniques": ["Double movement in [Hill]"]
+	},
 ]

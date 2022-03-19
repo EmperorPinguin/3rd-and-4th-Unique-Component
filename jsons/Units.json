@@ -400,7 +400,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"promotions": ["Drill I", "Ignore terrain cost"],
+		"promotions": ["Drill I", "Goumier ability"],
 		"attackSound": "shot"
 	},
 {
