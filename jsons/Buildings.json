@@ -287,16 +287,15 @@
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 {
-		"name": "Pesantren",
-		"replaces": "Public School",
+		"name": "Kampung",
+		"replaces": "Lighthouse",
 		"uniqueTo": "Indonesia",
-		"science": 0,
-		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "University",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [1] population [in this city]", "[+1 Faith] per [2] population [in this city]"],
-		"requiredTech": "Scientific Theory"
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]", "[+1 Food] from [Fishing Boats] tiles [in this city]"],
+		"requiredTech": "Optics"
 	},
 {
 		"name": "Confederacy",
