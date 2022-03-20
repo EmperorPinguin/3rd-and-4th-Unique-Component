@@ -438,18 +438,16 @@
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "[+1 Culture, +1 Happiness] [in all cities]", "Cost increases by [10] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
-/*
-{
-		"name": "Bolshoi Theatre",
-		"replaces": "Hermitage",
-		"uniqueTo": "Russia",
-		"cost": 145,
-            "culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Theatre] in all cities", "Cost increases by [10] per owned city", "Free Social Policy", "[+25]% great person generation [in all cities]"],
-		"requiredTech": "Architecture"
-	},
-*/
+//{
+//		"name": "Bolshoi Theatre",
+//		"replaces": "Hermitage",
+//		"uniqueTo": "Russia",
+//		"cost": 145,
+//          "culture": 1,
+//		"isNationalWonder": true,
+//		"uniques": ["Requires a [Theatre] in all cities", "Cost increases by [10] per owned city", "Free Social Policy", "[+25]% great person generation [in all cities]"],
+//		"requiredTech": "Architecture"
+//	},
 {
 		"name": "Dacha",
 		"replaces": "Garden",
