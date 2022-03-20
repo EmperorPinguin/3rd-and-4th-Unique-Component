@@ -459,20 +459,9 @@
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
                   "[+1 Food] from [Camp] tiles [in this city]",
-                  "[+1 Culture] <after discovering [Archaeology]>"],
+                  "[+2 Culture] <before the [Industrial era]>"],
 		"requiredTech": "Pottery"
 	},
-{
-		"name": "Totem Pole",
-		"replaces": "Monument",
-		"uniqueTo": "Shoshone",
-		"culture": 3,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured"]
-	},
-//apparently they didn't build totem poles, so I need to find a different name.
 {
 		"name": "Sala",
 		"replaces": "Garden",
