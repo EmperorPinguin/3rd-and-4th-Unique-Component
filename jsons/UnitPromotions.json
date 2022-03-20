@@ -42,7 +42,7 @@
 	},
 {
 		"name": "Shoshone Warrior ability",
-		"uniques": ["[+1] Sight", "Double movement in [Plains]"]
+		"uniques": ["Double movement in [Plains]", "[+1] Sight",]
 	},
 
 ]
