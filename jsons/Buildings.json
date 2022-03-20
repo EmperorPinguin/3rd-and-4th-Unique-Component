@@ -40,15 +40,14 @@
 		"requiredTech": "Horseback Riding"
 	},
 {
-		"name": "Walls of Sargon",
-		"replaces": "Walls",
-		"cost": 65,
+		"name": "Lamassu",
+		"replaces": "Monument",
 		"uniqueTo": "Assyria",
-		"cityStrength": 5,
-		"cityHealth": 50,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[+15]% Production when constructing [Land] units [in this city]"]
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured","[+10]% Production when constructing [Land] units [in this city]"]
 	},
 {
 		"name": "Orchestra",
