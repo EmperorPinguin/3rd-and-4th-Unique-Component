@@ -453,13 +453,13 @@
 		"replaces": "Granary",
 		"uniqueTo": "Shoshone",
 		"food": 2,
+		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-                  "[+1 Food] from [Camp] tiles [in this city]",
-                  "[+2 Culture] <before the [Industrial era]>"],
+                  "[+1 Food] from [Camp] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 {
