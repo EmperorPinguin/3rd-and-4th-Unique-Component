@@ -552,6 +552,20 @@
 		"attackSound": "shot"
 	},
 {
+		"name": "Shoshone Warrior",
+		"unitType": "Sword",
+		"replaces": "Musketman",
+		"uniqueTo": "Shoshone",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Shoshone Warrior ability"],
+		"attackSound": "metalhit"
+	},
+{
 		"name": "Ballista Elephant",
 		"unitType": "Siege",
 		"uniqueTo": "Siam",

@@ -40,4 +40,9 @@
 		"name": "Goumier ability",
 		"uniques": ["Double movement in [Hill]"]
 	},
+{
+		"name": "Shoshone Warrior ability",
+		"uniques": ["[+1] Sight", "Double movement in [Plains]"]
+	},
+
 ]
