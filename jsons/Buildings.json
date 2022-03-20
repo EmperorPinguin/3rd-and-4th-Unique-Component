@@ -47,7 +47,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured","[+10]% Production when constructing [Land] units [in this city]"]
+		"uniques": ["Destroyed when the city is captured","[+25]% Production when constructing [{Military}{Land}] units [in this city] <before the [Medieval era]>"]
 	},
 {
 		"name": "Orchestra",
