@@ -44,5 +44,10 @@
 		"name": "Shoshone Warrior ability",
 		"uniques": ["Double movement in [Plains]", "[+1] Sight"]
 	},
+//{
+//		"name": "Gungdo Archer ability",
+//		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
+//	},
+
 
 ]
