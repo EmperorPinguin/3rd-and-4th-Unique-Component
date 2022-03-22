@@ -7,9 +7,7 @@ Auxilliary: horse racing by sergio Morozov
 Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
 Blood Altar: ara by Denis Moskowitz
-Blue Dragon: dragon by Icons Producer
 Bandeirante: Pith Helmet by M. Oki Orlando
-Bolshoi Theatre: Bolshoi Theatre by Nikita Kozin
 Buin: sabre by Robert Bjurshagen
 Bullring: Bullfighting by Paulo Valkova
 Byzantine Walls: Great Wall of China by Hea Poh Lin
@@ -41,6 +39,7 @@ Goumier: dagger by iconcheese
 Great Bombard: Cannon by Vectors Market
 Gribeauval: Cannon by Melvin Salas
 Gripen: Jet by Setyo Ari Wibowo
+Gungdo Archer: Archer by Andrew Doane
 Guri Reservoir: Dam by Adrien Coquet
 Halberdman: Halbert by L Nimis
 Hammam: sauna by Adrien Coquet
