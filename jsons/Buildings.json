@@ -198,7 +198,7 @@
 		"name": "Shadoof",
 		"replaces": "Water Mill",
 		"uniqueTo": "Egypt",
-		"food": 2,
+		"food": 3,
 		"production": 1,
 		"uniques": ["Must be on [River]", "[+1 Food] from [Flood plains] tiles [in this city] <before discovering [Civil Service]>"],
 		"hurryCostModifier": 25,
