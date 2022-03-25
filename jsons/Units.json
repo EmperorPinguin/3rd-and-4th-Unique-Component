@@ -362,10 +362,11 @@
 		"uniqueTo": "Iroquois",
 		"movement": 2,
 		"strength": 21,
-		"cost": 100,
+		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
+		"promotions": ["Iroquois Warrior ability"],
 		"attackSound": "nonmetalhit"
 	},
 {
