@@ -535,8 +535,9 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "All adjacent units heal [+15] HP when healing"],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Ignores Zone of Control"],
+		"promotions": ["Medic"],
+		"hurryCostModifier": 0,
 		"attackSound": "horse"
 	},
 {
