@@ -10,7 +10,7 @@
 	},
 {
 		"name": "Streltsy ability",
-		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>", "[-50]% maintenance costs"]
 	},
 {
 		"name": "Bandeirante ability",
