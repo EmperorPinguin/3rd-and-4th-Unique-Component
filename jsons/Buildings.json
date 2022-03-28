@@ -328,16 +328,6 @@
 		"requiredTech": "Theology"
 	},
 {
-		"name": "Riad",
-		"replaces": "Garden",
-		"uniqueTo": "Morocco",
-            "culture": 3,
-		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Theology"
-	},
-{
 		"name": "Taco and Burrito Restaurant",
 		"replaces": "Opera House",
 		"uniqueTo": "Mexico",
@@ -355,12 +345,21 @@
 		"replaces": "Courthouse",
 		"uniqueTo": "Mongolia",
             "culture": 3,
-		"maintenance": 1,
+		"maintenance": 0,
             "cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-	      "Can only be built [in annexed cities]"],
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
 		"requiredTech": "Writing"
+	},
+{
+		"name": "Riad",
+		"replaces": "Garden",
+		"uniqueTo": "Morocco",
+            "culture": 3,
+		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
 	},
 {
 		"name": "Itaipu Dam",
@@ -474,12 +473,11 @@
 		"name": "Qadi Court",
 		"replaces": "Courthouse",
 		"uniqueTo": "Songhai",
-		"maintenance": 1,
+		"maintenance": 0,
 		"faith": 3,
 		"cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
 		"requiredTech": "Philosophy"
 	},
 {
