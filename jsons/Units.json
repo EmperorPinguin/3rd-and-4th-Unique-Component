@@ -583,21 +583,6 @@
 		"attackSound": "elephant"
 	},
 {
-		"name": "Sofa",
-		"unitType": "Archery",
-		"uniqueTo": "Songhai",
-		"movement": 3,
-		"strength": 13,
-		"rangedStrength": 18,
-		"replaces": "Crossbowman",
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["Medic"],
-		"attackSound": "arrow"
-	},
-{
 		"name": "Gripen",
 		"unitType": "Helicopter",
 		"uniqueTo": "Sweden",

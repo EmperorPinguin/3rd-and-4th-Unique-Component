@@ -471,14 +471,27 @@
 		"requiredTech": "Theology"
 	},
 {
-		"name": "Treasury",
+		"name": "Qadi Court",
 		"replaces": "Courthouse",
 		"uniqueTo": "Songhai",
-		"maintenance": 4,
+		"maintenance": 1,
+		"faith": 3,
+		"cost": 100,
 		"hurryCostModifier": 0,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]", "[+4 Gold] [in capital]"],
-		"requiredTech": "Mathematics"
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Philosophy"
+	},
+{
+		"name": "Imperial Epic",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Songhai",
+		"cost": 145,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Double quantity of [Horses] produced", "Cost increases by [10] per owned city"],
+		"requiredTech": "Iron Working"
 	},
 {
 		"name": "Alcazar",
