@@ -52,4 +52,8 @@
 		"name": "Iroquois Warrior ability",
 		"uniques": ["No movement cost to pillage", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
+{
+		"name": "River Warlord",
+		"uniques": ["[+15]% Strength <when fighting in [River] tiles>"]
+	},
 ]

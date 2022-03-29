@@ -345,7 +345,7 @@
 		"replaces": "Courthouse",
 		"uniqueTo": "Mongolia",
             "culture": 3,
-		"maintenance": 0,
+		"maintenance": 1,
             "cost": 100,
 		"hurryCostModifier": 0,
 		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
@@ -473,7 +473,7 @@
 		"name": "Qadi Court",
 		"replaces": "Courthouse",
 		"uniqueTo": "Songhai",
-		"maintenance": 0,
+		"maintenance": 1,
 		"faith": 3,
 		"cost": 100,
 		"hurryCostModifier": 0,
@@ -488,7 +488,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			"All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Double quantity of [Horses] produced", "Cost increases by [10] per owned city"],
+			 "All newly-trained [non-air] units [in all cities] receive the [River Warlord] promotion", "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Cost increases by [10] per owned city"],
 		"requiredTech": "Iron Working"
 	},
 {
