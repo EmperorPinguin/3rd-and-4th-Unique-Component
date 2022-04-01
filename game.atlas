@@ -528,6 +528,13 @@ BuildingIcons/Orchestra
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Pioneer
+  rotate: false
+  xy: 420, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Qadi Court
   rotate: false
   xy: 4, 112
@@ -650,13 +657,6 @@ UnitIcons/Oromo
 UnitIcons/Pickelhaube
   rotate: false
   xy: 212, 528
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Pioneer
-  rotate: false
-  xy: 420, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

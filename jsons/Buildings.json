@@ -2,6 +2,16 @@
 
 //Buildings
 {
+		"name": "Pioneer",
+		"replaces": "Monument",
+		"uniqueTo": "America",
+		"culture": 3,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
 		"name": "Harvard University",
 		"replaces": "Oxford University",
 		"uniqueTo": "America",

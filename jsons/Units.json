@@ -2,18 +2,6 @@
 
 //Units
 {
-		"name": "Pioneer",
-		"unitType": "Scout",
-		"uniqueTo": "America",
-		"replaces": "Settler",
-		"movement": 2,
-		"strength": 7,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction", "Requires at least [2] population"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "shot"
-	},
-{
 		"name": "Mamluk",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
