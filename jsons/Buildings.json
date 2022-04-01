@@ -16,7 +16,7 @@
 		"replaces": "Public School",
 		"uniqueTo": "America",
 		"science": 0,
-		"specialistSlots": {"Scientist": 2},
+		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
