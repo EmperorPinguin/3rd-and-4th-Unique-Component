@@ -158,28 +158,28 @@ BuildingIcons/Hammam
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Harvard University
-  rotate: false
-  xy: 420, 420
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Hippodrome
   rotate: false
-  xy: 420, 212
+  xy: 628, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Imperial Epic
   rotate: false
-  xy: 628, 420
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Itaipu Dam
+  rotate: false
+  xy: 628, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ivy League School
   rotate: false
   xy: 836, 420
   size: 200, 200
@@ -426,21 +426,21 @@ UnitIcons/Halberdman
   index: -1
 UnitIcons/Hellenic Trireme
   rotate: false
-  xy: 628, 628
+  xy: 420, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Induna
   rotate: false
-  xy: 836, 628
+  xy: 628, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Iroquois Warrior
   rotate: false
-  xy: 628, 212
+  xy: 836, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

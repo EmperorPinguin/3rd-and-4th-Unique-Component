@@ -12,15 +12,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 {
-		"name": "Harvard University",
-		"replaces": "Oxford University",
+		"name": "Ivy League School",
+		"replaces": "Public School",
 		"uniqueTo": "America",
-		"cost": 145,
 		"science": 0,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "[2] Free Technologies", "Cost increases by [10] per owned city"],
-		"requiredTech": "Education"
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+2 Science] from every specialist [in this city]"],
+		"requiredTech": "Scientific Theory"
 	},
 {
 		"name": "Madrasah",
