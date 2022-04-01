@@ -717,91 +717,91 @@ UnitIcons/Uhlan
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Bandeirante ability
+unitPromotionIcons/Bandeirante ability
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Buin ability
+unitPromotionIcons/Buin ability
   rotate: false
   xy: 1460, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Cur ability
+unitPromotionIcons/Cur ability
   rotate: false
   xy: 1668, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Goumier ability
+unitPromotionIcons/Goumier ability
   rotate: false
   xy: 1252, 212
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Gungdo Archer ability
+unitPromotionIcons/Gungdo Archer ability
   rotate: false
   xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Ignore terrain cost
+unitPromotionIcons/Ignore terrain cost
   rotate: false
   xy: 1460, 520
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Iroquois Warrior ability
+unitPromotionIcons/Iroquois Warrior ability
   rotate: false
   xy: 1776, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Khopesh ability
+unitPromotionIcons/Khopesh ability
   rotate: false
   xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Mamluk ability
+unitPromotionIcons/Mamluk ability
   rotate: false
   xy: 1460, 412
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/River Warlord
+unitPromotionIcons/River Warlord
   rotate: false
   xy: 1884, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Shoshone Warrior ability
+unitPromotionIcons/Shoshone Warrior ability
   rotate: false
   xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Streltsy ability
+unitPromotionIcons/Streltsy ability
   rotate: false
   xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Uhlan ability
+unitPromotionIcons/Uhlan ability
   rotate: false
   xy: 544, 4
   size: 100, 100
