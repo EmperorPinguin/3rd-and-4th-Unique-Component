@@ -526,6 +526,18 @@
 		"requiredTech": "Currency"
 	},
 {
+		"name": "Open-Air Museum",
+		"replaces": "Museum",
+		"uniqueTo": "Sweden",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology",
+		"uniques": ["Destroyed when the city is captured", "[+1 Culture] from [Tundra] tiles [in this city]"]
+	},
+{
 		"name": "Yurt",
 		"replaces": "Circus",
 		"uniqueTo": "The Huns",
