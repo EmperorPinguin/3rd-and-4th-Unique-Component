@@ -118,7 +118,7 @@
 		"name": "Landscape Garden",
                 "replaces": "Garden",
                 "uniqueTo": "Brazil",
-		"uniques": ["[+2 Culture] from [Jungle] tiles [in this city]", "[+25]% great person generation [in this city]"],
+		"uniques": ["[+2 Culture] from [Jungle] tiles [in this city]", "[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
@@ -368,7 +368,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Morocco",
             "culture": 3,
-		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
@@ -452,7 +452,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Russia",
             "happiness": 3,
-		"uniques": ["[+25]% great person generation [in this city]","Must be next to [Fresh water]"],
+		"uniques": ["[+25]% Great Person generation [in this city]","Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
@@ -476,7 +476,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Siam",
             "gold": 3,
-		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"requiredTech": "Theology"
