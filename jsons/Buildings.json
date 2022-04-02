@@ -334,7 +334,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Korea",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Science] from [Fishing Boats] tiles [in this city]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Science] from [Great Improvement] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
