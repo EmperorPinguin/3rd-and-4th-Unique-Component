@@ -5,7 +5,8 @@
 		"name": "Pioneer",
 		"replaces": "Monument",
 		"uniqueTo": "America",
-		"culture": 3,
+		"culture": 2,
+		"gold": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
@@ -102,7 +103,7 @@
             "culture": 1,
 		"uniques": ["Must be on [Hill]"],
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "The Wheel"
 	},
 {
@@ -332,8 +333,8 @@
 		"name": "Seowon",
 		"replaces": "Garden",
 		"uniqueTo": "Korea",
-		"specialistSlots": {"Scientist": 1, "Artist": 1},
-		"uniques": ["[+25]% great person generation [in this city]", "[+1 Science] from [Fishing Boats] tiles [in this city]"],
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Science] from [Fishing Boats] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
