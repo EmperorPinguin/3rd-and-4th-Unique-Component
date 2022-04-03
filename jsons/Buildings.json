@@ -3,25 +3,26 @@
 //Buildings
 {
 		"name": "Pioneer",
-		"replaces": "Monument",
-		"uniqueTo": "America",
-		"culture": 2,
-		"gold": 1,
-		"cost": 40,
-		"hurryCostModifier": 40,
+		"replaces": "Granary",
+		"food": 2,
+		"gold": 2,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured"]
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
 	},
 {
 		"name": "Ivy League School",
 		"replaces": "Public School",
 		"uniqueTo": "America",
-		"science": 0,
+		"science": 5,
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+2 Science] from every specialist [in this city]"],
+		"uniques": ["[+1 Science] from every specialist [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 {
