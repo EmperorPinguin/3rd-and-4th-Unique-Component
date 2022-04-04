@@ -4,6 +4,7 @@
 {
 		"name": "Pioneer",
 		"replaces": "Granary",
+		"uniqueTo": "America",
 		"food": 2,
 		"gold": 2,
 		"maintenance": 0,
