@@ -239,8 +239,8 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"promotions": ["Amphibious"],
-	      "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Defense bonus when embarked"],
+		"promotions": ["Amphibious", "Redcoat ability"],
+	      "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
 	},
 {

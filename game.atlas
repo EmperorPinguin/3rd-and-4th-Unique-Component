@@ -787,30 +787,37 @@ UnitPromotionIcons/Mamluk ability
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/River Warlord
+UnitPromotionIcons/Redcoat ability
   rotate: false
   xy: 1776, 728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Shoshone Warrior ability
+UnitPromotionIcons/River Warlord
   rotate: false
   xy: 1884, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Streltsy ability
+UnitPromotionIcons/Shoshone Warrior ability
   rotate: false
   xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Uhlan ability
+UnitPromotionIcons/Streltsy ability
   rotate: false
   xy: 1776, 620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Uhlan ability
+  rotate: false
+  xy: 1884, 728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
