@@ -477,7 +477,7 @@
 		"name": "Sala",
 		"replaces": "Garden",
 		"uniqueTo": "Siam",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "[+25]% [Gold] [in this city]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Free [Great Merchant] appears", "Unsellable"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
