@@ -564,7 +564,7 @@
 		"uniqueTo": "Siam",
 		"replaces": "Trebuchet",
 		"movement": 3,
-		"strength": 16,
+		"strength": 14,
 		"rangedStrength": 14,
 		"cost": 120,
 		"obsoleteTech": "Chemistry",
