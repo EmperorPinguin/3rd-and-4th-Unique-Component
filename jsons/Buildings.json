@@ -53,6 +53,18 @@
 			"[+1 Gold] from [Pasture] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
+	{
+		"name": "Tatev Monastery",
+		"replaces": "Grand Temple",
+		"uniqueTo": "Armenia",
+		"cost": 145,
+		"culture": 1,
+		"faith": 3,
+		"uniques": ["[+100]% Yield from every [Mountain]","Gain a free [University] [in this city]","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
 {
 		"name": "Lamassu",
 		"replaces": "Monument",
@@ -125,6 +137,18 @@
 		"maintenance": 1,
 		"requiredTech": "Theology"
 	},
+	{
+		"name": "Golden Church",
+		"replaces": "Temple",
+		"uniqueTo": "Bulgaria",
+		"faith": 2,
+		"gold": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
 {
 		"name": "Byzantine Walls",
 		"replaces": "National Epic",
@@ -149,6 +173,26 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
 		"requiredTech": "Drama and Poetry"
+	},
+{
+		"name": "Trade Network",
+		"replaces": "Harbor",
+		"uniqueTo": "Champa",
+		"cost": 120,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"replacementTextForUniques": "Trading posts in this city receive +1 Food, +1 Gold for each ajacent Fishing Boats.",
+		"uniques": [
+"[+1 Production] from [Water resource] tiles [in this city]",
+"Connects trade routes over water","Must be next to [Coast]",
+"[+1 Food, +1 Gold] from [Trading post] tiles [in this city] <with [1] to [1] neighboring [Fishing Boats] tiles>",
+"[+2 Food, +2 Gold] from [Trading post] tiles [in this city] <with [2] to [2] neighboring [Fishing Boats] tiles>",
+"[+3 Food, +3 Gold] from [Trading post] tiles [in this city] <with [3] to [3] neighboring [Fishing Boats] tiles>",
+"[+4 Food, +4 Gold] from [Trading post] tiles [in this city] <with [4] to [4] neighboring [Fishing Boats] tiles>",
+"[+5 Food, +5 Gold] from [Trading post] tiles [in this city] <with [5] to [5] neighboring [Fishing Boats] tiles>",
+"[+6 Food, +6 Gold] from [Trading post] tiles [in this city] <with [6] to [6] neighboring [Fishing Boats] tiles>",
+],
+		"requiredTech": "Compass"
 	},
 {
 		"name": "Cothon",
@@ -232,6 +276,17 @@
 		"requiredTech": "Economics"
 	},
 {
+		"name": "Statue of Aspetos",
+		"replaces": "Shrine",
+		"uniqueTo": "Epirus",
+		"happiness": 2,
+		"faith": 0,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled",]
+	},
+{
 		"name": "Rock-Hewn Church",
 		"replaces": "Temple",
 		"uniqueTo": "Ethiopia",
@@ -277,6 +332,30 @@
 		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Flight]>"]
 	},
 {
+		"name": "Dam",
+		"replaces": "Water Mill",
+		"uniqueTo": "Himyar",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]","[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
+		"requiredTech": "The Wheel"
+	},
+{
+		"name": "Orszaggyules",
+		"replaces": "Palace",
+		"uniqueTo": "Hungary",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","[+3 Production, +3 Gold, +3 Science, +1 Culture] [in this city] <during a Golden Age>"]
+	},
+{
 		"name": "Qullqa",
 		"replaces": "Water Mill",
 		"uniqueTo": "Inca",
@@ -310,6 +389,40 @@
 		"requiredTech": "Optics"
 	},
 {
+		"name": "Shannon Free Zone",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "Ireland",
+		"cost": 360,
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"uniques": ["Unlocked at Flight","[+3 Gold] from every specialist [in this city]"]
+		"requiredTech": "Flight"
+	},
+{
+		"name": "Whiskey Distillery",
+		"replaces": "Garden",
+		"uniqueTo": "Ireland",
+		"uniques": ["Provides [1] [Whiskey]","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+{
+		"name": "Innovation Hub",
+		"replaces": "Oxford University",
+		"uniqueTo": "Israel",
+		"cost": 145,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Research Lab] in all cities", "Free Technology", "Cost increases by [10] per owned city","[Faith] cost of purchasing [Great Merchant] units [-50]%","[Faith] cost of purchasing [Great Scientist] units [-50]%"],
+		"requiredTech": "Plastics"
+	},
+
+{
 		"name": "Confederacy",
 		"replaces": "Ironworks",
 		"uniqueTo": "Iroquois",
@@ -336,10 +449,24 @@
 		"replaces": "Garden",
 		"uniqueTo": "Korea",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Science] from [Great Improvement] tiles [in this city]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "[+2 Science] from [Great Improvement] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
+	},
+{
+		"name": "Nomadic Herd",
+		"replaces": "Stable",
+		"uniqueTo": "Macrobia",
+		"maintenance": 0,
+		"cost": 75,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["Unlocked at Animal Husbandry",
+			"[+3 Production] from [Cattle] tiles [in this city] <in [unimproved] [Cattle] tiles>",
+			"[+3 Production] from [Horses] tiles [in this city] <in [unimproved] [Horses] tiles>",
+			"[+3 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
+		"requiredTech": "Animal Husbandry"
 	},
 {
 		"name": "Taco and Burrito Restaurant",
@@ -376,6 +503,64 @@
 		"requiredTech": "Theology"
 	},
 {
+		"name": "StatOil",
+		"replaces": "Seaport",
+		"uniqueTo": "Norway",
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Engineer": 1},
+		"cost": 250,
+		"maintenance": 0,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+4 Production] from [Oil] tiles [in this city]","[+4 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Religious Complex",
+		"replaces": "Temple",
+		"uniqueTo": "The Olmec",
+		"faith": 0,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"replacementTextForUniques": "Great Improvements in this city receive +1 Faith for each adjacent Colossal Head, +1 Faith from every Colossal Head.",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
+"[+1 Faith] from [Colossal Head] tiles [in this city]",
+"[+1 Faith] from [Great Improvement] tiles [in this city] <with [1] to [1] neighboring [Colossal Head] tiles>",
+"[+2 Faith] from [Great Improvement] tiles [in this city] <with [2] to [2] neighboring [Colossal Head] tiles>",
+"[+3 Faith] from [Great Improvement] tiles [in this city] <with [3] to [3] neighboring [Colossal Head] tiles>",
+"[+4 Faith] from [Great Improvement] tiles [in this city] <with [4] to [4] neighboring [Colossal Head] tiles>",
+"[+5 Faith] from [Great Improvement] tiles [in this city] <with [5] to [5] neighboring [Colossal Head] tiles>",
+"[+6 Faith] from [Great Improvement] tiles [in this city] <with [6] to [6] neighboring [Colossal Head] tiles>",
+]
+	},
+{
+		"name": "Holy See",
+		"replaces": "Palace",
+		"uniqueTo": "Papal States",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"faith": 2,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","[Missionary] units built [in this city] can [Spread Religion] [1] extra times","[Inquisitor] units built [in this city] can [Remove Foreign religions from your own cities] [1] extra times"]
+	},
+{
+		"name": "St. Peter's Basilica",
+		"replaces": "Grand Temple",
+		"uniqueTo": "Papal States",
+		"cost": 145,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]","[+3 Gold] from every [Cathedral]","[+100]% [Faith] [in this city]"],
+		"requiredTech": "Education",
+		"isNationalWonder": true
+	},
+{
 		"name": "Itaipu Dam",
 		"replaces": "National Epic",
 		"uniqueTo": "Paraguay",
@@ -407,6 +592,17 @@
 	      "uniques": ["[+2 Production, +2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Production, +2 Gold] from [Silver] tiles [in this city]"],
             "requiredTech": "Currency"
     },  
+{
+		"name": "Phoenician Port",
+		"replaces": "Harbor",
+		"uniqueTo": "Phoenicia",
+		"cost": 75,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Unlocked at Optics","[+1 Production] from [Water resource] tiles [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Optics"
+	},
 {
 		"name": "Folwark",
 		"replaces": "Windmill",
@@ -458,6 +654,18 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
+	},
+{
+		"name": "Silk Road Trade Post",
+		"replaces": "Market",
+		"uniqueTo": "Scythia",
+		"cost": 50,
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Unlocked at The Wheel"],
+		"requiredTech": "The Wheel"
 	},
 {
 		"name": "Tipi",
@@ -539,6 +747,29 @@
 		"uniques": ["Destroyed when the city is captured", "[+1 Culture] from [Tundra] tiles [in this city]"]
 	},
 {
+		"name": "Sumerian Stele",
+		"replaces": "Monument",
+		"uniqueTo": "Sumeria",
+		"culture": 4,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured","Must be on [River]"]
+	},
+{
+		"name": "Iron Forge",
+		"replaces": "Forge",
+		"uniqueTo": "The Hittites",
+		"maintenance": 1,
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Iron Working",
+		"uniques": ["Available at Iron Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]","Free [Swordsman] appears"]
+	},
+{
 		"name": "Yurt",
 		"replaces": "Circus",
 		"uniqueTo": "The Huns",
@@ -546,6 +777,17 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[-33]% Culture cost of natural border growth [in this city]"],
 		"requiredTech": "Trapping"
+	},
+{
+		"name": "Angkor",
+		"replaces": "Grand Temple",
+		"uniqueTo": "The Khmer",
+		"cost": 145,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["[+1 Food] from every specialist [in all cities] <during a Golden Age>","Requires a [Temple] in all cities", "Cost increases by [10] per owned city","Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
 	},
 {
 		"name": "Ballcourt",
@@ -577,6 +819,19 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
+	},
+{
+		"name": "Dzong",
+		"replaces": "Castle",
+		"uniqueTo": "Tibet",
+            "cost": 160,
+            "faith": 2,
+		"cityStrength": 10,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Theology",
+		"uniques": ["Must be on [Hill]","Destroyed when the city is captured"]
 	},
 {
 		"name": "Guri Reservoir",
@@ -614,6 +869,16 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "[+100]% [Food] from City-States"]
+	},
+{
+		"name": "Vo Khi",
+            "replaces": "Armory",
+            "uniqueTo": "Viet Nam",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] Experience [in this city]", "All newly-trained [{Melee} {Land}] units [in this city] receive the [Woodsman] promotion", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
 	},
 {
 		"name": "Kraal",

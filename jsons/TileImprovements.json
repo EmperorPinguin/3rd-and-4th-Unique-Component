@@ -1,0 +1,25 @@
+[	
+
+//TileImprovements
+
+	{
+		"name": "Yam Farm",
+		"uniqueTo": "Nok",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Does not need removal of [Jungle]"],
+	},
+	{
+		"name": "Colossal Head",
+		"uniqueTo": "The Olmec",
+		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
+		"faith": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Culture] <after discovering [Archaeology]>","[+2 Science] for each adjacent [Great Improvement]"]
+	},
+]	

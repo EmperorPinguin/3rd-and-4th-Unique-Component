@@ -1,0 +1,9 @@
+[
+
+//TileResources
+	{
+		"name": "Whiskey",
+		"resourceType": "Luxury",
+		"production": 1
+	},
+]

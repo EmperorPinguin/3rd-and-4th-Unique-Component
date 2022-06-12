@@ -35,6 +35,21 @@
 		"attackSound": "machinegun"
 	},
 {
+		"name": "Azatavrear",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Armenia",
+		"movement": 3,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+{
 		"name": "Assyrian Chariot",
 		"unitType": "Archery",
 		"replaces": "Chariot Archer",
@@ -104,8 +119,23 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-            "promotions": ["Bandeirante ability", "Woodsman"],
+            "promotions": ["Forest Warfare", "Woodsman"],
 		"attackSound": "shot"
+	},
+{
+		"name": "Proniar",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Bulgaria",
+		"movement": 3,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+            "promotions": ["Charge"],
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Numidian",
@@ -138,6 +168,22 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+	{
+		"name": "Pirate Ship",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Champa",
+		"replaces": "Galleass",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+            "promotions": ["Pirate Ship ability"],
+		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
+		"attackSound": "arrow"
 	},
 {
 		"name": "Mapuche",
@@ -245,6 +291,21 @@
 		"attackSound": "shot"
 	},
 {
+		"name": "Pyrrhic War Elephant",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Epirus",
+		"movement": 3,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Unlocked at Trapping","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+{
 		"name": "Oromo",
 		"unitType": "Sword",
             "uniqueTo": "Ethiopia",
@@ -272,6 +333,30 @@
 		"obsoleteTech": "Dynamite",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
+	},
+	{
+		"name": "Brigantine",
+		"unitType": "Ranged Water",
+		"replaces": "Galleass",
+		"uniqueTo": "Republic of Genoa",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 19,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+{
+		"name": "Genoese Merchant",
+		"replaces": "Great Merchant",
+		"uniqueTo": "Republic of Genoa",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Double movement in [Coast]"],
+		"movement": 2
 	},
 {
 		"name": "Pickelhaube",
@@ -301,6 +386,39 @@
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Mounted Javelinman",
+		"uniqueTo": "Himyar",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["[+100]% Strength <vs [Military] units> <when attacking>","No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","Ignores Zone of Control"],
+		"attackSound": "arrow"
+	},
+{
+		"name": "Huszar",
+		"uniqueTo": "Hungary",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 29,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
 	},
 {
 		"name": "Chasqui",
@@ -359,6 +477,21 @@
 		"attackSound": "nonmetalhit"
 	},
 {
+		"name": "Sho't Kal",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Israel",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"promotions": ["Sho't Kal ability"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+{
 		"name": "Daimyo",
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
@@ -382,18 +515,45 @@
 		"attackSound": "arrow"
 	},
 {
-		"name": "Goumier",
-		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
-		"uniqueTo": "Morocco",
+		"name": "Samogitian Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Lithuania",
+		"replaces": "Pikeman",
 		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"promotions": ["Drill I", "Goumier ability"],
-		"attackSound": "shot"
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Civil Service",
+		"requiredResource": "Iron",
+		"promotions": ["Forest Warfare"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit" 
+	},
+{
+		"name": "Vytis",
+		"unitType": "Mounted",
+		"uniqueTo": "Lithuania",
+		"replaces": "Knight",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+            "promotions": ["Drill I"],
+		"uniques": ["Damage is ignored when determining unit Strength","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+{
+		"name": "Slave",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Macrobia",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","[-50]% maintenance costs","Can construct [Plantation]","Can construct [Farm]","Can construct [Mine]"],
+		"cost": 50
 	},
 {
 		"name": "Trigarante",
@@ -424,6 +584,65 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
+	},
+{
+		"name": "Goumier",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Morocco",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"promotions": ["Drill I", "Goumier ability"],
+		"attackSound": "shot"
+	},
+{
+		"name": "Nok Warrior",
+		"replaces": "Swordsman",
+		"uniqueTo": "Nok",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+{
+		"name": "Drakkar",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Norway",
+		"movement": 4,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Unlocked at Compass","[+1] Sight", "May withdraw before melee ([80]%)"],
+		"hurryCostModifier": 30,
+            "promotions": ["Coastal Raider I", "Coastal Raider II"],
+		"attackSound": "cannon"
+	},
+{
+		"name": "Spear Thrower",
+		"replaces": "Archer",
+		"uniqueTo": "The Olmec",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"range": 1,
+		"rangedStrength": 14,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
 	},
 {
 		"name": "First of Line",
@@ -468,6 +687,17 @@
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
       },
+{
+		"name": "Colonist",
+		"unitType": "Civilian",
+		"uniqueTo": "Phoenicia",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Cheaper to buy", "Founds a new city", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population","[1] Movement point cost to embark", "[1] Movement point cost to disembark","Double movement in [Coast]"],
+		"hurryCostModifier": -50
+	},
 {
 		"name": "Uhlan",
 		"unitType": "Mounted",
@@ -545,6 +775,22 @@
 		"attackSound": "shot"
 	},
 {
+		"name": "Saka Horse Archer",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Scythia",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 12,
+		"cost": 40,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+{
 		"name": "Shoshone Warrior",
 		"unitType": "Sword",
 		"replaces": "Musketman",
@@ -572,6 +818,19 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Never appears as a Barbarian unit", "Unlocked with [Scholasticism]"],
 		"attackSound": "elephant"
 	},
+{
+		"name": "Nim",
+		"unitType": "Scout",
+		"uniqueTo": "Sumeria",
+		"replaces": "Scout",
+		"movement": 3,
+		"strength": 7,
+		"cost": 25,
+		"obsoleteTech": "Philosophy",
+		"upgradesTo": "Spearman",
+		"uniques": ["Does not ignore terrain cost","Ignores Zone of Control","May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
 /*
 {
 		"name": "Gripen",
@@ -598,6 +857,22 @@
 		"movement": 2
 	},
 {
+		"name": "Hittite Mountain Infantry",
+		"unitType": "Sword",
+		"uniqueTo": "The Hittites",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+{
 		"name": "Cur",
 		"unitType": "Mounted",
 		"uniqueTo": "The Huns",
@@ -613,6 +888,22 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+{
+		"name": "Ph'kak",
+		"unitType": "Sword",
+		"uniqueTo": "The Khmer",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 110,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"promotions": ["Great Generals II"],
+            "uniques": ["Upgrades to Rifleman","No movement cost to pillage"],
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Obsidian Warrior",
@@ -659,6 +950,19 @@
 		"attackSound": "cannon"
 	},
 {
+		"name": "Dalai Lama",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "Tibet",
+		"uniques": ["Can start an [10]-turn golden age","Can construct [Holy site] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+{
 		"name": "Tiuna",
 		"unitType": "Gunpowder",
 		"replaces": "Infantry",
@@ -673,11 +977,26 @@
 		"attackSound": "shot"
 	},
 {
+		"name": "Cam Quan",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Viet Nam",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+            "promotions": ["Forest Warfare"],
+		"uniques": ["Upgrades to Rifleman"],
+		"attackSound": "metalhit"
+	},
+{
 		"name": "Induna",
 		"unitType": "Civilian",
 		"replaces": "Great General",
 		"uniqueTo": "Zulu",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"movement": 3
 	},
