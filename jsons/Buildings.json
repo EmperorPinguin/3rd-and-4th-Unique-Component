@@ -543,10 +543,12 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"faith": 2,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","[Missionary] units built [in this city] can [Spread Religion] [1] extra times","[Inquisitor] units built [in this city] can [Remove Foreign religions from your own cities] [1] extra times"]
+		"uniques": ["Indicates the capital city",
+"May choose [1] additional [Founder] beliefs when [founding] a religion",
+"[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
+"[Inquisitor] units built [in this city] can [Remove Foreign religions from your own cities] [1] extra times"]
 	},
 {
 		"name": "St. Peter's Basilica",
