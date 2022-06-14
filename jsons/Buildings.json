@@ -393,7 +393,7 @@
 		"cost": 360,
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchant": 3},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
 		"uniques": ["Unlocked at Flight","[+3 Gold] from every specialist [in this city]"]
@@ -506,7 +506,7 @@
 		"requiredTech": "Theology"
 	},
 {
-		"name": "Statoil",
+		"name": "State Oil Company",
 		"replaces": "Seaport",
 		"uniqueTo": "Norway",
 		"hurryCostModifier": 25,
