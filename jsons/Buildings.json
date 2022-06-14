@@ -506,7 +506,7 @@
 		"requiredTech": "Theology"
 	},
 {
-		"name": "StatOil",
+		"name": "Statoil",
 		"replaces": "Seaport",
 		"uniqueTo": "Norway",
 		"hurryCostModifier": 25,
