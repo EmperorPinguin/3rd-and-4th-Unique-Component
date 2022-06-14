@@ -402,13 +402,18 @@
 		"requiredTech": "Flight"
 	},
 {
-		"name": "Whiskey Distillery",
-		"replaces": "Garden",
+		"name": "Abbey",
+		"replaces": "Amphitheater",
 		"uniqueTo": "Ireland",
-		"uniques": ["Provides [1] [Whiskey]","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"culture": 3,
+		"faith": 2,
+		"cost": 100,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Theology"
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
 	},
 {
 		"name": "Innovation Hub",
