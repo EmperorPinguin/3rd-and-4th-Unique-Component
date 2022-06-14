@@ -343,17 +343,14 @@
 		"requiredTech": "The Wheel"
 	},
 {
-		"name": "Orszaggyules",
-		"replaces": "Palace",
+		"name": "Thermal Bath",
+		"replaces": "Garden",
+		"happiness": 2,
 		"uniqueTo": "Hungary",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2,
-		"cost": 1,
-		"uniques": ["Indicates the capital city","[+3 Production, +3 Gold, +3 Science, +1 Culture] [in this city] <during a Golden Age>"]
+		"uniques": ["[+50]% Great Person generation [in this city] <during a Golden Age>", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredTech": "Theology"
 	},
 {
 		"name": "Qullqa",
