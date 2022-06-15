@@ -165,100 +165,107 @@ BuildingIcons/Hippodrome
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Imperial Epic
+BuildingIcons/Homestead
   rotate: false
   xy: 628, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Itaipu Dam
+BuildingIcons/Imperial Epic
   rotate: false
-  xy: 836, 420
+  xy: 836, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Ivy League School
+BuildingIcons/Itaipu Dam
   rotate: false
   xy: 1044, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Jarliq
+BuildingIcons/Ivy League School
   rotate: false
   xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Kampung
+BuildingIcons/Jarliq
   rotate: false
   xy: 1044, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Kraal
+BuildingIcons/Kampung
   rotate: false
-  xy: 1460, 628
+  xy: 1252, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Lamassu
+BuildingIcons/Kraal
   rotate: false
   xy: 1252, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Landscape Garden
+BuildingIcons/Lamassu
   rotate: false
   xy: 1460, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Lithium Mine
+BuildingIcons/Landscape Garden
   rotate: false
-  xy: 1460, 212
+  xy: 1668, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Llama Farm
+BuildingIcons/Lithium Mine
   rotate: false
   xy: 1668, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Llama Farm
+  rotate: false
+  xy: 1668, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Madrasah
   rotate: false
-  xy: 420, 4
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mandir
   rotate: false
-  xy: 836, 4
+  xy: 1044, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Metalworker
   rotate: false
-  xy: 1252, 4
+  xy: 1460, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mission
   rotate: false
-  xy: 1460, 4
+  xy: 1668, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -433,70 +440,63 @@ UnitIcons/Hellenic Trireme
   index: -1
 UnitIcons/Induna
   rotate: false
-  xy: 836, 628
+  xy: 628, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Iroquois Warrior
   rotate: false
-  xy: 628, 212
+  xy: 836, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Kapal Jung
   rotate: false
-  xy: 1252, 628
+  xy: 1044, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Khopesh
   rotate: false
-  xy: 1044, 212
+  xy: 1252, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Koa
   rotate: false
-  xy: 1252, 420
+  xy: 1460, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Landwehr
   rotate: false
-  xy: 1668, 628
+  xy: 1460, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Longship
   rotate: false
-  xy: 1668, 212
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Mamluk
   rotate: false
-  xy: 628, 4
+  xy: 836, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Mapuche
   rotate: false
-  xy: 1044, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Mughal Elephant
-  rotate: false
-  xy: 1668, 4
+  xy: 1252, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -523,21 +523,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Open-Air Museum
   rotate: false
-  xy: 4, 320
+  xy: 212, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Orchestra
   rotate: false
-  xy: 212, 528
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pioneer
-  rotate: false
-  xy: 212, 320
+  xy: 420, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -647,37 +640,44 @@ ImprovementIcons/Yam Farm
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Music Group
+UnitIcons/Mughal Elephant
   rotate: false
   xy: 4, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Numidian
+UnitIcons/Music Group
   rotate: false
   xy: 4, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Obsidian Warrior
+UnitIcons/Numidian
   rotate: false
   xy: 212, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Obsidian Warrior
+  rotate: false
+  xy: 4, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Oromo
   rotate: false
-  xy: 420, 736
+  xy: 4, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pickelhaube
   rotate: false
-  xy: 4, 112
+  xy: 212, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
