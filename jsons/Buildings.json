@@ -396,7 +396,7 @@
 		"specialistSlots": {"Merchant": 3},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
-		"uniques": ["Unlocked at Flight","[+3 Gold] from every specialist [in this city]"]
+		"uniques": ["Unlocked at Flight","+1 Merchant Slots","[+3 Gold] from every specialist [in this city]"]
 		"requiredTech": "Flight"
 	},
 {
@@ -452,7 +452,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Korea",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in this city]", "[+2 Science] from [Great Improvement] tiles [in this city]"],
+		"uniques": ["+1 Artist Slots","[+25]% Great Person generation [in this city]", "[+2 Science] from [Great Improvement] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
@@ -514,7 +514,7 @@
 		"cost": 250,
 		"maintenance": 0,
 		"requiredBuilding": "Harbor",
-		"uniques": ["Unlocked at Biology","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+4 Production] from [Oil] tiles [in this city]","[+4 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
+		"uniques": ["Unlocked at Biology","+1 Engineer Slots","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+4 Production] from [Oil] tiles [in this city]","[+4 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
 		"requiredTech": "Biology"
 	},
 {
