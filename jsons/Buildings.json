@@ -415,17 +415,17 @@
 		"requiredTech": "Drama and Poetry"
 	},
 {
-		"name": "Innovation Hub",
-		"replaces": "Oxford University",
+		"name": "Temple of King Solomon",
+		"replaces": "Grand Temple",
 		"uniqueTo": "Israel",
 		"cost": 145,
-		"science": 3,
 		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Research Lab] in all cities", "Free Technology", "Cost increases by [10] per owned city","[Faith] cost of purchasing [Great Merchant] units [-50]%","[Faith] cost of purchasing [Great Scientist] units [-50]%"],
-		"requiredTech": "Plastics"
+		"faith": 8,
+		"uniques": ["Empire enters golden age","[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
 	},
-
 {
 		"name": "Confederacy",
 		"replaces": "Ironworks",
@@ -463,13 +463,12 @@
 		"replaces": "Stable",
 		"uniqueTo": "Macrobia",
 		"maintenance": 0,
-		"cost": 75,
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": ["Unlocked at Animal Husbandry",
-			"[+3 Production] from [Cattle] tiles [in this city] <in [unimproved] [Cattle] tiles>",
-			"[+3 Production] from [Horses] tiles [in this city] <in [unimproved] [Horses] tiles>",
-			"[+3 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
+			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [unimproved] [Cattle] tiles>",
+			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [unimproved] [Horses] tiles>",
+			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
 		"requiredTech": "Animal Husbandry"
 	},
 {
