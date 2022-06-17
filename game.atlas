@@ -591,53 +591,67 @@ BuildingIcons/Shadoof
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Sorbonne
+BuildingIcons/Silk Road
   rotate: false
   xy: 1044, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Taco and Burrito Restaurant
+BuildingIcons/Sorbonne
   rotate: false
-  xy: 836, 112
+  xy: 1252, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Textile Mill
+BuildingIcons/Taco and Burrito Restaurant
   rotate: false
   xy: 1044, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Tipi
+BuildingIcons/Textile Mill
   rotate: false
   xy: 1252, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Tipi
+  rotate: false
+  xy: 1460, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Viking Longhouse
   rotate: false
-  xy: 1460, 528
+  xy: 1668, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Yurt
   rotate: false
-  xy: 1252, 112
+  xy: 1460, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Yam Farm
   rotate: false
-  xy: 1668, 736
+  xy: 1252, 112
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Lapis Lazuli
+  rotate: false
+  xy: 1668, 416
+  size: 100, 96
+  orig: 100, 96
   offset: 0, 0
   index: -1
 UnitIcons/Mughal Elephant
@@ -712,28 +726,28 @@ UnitIcons/Shoshone Warrior
   index: -1
 UnitIcons/Streltsy
   rotate: false
-  xy: 1252, 736
+  xy: 836, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Tiuna
   rotate: false
-  xy: 1460, 736
+  xy: 1044, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Trigarante
   rotate: false
-  xy: 1044, 112
+  xy: 1252, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Uhlan
   rotate: false
-  xy: 1252, 320
+  xy: 1460, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -747,21 +761,21 @@ UnitPromotionIcons/Buin ability
   index: -1
 UnitPromotionIcons/Cur ability
   rotate: false
-  xy: 1460, 420
+  xy: 1668, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Goumier ability
   rotate: false
-  xy: 1668, 628
+  xy: 1876, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Gungdo Archer ability
   rotate: false
-  xy: 1876, 836
+  xy: 1460, 212
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -775,7 +789,7 @@ UnitPromotionIcons/Ignore terrain cost
   index: -1
 UnitPromotionIcons/Iroquois Warrior ability
   rotate: false
-  xy: 1460, 312
+  xy: 1668, 520
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -789,42 +803,42 @@ UnitPromotionIcons/Khopesh ability
   index: -1
 UnitPromotionIcons/Mamluk ability
   rotate: false
-  xy: 1460, 204
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Redcoat ability
   rotate: false
-  xy: 328, 4
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/River Warlord
   rotate: false
-  xy: 436, 4
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shoshone Warrior ability
   rotate: false
-  xy: 544, 4
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Streltsy ability
   rotate: false
-  xy: 652, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Uhlan ability
   rotate: false
-  xy: 760, 4
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

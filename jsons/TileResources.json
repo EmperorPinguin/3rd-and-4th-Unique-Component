@@ -2,8 +2,8 @@
 
 //TileResources
 	{
-		"name": "Whiskey",
+		"name": "Lapis Lazuli",
 		"resourceType": "Luxury",
-		"production": 1
+		"science": 1
 	},
 ]

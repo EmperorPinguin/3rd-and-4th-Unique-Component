@@ -562,7 +562,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]","[+3 Gold] from every [Cathedral]","[+100]% [Faith] [in this city]"],
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]","[+3 Gold] from every [Cathedral] <before the [Industrial era]>","[+100]% [Faith] [in this city]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
 	},
@@ -662,17 +662,16 @@
 		"requiredTech": "Theology"
 	},
 {
-		"name": "Silk Road Trade Post",
+		"name": "Silk Road",
 		"replaces": "Market",
 		"uniqueTo": "Scythia",
-		"cost": 50,
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["Unlocked at The Wheel"],
-		"requiredTech": "The Wheel"
-	},
+		"uniques": ["Provides [1] [Lapis Lazuli]"],
+		"requiredTech": "Currency"
+	},	
 {
 		"name": "Tipi",
 		"replaces": "Granary",
@@ -783,6 +782,17 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[-33]% Culture cost of natural border growth [in this city]"],
 		"requiredTech": "Trapping"
+	},
+{
+		"name": "Baray",
+		"replaces": "Temple",
+		"uniqueTo": "The Khmer",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["[+1 Food] from every specialist [in this city] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 {
 		"name": "Angkor",

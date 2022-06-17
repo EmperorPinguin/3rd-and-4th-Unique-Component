@@ -1,4 +1,5 @@
 Some images are taken from RekMOD and other mods, all other images are listed here (they are from the Noun Project):
+Abbey: Chapel by Gyorgy Hunor-Arpad
 Acropolis: Acropolis by Wolf Böse
 Alcazar: Alcazar of Segovia by Felipe Alvarado
 Arpia: image taken from Latin American_Civs
@@ -6,8 +7,10 @@ Assyrian Chariot: chariot by ATOM
 Auxilliary: horse racing by sergio Morozov
 Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
-Blood Altar: ara by Denis Moskowitz
+Baray: Dam by Graphic Nehar
 Bandeirante: Pith Helmet by M. Oki Orlando
+Blood Altar: ara by Denis Moskowitz
+Brigantine: brigantine by Smalllike
 Buin: sabre by Robert Bjurshagen
 Bullring: Bullfighting by Paulo Valkova
 Byzantine Walls: Great Wall of China by Hea Poh Lin
@@ -15,16 +18,21 @@ Canals: Gondola by Luis Prado
 Carpenthom: Chariot and Horse by Andrew Doane
 Chasqui: Runner by Vectorstall
 Clibanarii: warrior by Lars Meiertoberens
+Colonist: Ancient Phoenician religion by Dabid J. Pascual
 Confederacy: six people by Alfredo
 Cothon: Harbor by Dolly Holmes
 Cur: Horse by RIZCA
 Dacha: House by N.Style
 Daimyo: tairano masakado by Amethyst Studio
+Dalai Lama: Buddhism by Samsul Rizal
+Dam: Dam by zainul arifin
 Dao Swordsman: dao by Michael T
 Dar-e Mehr: Zoroastrianism Renee Ramsay-Passmore
 Deutsches Heer: Pickelhaube Helmet by Henry Ryder
 Doge's Palace: venice by ProSymbols
 Dojo: Kendo by Jems Mayor
+Drakkar: Vikings by jonatha hangga
+Dzong: rinpun dzong by Bricklay
 Eagle Warrior: Eagle by Gab Bandala
 Estancia: cattle by Symbolon 
 Examination Hall: testing by Creative Stal
@@ -34,6 +42,8 @@ First of Line: Rifle by Michael T
 Folwark: Shovel and Pitchfork by Symbolon 
 Forum Romanum: Pillar by Mochamad Ilham
 Galleon: galleon ship by Kevin
+Genoese Merchant: Salami by Vectors Market
+Golden Church: the rotunda of st george church by Marya Petkova
 Golden Horde: Horse by Nestor Arellano
 Goumier: dagger by iconcheese
 Great Bombard: Cannon by Vectors Market
@@ -45,6 +55,7 @@ Halberdman: Halbert by L Nimis
 Hammam: sauna by Adrien Coquet
 Hellenic Trireme: Bireme by Ravignir (not from the Noun Project)
 Hippodrome: Hippodrome by P Thanga Vignesh
+Holy See: flag of the holy see vatican city by Xinh Studio
 Induna: Zulu Shield by Eucalyp
 Iroquois Warrior: Axe by Eucalyp
 Itaipu Dam: Dam by Chanut is Industries
@@ -53,6 +64,7 @@ Jarliq: Scroll by Gregor Cresnar
 Kampung: Hut by Olivier Desmoulin
 Kapal Jung: junk by Grégory Montigny
 Khopesh: Khopesh by Ian Childers
+King Solomon's Temple: jewish temple by Andrew Doane
 Koa: Spear by Loritas Medina
 Kraal: Hut by Damion
 Lamassu: Lamassu by James Dilworth
@@ -67,32 +79,52 @@ Mandir: katas raj temple by Vectors Point
 Mapuche: Spear by Made AU
 Metalworker: metalworking by Ben Avery
 Mission: Cathedral by IconMark
+Mounted Javelinman: javelin throw by Adrien Coquet
 Mughal Elephant: Asian elephant by Hannah Storey
-Numidian: Spear by sam maulidna
 Music Group: Music by Icon Lauk
+Nok Warrior: Maasai by Eucalyp
+Nomadic Herd: Cow by BomSymbols
+Numidian: Spear by sam maulidna
 Obsidian Warrior: Stone Age Knife by Misha Petrishchev
 Open-Air Museum: reindeer by tulpahn
 Orchestra: orchestra by Adrien Coquet
 Oromo: Maasai by Smashing Stocks
+Ph'kak: Spear by sam maulinda
+Phoenician Port: Harbor by Saman Bemel-Benrud
 Pioneer: American Eagle by Raymond
+Pirate Ship: Junk Boat by Kevin
+Proniar: Knight by Gan Khoon Lay
 Pucara: Airplane by icon 54
+Pyrric War Elephant: Elephant by ProSymbols
 Qadi Court: Sharia by Anggara Putra
 Qolqe Qhoya: Mine by David Khai
 Qullqa: pachacamac by Start Up Graphic Design
 Rabona: image taken from Latin American_Civs
 Redcoat: Queen's Guard by Luis Prado
+Religious Complex: maya by Alice Noir
 Riad: house plant by corpus delicti
 Rock-Hewn Church: Monument by IconMark
 Sabum Kibittum: spear and shield by Andrejs Kirma
+Saka Horse Archer: bow and arrow by Kevin
 Sala: Sala by Krisada
 Seowon: hanok by Joh Gurn
 Shadoof: irrigate by Eucalyp
+Shannon Free Zone: economic zone by Md Saiful Alam Saif
+Sho't Kal: Tank by M. Adebadal
+Silk Road: Khyber Pass by Syed Saad Imran
+Slave: slave by Adrien Coquet
 Sorbonne: books by Jakub Čaja
+Spear Thrower: spear trowing by Symbolon
+State Oil Company: Oil Platform by Laymik
+Statue of Aspestos: statue by Joris Hoogendoorn
+St. Peter's Basilica: St. Peter's Basilica by Chanut is Industries
 Streltsy: Rifle by Maurizio Fusillo
 Taco and Burrito Restaurant: Taco by Rasama studio
+Tatev Monastery: armenian monastery by Julia
 Textile Mill: silk by luketaibai
 Tipi: Tipi by Chanut is Industries
-Tiuna: military vehicle by Atif Arshad
+Tiuna: military vehicle by Atif Arsha
+Trade Network: peer to peer by Ayub Irawan
 Tree Cover: forest by YANDI RS
 Trigarante: bicorne by Mohamed Amine BENZAKOUR
 Tunel de la Linea: Tunnel by Viktor Feduyk (Tim P)
