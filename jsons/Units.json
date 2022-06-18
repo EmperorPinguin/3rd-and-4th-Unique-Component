@@ -271,7 +271,8 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+30]% Strength decreasing with distance from the capital","[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+            "promotions": ["Home Sweet Home"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 {
