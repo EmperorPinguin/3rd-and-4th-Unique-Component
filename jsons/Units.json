@@ -264,14 +264,14 @@
 		"unitType": "Melee Water",
 		"replaces": "Ironclad",
 		"uniqueTo": "Ecuador",
-		"movement": 4,
+		"movement": 3,
 		"strength": 50,
 		"cost": 225,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["[+30]% Strength decreasing with distance from the capital","[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 {
