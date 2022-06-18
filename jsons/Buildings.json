@@ -285,7 +285,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["[+2 Happiness] [in this city] <before [Medieval era]>", "[+1 Culture] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled"]
+		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled"]
 	},
 {
 		"name": "Rock-Hewn Church",
