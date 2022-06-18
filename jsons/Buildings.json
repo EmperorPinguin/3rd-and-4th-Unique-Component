@@ -561,8 +561,8 @@
 		"cost": 145,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]","[+3 Gold] from every [Cathedral] <before the [Industrial era]>","[+100]% [Faith] [in this city]"],
+		"uniques": ["[+100]% Yield from every [Holy site] <in cities with a [St. Peter's Basilica]>","[+3 Gold] from every [Cathedral] <before the [Industrial era]>","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
 	},
