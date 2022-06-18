@@ -13,7 +13,7 @@
 		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>", "[-50]% maintenance costs"]
 	},
 {
-		"name": "Forest Warfare",
+		"name": "Vegetation Training",
 		"uniques": ["[+33]% Strength <when fighting in [Jungle] tiles>","[+33]% Strength <when fighting in [Forest] tiles>"]
 	},
 {
@@ -35,10 +35,6 @@
 {
 		"name": "Cur ability",
 		"uniques": ["No movement cost to pillage"]
-	},
-{
-		"name": "Goumier ability",
-		"uniques": ["Double movement in [Hill]"]
 	},
 {
 		"name": "Shoshone Warrior ability",
@@ -65,7 +61,12 @@
 		"uniques": ["[+50]% Strength <when fighting units from a Civilization with more Cities than you>", "[+50]% Strength <vs [Armored] units>"]
 	},
 {
-		"name": "Pirate Ship ability",
+		"name": "Pirate ability",
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
+{
+		"name": "Altitude Training",
+		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
+	},
+
 ]

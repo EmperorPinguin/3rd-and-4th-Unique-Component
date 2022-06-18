@@ -281,12 +281,11 @@
 		"name": "Statue of Aspetos",
 		"replaces": "Shrine",
 		"uniqueTo": "Epirus",
-		"happiness": 2,
 		"faith": 0,
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled",]
+		"uniques": ["[+2 Happiness] [in this city] <before [Medieval era]>", "[+1 Culture] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled"]
 	},
 {
 		"name": "Rock-Hewn Church",
@@ -421,6 +420,7 @@
 		"cost": 145,
 		"culture": 1,
 		"faith": 8,
+		"cityHealth": 50,
 		"uniques": ["Empire enters golden age","[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
 			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
@@ -762,16 +762,17 @@
 		"uniques": ["Destroyed when the city is captured","Must be on [River]"]
 	},
 {
-		"name": "Iron Forge",
+		"name": "Iron Furnace",
 		"replaces": "Forge",
 		"uniqueTo": "The Hittites",
 		"maintenance": 1,
-		"cost": 120,
+		"cost": 90,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Iron Working",
 		"uniques": ["Available at Iron Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
+			"All newly-trained [Sword] units [in this city] receive the [Altitude Training] promotion",
 			"[+1 Production] from [Iron] tiles [in this city]","Free [Swordsman] appears"]
 	},
 {
@@ -793,17 +794,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["[+1 Food] from every specialist [in this city] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"]
-	},
-{
-		"name": "Angkor",
-		"replaces": "Grand Temple",
-		"uniqueTo": "The Khmer",
-		"cost": 145,
-		"culture": 1,
-		"faith": 8,
-		"uniques": ["[+1 Food] from every specialist [in all cities] <during a Golden Age>","Requires a [Temple] in all cities", "Cost increases by [10] per owned city","Hidden when religion is disabled", "Can only be built [in holy cities]"],
-		"requiredTech": "Theology",
-		"isNationalWonder": true
 	},
 {
 		"name": "Ballcourt",
@@ -893,7 +883,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] Experience [in this city]", "All newly-trained [{Melee} {Land}] units [in this city] receive the [Woodsman] promotion", "Destroyed when the city is captured"],
+		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] Experience [in this city]","All newly-trained [Land] units [in this city] receive the [Woodsman] promotion","Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 {

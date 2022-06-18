@@ -5,6 +5,7 @@ Alcazar: Alcazar of Segovia by Felipe Alvarado
 Arpia: image taken from Latin American_Civs
 Assyrian Chariot: chariot by ATOM
 Auxilliary: horse racing by sergio Morozov
+Azatavrear: Knight by Amethyst Studio
 Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
 Baray: Dam by Graphic Nehar
@@ -14,6 +15,7 @@ Brigantine: brigantine by Smalllike
 Buin: sabre by Robert Bjurshagen
 Bullring: Bullfighting by Paulo Valkova
 Byzantine Walls: Great Wall of China by Hea Poh Lin
+Cam Quang: Sword by Anna Wang
 Canals: Gondola by Luis Prado
 Carpenthom: Chariot and Horse by Andrew Doane
 Chasqui: Runner by Vectorstall
@@ -34,7 +36,8 @@ Dojo: Kendo by Jems Mayor
 Drakkar: Vikings by jonatha hangga
 Dzong: rinpun dzong by Bricklay
 Eagle Warrior: Eagle by Gab Bandala
-Estancia: cattle by Symbolon 
+Estancia: cattle by Symbolon
+Etemenanki: chichen itza by Dino Greco
 Examination Hall: testing by Creative Stal
 Factorij: Castle by Kusdarti
 Fale Tele: pavilion by Eucalyp
@@ -55,8 +58,11 @@ Halberdman: Halbert by L Nimis
 Hammam: sauna by Adrien Coquet
 Hellenic Trireme: Bireme by Ravignir (not from the Noun Project)
 Hippodrome: Hippodrome by P Thanga Vignesh
+Hittite Garrison: Spartan by Joshua McMahan
 Holy See: flag of the holy see vatican city by Xinh Studio
+Huszar: Marching Band by Darrin Loeliger
 Induna: Zulu Shield by Eucalyp
+Iron Furnace: Masculine by emil robinson
 Iroquois Warrior: Axe by Eucalyp
 Itaipu Dam: Dam by Chanut is Industries
 Ivy League School: Harvard University by NATAPON CHANTABUTR
@@ -90,7 +96,7 @@ Open-Air Museum: reindeer by tulpahn
 Orchestra: orchestra by Adrien Coquet
 Oromo: Maasai by Smashing Stocks
 Ph'kak: Spear by sam maulinda
-Phoenician Port: Harbor by Saman Bemel-Benrud
+Phoenician Port: Harbor by Pham Thanh Loc
 Pioneer: American Eagle by Raymond
 Pirate Ship: Junk Boat by Kevin
 Proniar: Knight by Gan Khoon Lay
@@ -101,11 +107,12 @@ Qolqe Qhoya: Mine by David Khai
 Qullqa: pachacamac by Start Up Graphic Design
 Rabona: image taken from Latin American_Civs
 Redcoat: Queen's Guard by Luis Prado
-Religious Complex: maya by Alice Noir
+Religious Complex: chitzen itza by Stefan Spieler
 Riad: house plant by corpus delicti
 Rock-Hewn Church: Monument by IconMark
 Sabum Kibittum: spear and shield by Andrejs Kirma
 Saka Horse Archer: bow and arrow by Kevin
+Samogitian Warrior: Knight by Hey Rabbit
 Sala: Sala by Krisada
 Seowon: hanok by Joh Gurn
 Shadoof: irrigate by Eucalyp
@@ -114,22 +121,26 @@ Sho't Kal: Tank by M. Adebadal
 Silk Road: Khyber Pass by Syed Saad Imran
 Slave: slave by Adrien Coquet
 Sorbonne: books by Jakub Čaja
-Spear Thrower: spear trowing by Symbolon
+Spear Thrower: maya by Alice Noir
 State Oil Company: Oil Platform by Laymik
 Statue of Aspestos: statue by Joris Hoogendoorn
 St. Peter's Basilica: St. Peter's Basilica by Chanut is Industries
+Sumerian Stele: Ancient Mesopotamian Religion by David J. Pascual
 Streltsy: Rifle by Maurizio Fusillo
 Taco and Burrito Restaurant: Taco by Rasama studio
 Tatev Monastery: armenian monastery by Julia
 Textile Mill: silk by luketaibai
+Thermal Bath: Parliament of Hungary by József Balázs-Hegedüs
 Tipi: Tipi by Chanut is Industries
 Tiuna: military vehicle by Atif Arsha
 Trade Network: peer to peer by Ayub Irawan
-Tree Cover: forest by YANDI RS
 Trigarante: bicorne by Mohamed Amine BENZAKOUR
 Tunel de la Linea: Tunnel by Viktor Feduyk (Tim P)
 Uhlan: Spear by Firza Alamsyah
+Vegetation Training: forest by YANDI RS
 Viking Longhouse: building by evan gerard kalerasan
+Vo Khi: Pagoda by Eucalyp
+Vytis: Knight by Hey Rabbit
 Yam Farm: yam by Pham Thanh Loc
 Yurt: Ger by Laurens
 
