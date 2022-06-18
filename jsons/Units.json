@@ -260,6 +260,21 @@
 		"attackSound": "cannon"
 	},
 {
+		"name": "BAE",
+		"unitType": "Melee Water",
+		"replaces": "Ironclad",
+		"uniqueTo": "Ecuador",
+		"movement": 4,
+		"strength": 50,
+		"cost": 225,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+{
 		"name": "Khopesh",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
@@ -274,6 +289,20 @@
 		"hurryCostModifier": 20,
             "promotions": ["Khopesh ability"],
 		"attackSound": "metalhit"
+	},
+{
+		"name": "Macheteer",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "El Salvador",
+		"movement": 2,
+		"strength": 7,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Swordsman",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
 	},
 {
 		"name": "Redcoat",

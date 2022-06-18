@@ -255,6 +255,17 @@
 		"requiredTech": "Metal Casting"
 	},
 {
+		"name": "Banana Corporation",
+		"replaces": "Ironworks",
+		"uniqueTo": "Ecuador",
+		"cost": 145,
+		"production": 0,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["[+100]% Yield from every [Bananas] <in tiles without [Great Improvement]>","Requires a [Aqueduct] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Machinery"
+	},
+{
 		"name": "Shadoof",
 		"replaces": "Water Mill",
 		"uniqueTo": "Egypt",
@@ -264,6 +275,17 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel"
+	},
+{
+		"name": "Monument to the Savior",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "El Salvador",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["[+1 Faith] per [1] population [in this city]","Destroyed when the city is captured"]
 	},
 {
 		"name": "Textile Mill",
