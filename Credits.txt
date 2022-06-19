@@ -6,9 +6,11 @@ Arpia: image taken from Latin American_Civs
 Assyrian Chariot: chariot by ATOM
 Auxilliary: horse racing by sergio Morozov
 Azatavrear: Knight by Amethyst Studio
+BAE: warship by Hada Arkanda (modified)
 Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
 Baray: Dam by Graphic Nehar
+Banana Corporation: Bananas by Wahyuntitle
 Bandeirante: Pith Helmet by M. Oki Orlando
 Blood Altar: ara by Denis Moskowitz
 Brigantine: brigantine by Smalllike
@@ -79,12 +81,14 @@ Landwehr: forester by Alexander Wiefel
 Lithium Mine: 003 Lithium Li by Joel Wisneski
 Llama Farm: Llama by Jalele
 Longship: Viking Ship by Ole Sturm
+Macheteer: Machete by tezar tantular
 Madrasah: Mustansiriya Madrasa by József Balázs-Hegedüs
 Mamluk: scheich by Andrejs Kirma
 Mandir: katas raj temple by Vectors Point
 Mapuche: Spear by Made AU
 Metalworker: metalworking by Ben Avery
 Mission: Cathedral by IconMark
+Monument to the Savior: Christ Redeemer by ProSymbols
 Mounted Javelinman: javelin throw by Adrien Coquet
 Mughal Elephant: Asian elephant by Hannah Storey
 Nim: Arrow by Icongeek26
