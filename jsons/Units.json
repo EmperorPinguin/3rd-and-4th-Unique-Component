@@ -850,16 +850,18 @@
 	},
 {
 		"name": "Nim",
-		"unitType": "Scout",
+		"unitType": "Archery",
 		"uniqueTo": "Sumeria",
-		"replaces": "Scout",
+		"replaces": "Archer",
 		"movement": 3,
-		"strength": 7,
-		"cost": 25,
-		"obsoleteTech": "Philosophy",
-		"upgradesTo": "Spearman",
-		"uniques": ["Does not ignore terrain cost","Ignores Zone of Control","May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit"
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 32,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Construction",
+		"uniques": ["Unlocked at Agriculture"]
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
 	},
 /*
 {
