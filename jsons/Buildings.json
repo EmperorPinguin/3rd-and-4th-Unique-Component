@@ -777,11 +777,11 @@
 		"name": "Sumerian Stele",
 		"replaces": "Monument",
 		"uniqueTo": "Sumeria",
-		"culture": 4,
+		"culture": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured","Must be on [River]"]
+		"uniques": ["[+1 Culture] from [River] tiles [in this city]","Destroyed when the city is captured",]
 	},
 {
 		"name": "Iron Furnace",
