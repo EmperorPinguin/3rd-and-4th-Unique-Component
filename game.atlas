@@ -1073,6 +1073,13 @@ UnitIcons/Vytis
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Vytis
+  rotate: false
+  xy: 1044, 62
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Altitude Training
   rotate: false
   xy: 4, 4

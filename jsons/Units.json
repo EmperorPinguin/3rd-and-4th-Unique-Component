@@ -553,9 +553,8 @@
 		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Civil Service",
-		"requiredResource": "Iron",
 		"promotions": ["Vegetation Training"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["Consumes [1] [Iron]","[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
@@ -572,8 +571,8 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-            "promotions": ["Drill I"],
-		"uniques": ["Damage is ignored when determining unit Strength","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+            "promotions": ["Vytis ability"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 {
