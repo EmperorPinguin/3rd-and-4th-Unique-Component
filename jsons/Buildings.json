@@ -684,17 +684,6 @@
 		"requiredTech": "Theology"
 	},
 {
-		"name": "Silk Road",
-		"replaces": "Market",
-		"uniqueTo": "Scythia",
-		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["Provides [1] [Lapis Lazuli]"],
-		"requiredTech": "Currency"
-	},	
-{
 		"name": "Tipi",
 		"replaces": "Granary",
 		"uniqueTo": "Shoshone",
