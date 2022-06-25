@@ -822,17 +822,17 @@
 {
 		"name": "Saka Horse Archer",
 		"unitType": "Archery",
-		"replaces": "Chariot Archer",
+		"replaces": "Composite Bowman",
 		"uniqueTo": "Scythia",
-		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 12,
-		"cost": 42,
-		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Can move after attacking"]
 		"attackSound": "arrow"
 	},
 {
