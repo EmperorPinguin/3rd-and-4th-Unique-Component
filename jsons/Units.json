@@ -825,7 +825,7 @@
 		"replaces": "Composite Bowman",
 		"uniqueTo": "Scythia",
 		"unitType": "Archery",
-		"movement": 3,
+		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,
