@@ -106,7 +106,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [10] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Writing"
 	},
 {
 		"name": "Llama Farm",
