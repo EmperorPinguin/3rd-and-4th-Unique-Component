@@ -288,6 +288,18 @@
 		"uniques": ["[+1 Faith] per [1] population [in this city]","Destroyed when the city is captured"]
 	},
 {
+		"name": "East India Company",
+            "replaces": "Courthouse",
+            "uniqueTo": "England",
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["Cheaper to buy", "Remove extra unhappiness from annexed cities",
+			"Provides [1] [Tea]",
+			"[+2 Gold] from [Plantation] tiles [in this city]",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Mathematics"
+	},
+/*{
 		"name": "Textile Mill",
 		"replaces": "Windmill",
 		"uniqueTo": "England",
@@ -298,7 +310,7 @@
 		"maintenance": 0,
 		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+2 Production] from [Cotton] tiles [in this city]", "[+2 Production] from [Dyes] tiles [in this city]", "[+2 Production] from [Furs] tiles [in this city]", "[+2 Production] from [Silk] tiles [in this city]"],
 		"requiredTech": "Economics"
-	},
+	},*/
 {
 		"name": "Statue of Aspetos",
 		"replaces": "Shrine",
@@ -331,7 +343,7 @@
 		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+2 Science] from every [University]"],
 		"requiredTech": "Education"
 	},
-{           "name": "Hanse",
+/* {           "name": "Hanse",
 		"replaces": "Bank",
 		"uniqueTo": "Germany",
 		"gold": 2,
@@ -341,6 +353,22 @@
 		"uniques": ["[+10]% [Production] [in this city]"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
+	}, */
+{
+		"name": "Ruhr Valley",
+            "replaces": "Ironworks",
+            "uniqueTo": "Germany",
+		"cost": 145,
+		"production": 0,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city",
+			"Must be on [River]",
+			"[+2 Production] from every [Engineer]",
+			"[+2 Production] from [Stone] tiles [in this city]",
+			"[+2 Production] from [Iron] tiles [in this city]",
+			"[+2 Production] from [Coal] tiles [in this city]"],
+		"requiredTech": "Machinery"
 	},
 {
 		"name": "Acropolis",
@@ -511,7 +539,7 @@
 		"replaces": "Courthouse",
 		"uniqueTo": "Mongolia",
             "culture": 3,
-		"maintenance": 1,
+		"maintenance": 0,
             "cost": 100,
 		"hurryCostModifier": 0,
 		"uniques": ["Unlocked at Writing","Cheaper to buy","Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
@@ -710,7 +738,7 @@
 		"name": "Qadi Court",
 		"replaces": "Courthouse",
 		"uniqueTo": "Songhai",
-		"maintenance": 1,
+		"maintenance": 0,
 		"faith": 3,
 		"cost": 100,
 		"hurryCostModifier": 0,

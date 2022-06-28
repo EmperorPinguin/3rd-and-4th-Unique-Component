@@ -39,6 +39,7 @@ Dojo: Kendo by Jems Mayor
 Drakkar: Vikings by jonatha hangga
 Dzong: rinpun dzong by Bricklay
 Eagle Warrior: Eagle by Gab Bandala
+East India Company: Tea by Nikita Cherednikov
 Estancia: cattle by Symbolon
 Etemenanki: chichen itza by Dino Greco
 Examination Hall: testing by Creative Stal
@@ -116,6 +117,7 @@ Redcoat: Queen's Guard by Luis Prado
 Religious Complex: chitzen itza by Stefan Spieler
 Riad: house plant by corpus delicti
 Rock-Hewn Church: Monument by IconMark
+Ruhr Valley: Industry by Kiran Shatry
 Sabum Kibittum: spear and shield by Andrejs Kirma
 Saka Horse Archer: bow and arrow by Kevin
 Samogitian Warrior: Knight by Hey Rabbit

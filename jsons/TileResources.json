@@ -1,9 +1,14 @@
 [
 
 //TileResources
-	{
+/*	{
 		"name": "Lapis Lazuli",
 		"resourceType": "Luxury",
 		"science": 1
+	},*/
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"gold": 1
 	},
 ]
