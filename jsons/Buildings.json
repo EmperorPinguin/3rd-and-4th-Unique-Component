@@ -36,7 +36,7 @@
 		"specialistSlots": {"Scientist": 2},
 		"faith": 3,
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
+		"uniques": ["[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 {
