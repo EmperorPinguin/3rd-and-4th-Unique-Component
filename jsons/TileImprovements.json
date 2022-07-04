@@ -10,6 +10,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
+			"[+1 Food] <after discovering [Civil Service]>",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Does not need removal of [Jungle]"],
 	},

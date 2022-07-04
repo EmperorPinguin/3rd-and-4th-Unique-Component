@@ -641,6 +641,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
+		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
 {
