@@ -10,7 +10,7 @@
 	},
 {
 		"name": "Streltsy ability",
-		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>", "[-50]% maintenance costs"]
+		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>", "[-100]% maintenance costs"]
 	},
 {
 		"name": "Vegetation Training",
