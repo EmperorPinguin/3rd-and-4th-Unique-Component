@@ -674,10 +674,11 @@
 		"name": "Bullring",
 		"replaces": "Circus",
 		"uniqueTo": "Portugal",
-		"requiredNearbyImprovedResources": ["Cattle","Horses"],
+		"requiredNearbyImprovedResources": ["Cattle","Horses","Ivory"],
 		"happiness": 2,
+		"culture": 2,
 		"hurryCostModifier": 25,
-            "uniques": ["[+1 Happiness, +1 Culture] from [Cattle] tiles [in this city]"],
+            "uniques": ["Also available with Cattle"],
 		"requiredTech": "Trapping"
 	},
 {
