@@ -367,7 +367,8 @@
 			"[+2 Production] from every [Engineer]",
 			"[+2 Production] from [Stone] tiles [in this city]",
 			"[+2 Production] from [Iron] tiles [in this city]",
-			"[+2 Production] from [Coal] tiles [in this city]"],
+			"[+2 Production] from [Coal] tiles [in this city]",
+			"[+2 Production] from [Manufactory] tiles [in this city]"],
 		"requiredTech": "Machinery"
 	},
 {
