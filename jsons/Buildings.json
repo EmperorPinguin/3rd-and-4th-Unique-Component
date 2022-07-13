@@ -246,10 +246,9 @@
 		"name": "Tejo Court",
 		"replaces": "Colosseum",
 		"uniqueTo": "Colombia",
-		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Culture, +1 Happiness] <after discovering [Dynamite]>"],
+		"uniques": ["[+1 Culture] <after discovering [Dynamite]>"],
 		"requiredTech": "Construction"
 	},
 {
