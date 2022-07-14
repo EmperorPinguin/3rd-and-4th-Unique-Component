@@ -616,6 +616,18 @@
 		"isNationalWonder": true
 	},
 {
+		"name": "Harp Conservatory",
+		"replaces": "Opera House",
+		"uniqueTo": "Paraguay",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured", "[+1 Production] from [River] tiles [in this city] <when fighting units from a Civilization with more Cities than you>"],
+        },
+{
 		"name": "Itaipu Dam",
 		"replaces": "National Epic",
 		"uniqueTo": "Paraguay",
