@@ -114,8 +114,7 @@
 		"uniqueTo": "Bolivia",
 		"food": 2,
 		"production": 1,
-            "culture": 1,
-		"uniques": ["Must be on [Hill]"],
+		"uniques": ["Must be next to [Mountain]","[+2 Food, +1 Production] from [Mountain] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel"
