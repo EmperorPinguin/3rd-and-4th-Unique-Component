@@ -650,6 +650,7 @@
 		"requiredTech": "Acoustics",
 		"uniques": ["[+1 Production] from [River] tiles [in this city] <when fighting units from a civilization with more cities than you>","Destroyed when the city is captured"]
 	},	
+	},		
 {
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
