@@ -210,7 +210,7 @@
 		"name": "Metalworker",
 		"replaces": "Mint",
 		"uniqueTo": "Celts",
-            "cost": 75,
+		"cost": 75,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Iron", "Copper"],
 		"hurryCostModifier": 25,
@@ -243,12 +243,16 @@
 	},
 {
 		"name": "Tejo Court",
-		"replaces": "Colosseum",
+		"replaces": "Arsenal",
 		"uniqueTo": "Colombia",
-		"happiness": 2,
+		"cost": 300,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Culture] <after discovering [Dynamite]>"],
-		"requiredTech": "Construction"
+		"happiness": 2,
+		"cityStrength": 7,
+		"cityHealth": 70,
+		"requiredBuilding": "Castle",
+		"uniques": ["[+20]% [Culture] [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Metallurgy"
 	},
 {
 		"name": "Viking Longhouse",
