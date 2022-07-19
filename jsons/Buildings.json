@@ -225,7 +225,9 @@
 		"hurryCostModifier": 30,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["Must be next to [Desert]"],
+		"uniques": ["[+1 Science] [in this city] <with [1] to [2] neighboring [unimproved] [Desert] tiles>",
+			"[+2 Science] [in this city] <with [3] to [6] neighboring [unimproved] [Desert] tiles>",
+			"Must be next to [Mountain]"],
 		"requiredTech": "Astronomy"
 	},
 {
