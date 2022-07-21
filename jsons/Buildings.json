@@ -114,8 +114,7 @@
 		"uniqueTo": "Bolivia",
 		"food": 2,
 		"production": 1,
-            "culture": 1,
-		"uniques": ["Must be on [Hill]"],
+		"uniques": ["Must be next to [Mountain]","[+2 Food, +1 Production] from [Mountain] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel"
@@ -211,12 +210,28 @@
 		"name": "Metalworker",
 		"replaces": "Mint",
 		"uniqueTo": "Celts",
-            "cost": 75,
+		"cost": 75,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Iron", "Copper"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production, +1 Gold] from [Gold Ore] tiles [in this city]", "[+1 Production, +1 Gold] from [Silver] tiles [in this city]", "[+1 Production, +1 Gold] from [Iron] tiles [in this city]", "[+1 Production, +1 Gold] from [Copper] tiles [in this city]"],
 		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Atacama Telescope",
+		"replaces": "Observatory",
+		"uniqueTo": "Chile",
+		"maintenance": 0,
+		"hurryCostModifier": 30,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["[+1 Science] <with [1] to [1] neighboring [unimproved] [Desert] tiles>",
+			      "[+2 Science] <with [2] to [2] neighboring [unimproved] [Desert] tiles>",
+			      "[+3 Science] <with [3] to [3] neighboring [unimproved] [Desert] tiles>",
+			      "[+4 Science] <with [4] to [4] neighboring [unimproved] [Desert] tiles>",
+			      "[+5 Science] <with [5] to [5] neighboring [unimproved] [Desert] tiles>",
+			      "Must be next to [Mountain]"],
+		"requiredTech": "Astronomy"
 	},
 {
 		"name": "Examination Hall",
@@ -232,15 +247,17 @@
 		"requiredTech": "Education"
 	},
 {
-		"name": "Tunel de la Linea",
+		"name": "Tejo Court",
+		"replaces": "Arsenal",
 		"uniqueTo": "Colombia",
-		"cost": 145,
-		"culture": 3,
-            "gold": 3,
-		"isNationalWonder": true,
-            "requiredResource": "Oil",
-		"uniques": ["Must have an owned [Mountain] within [2] tiles", "Land units may cross [Mountain] tiles after the first [Great Engineer] is earned", "No Maintenance costs for improvements in [Mountain] tiles", "Free [Great Engineer] appears", "Cost increases by [10] per owned city"],
-		"requiredTech": "Combustion"
+		"cost": 300,
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"cityStrength": 7,
+		"cityHealth": 70,
+		"requiredBuilding": "Castle",
+		"uniques": ["[+20]% [Culture] [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Metallurgy"
 	},
 {
 		"name": "Viking Longhouse",
@@ -617,15 +634,17 @@
 		"isNationalWonder": true
 	},
 {
-		"name": "Itaipu Dam",
-		"replaces": "National Epic",
+		"name": "Harp Conservatory",
+		"replaces": "Opera House",
 		"uniqueTo": "Paraguay",
-		"cost": 145,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "Cost increases by [10] per owned city", "Must be on [River]", "Gain a free [Hydro Plant] [in this city]", "[+1 Production] from [River] tiles [in this city]"],
-		"requiredTech": "Electricity"
-	},	
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["[+1 Production] from [River] tiles [in this city] <when fighting units from a Civilization with more Cities than you>","Destroyed when the city is captured"]
+	},			
 {
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
