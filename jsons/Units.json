@@ -214,7 +214,7 @@
             "promotions": ["Dao Swordsman ability"],
 		"attackSound": "metalhit"
 	},
-	{
+{
 		"name": "Llanero",
 		"replaces": "Cavalry",
 		"unitType": "Mounted",
@@ -226,7 +226,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniqueTo": "Colombia",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Morale", "Charge"],
 		"attackSound": "horse",
 	},
@@ -244,6 +244,22 @@
 		"hurryCostModifier": 30,
             "promotions": ["Coastal Raider I", "Landing Party"],
 		"attackSound": "cannon"
+	},
+{
+		"name": "BAE",
+		"unitType": "Melee Water",
+		"replaces": "Ironclad",
+		"uniqueTo": "Ecuador",
+		"movement": 3,
+		"strength": 50,
+		"cost": 225,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+            "promotions": ["Home Sweet Home"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
 	},
 {
 		"name": "Khopesh",
