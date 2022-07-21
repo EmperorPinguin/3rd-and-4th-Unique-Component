@@ -225,12 +225,9 @@
 		"hurryCostModifier": 30,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science] <with [1] to [1] neighboring [unimproved] [Desert] tiles>",
-			      "[+2 Science] <with [2] to [2] neighboring [unimproved] [Desert] tiles>",
-			      "[+3 Science] <with [3] to [3] neighboring [unimproved] [Desert] tiles>",
-			      "[+4 Science] <with [4] to [4] neighboring [unimproved] [Desert] tiles>",
-			      "[+5 Science] <with [5] to [5] neighboring [unimproved] [Desert] tiles>",
-			      "Must be next to [Mountain]"],
+		"uniques": ["[+1 Science] [in this city] <with [1] to [2] neighboring [unimproved] [Desert] tiles>",
+			"[+2 Science] [in this city] <with [3] to [6] neighboring [unimproved] [Desert] tiles>",
+			"Must be next to [Mountain]"],
 		"requiredTech": "Astronomy"
 	},
 {
@@ -272,15 +269,29 @@
 		"requiredTech": "Metal Casting"
 	},
 {
-		"name": "Banana Corporation",
-		"replaces": "Ironworks",
+		"name": "Chagra Hacienda",
+		"replaces": "Stable",
+		"uniqueTo": "Ecuador",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]",
+			"[+1 Culture] from every [Pasture] <in [Hill] tiles>",
+			"[+1 Culture, +1 Faith] from every [Pasture] <with [1] to [6] neighboring [Mountain] tiles>"],
+		"requiredTech": "Horseback Riding"
+	},
+{
+		"name": "Trans-Andean Railway",
 		"uniqueTo": "Ecuador",
 		"cost": 145,
-		"production": 0,
+		"production": 2,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+100]% Yield from every [Bananas] <in tiles without [Great Improvement]>","Requires a [Aqueduct] in all cities", "Cost increases by [10] per owned city"],
-		"requiredTech": "Machinery"
+		"uniques": ["[+2 Production] from [Mountain] tiles [in all cities]","Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Railroads"
 	},
 {
 		"name": "Shadoof",
@@ -643,8 +654,9 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["[+1 Production] from [River] tiles [in this city] <when fighting units from a Civilization with more Cities than you>","Destroyed when the city is captured"]
-	},			
+		"uniques": ["[+1 Production] from [River] tiles [in this city] <when fighting units from a civilization with more cities than you>","Destroyed when the city is captured"]
+	},	
+	},		
 {
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
