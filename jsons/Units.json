@@ -669,7 +669,7 @@
 		"cost": 100,
 		"requiredTech": "Rifling",
 		"uniques": ["Only available <when at war>","Can move immediately once bought",
-				"Unlocked with [Militarism]"],
+				"Only available <after adopting [Militarism]>"],
 		"upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot",
@@ -847,7 +847,7 @@
 		"cost": 120,
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Never appears as a Barbarian unit", "Unlocked with [Scholasticism]"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Never appears as a Barbarian unit", "Only available <after adopting [Scholasticism]>"],
 		"attackSound": "elephant"
 	},
 {
