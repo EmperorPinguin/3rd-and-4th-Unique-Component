@@ -60,93 +60,93 @@ BuildingIcons/Blood Altar
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Bullring
+BuildingIcons/British East India Company
   rotate: false
-  xy: 1556, 1668
+  xy: 1348, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Byzantine Walls
+BuildingIcons/Bullring
   rotate: false
   xy: 1556, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Byzantine Walls
+  rotate: false
+  xy: 1764, 1668
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Canals
   rotate: false
-  xy: 1764, 1460
+  xy: 516, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Chagra Hacienda
   rotate: false
-  xy: 724, 1252
+  xy: 932, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Confederacy
   rotate: false
-  xy: 1556, 1252
+  xy: 1764, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Cothon
   rotate: false
-  xy: 1764, 1252
+  xy: 512, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dacha
   rotate: false
-  xy: 720, 1044
+  xy: 928, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dam
   rotate: false
-  xy: 1344, 1044
+  xy: 1552, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dar-e Mehr
   rotate: false
-  xy: 1760, 1044
+  xy: 512, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Doge's Palace
   rotate: false
-  xy: 512, 836
+  xy: 720, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dojo
   rotate: false
-  xy: 720, 836
+  xy: 928, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dzong
   rotate: false
-  xy: 1136, 836
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/East India Company
-  rotate: false
-  xy: 1552, 836
+  xy: 1344, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -335,84 +335,84 @@ UnitIcons/Brigantine
   index: -1
 UnitIcons/Buin
   rotate: false
-  xy: 1348, 1460
+  xy: 1556, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cam Quan
   rotate: false
-  xy: 1764, 1668
+  xy: 1764, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Carpentom
   rotate: false
-  xy: 516, 1252
+  xy: 724, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Chasqui
   rotate: false
-  xy: 932, 1252
+  xy: 1140, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Clibanarii
   rotate: false
-  xy: 1140, 1252
+  xy: 1348, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Colonist
   rotate: false
-  xy: 1348, 1252
+  xy: 1556, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cur
   rotate: false
-  xy: 512, 1044
+  xy: 720, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Daimyo
   rotate: false
-  xy: 928, 1044
+  xy: 1136, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Dalai Lama
   rotate: false
-  xy: 1136, 1044
+  xy: 1344, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Dao Swordsman
   rotate: false
-  xy: 1552, 1044
+  xy: 1760, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Drakkar
   rotate: false
-  xy: 928, 836
+  xy: 1136, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Eagle Warrior
   rotate: false
-  xy: 1344, 836
+  xy: 1552, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

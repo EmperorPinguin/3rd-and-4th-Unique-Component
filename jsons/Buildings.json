@@ -305,7 +305,7 @@
 		"uniques": ["[+1 Faith] per [1] population [in this city]","Destroyed when the city is captured"]
 	},
 {
-		"name": "East India Company",
+		"name": "British East India Company",
             "replaces": "Courthouse",
             "uniqueTo": "England",
 		"maintenance": 0,
