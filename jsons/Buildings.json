@@ -243,7 +243,6 @@
 		"specialistSlots": {"Scientist": 2},
 		"happiness": 2,
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 {
