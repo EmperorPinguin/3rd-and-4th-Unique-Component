@@ -252,8 +252,8 @@
 		"cost": 300,
 		"hurryCostModifier": 25,
 		"happiness": 2,
-		"cityStrength": 7,
-		"cityHealth": 70,
+		"cityStrength": 9,
+		"cityHealth": 25,
 		"requiredBuilding": "Castle",
 		"uniques": ["[+20]% [Culture] [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Metallurgy"
@@ -356,7 +356,7 @@
 		"science": 3,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "[+2 Science] from every [University]"],
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "Can only be built [in capital]", "[+25]% Yield from every [Great Improvement] <in cities with a [Palace]>"],
 		"requiredTech": "Education"
 	},
 /* {           "name": "Hanse",
@@ -593,7 +593,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniqueText": " Great Improvements in this city receive +1 Faith for each adjacent Colossal Head, +1 Faith from every Colossal Head.
+		"uniqueText": " Great Improvements in this city receive +2 Faith for each adjacent Colossal Head.
 		",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
 "[+2 Faith] from [Great Improvement] tiles [in this city] <with [1] to [1] neighboring [Colossal Head] tiles>",
@@ -736,12 +736,12 @@
 		"uniqueTo": "Shoshone",
 		"food": 2,
 		"culture": 1,
-		"maintenance": 1,
+		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-                  "[+1 Food] from [Camp] tiles [in this city]"],
+                  "[+1 Culture] from [Camp] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 {
