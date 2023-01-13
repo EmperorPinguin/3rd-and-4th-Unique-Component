@@ -11,4 +11,9 @@
 		"resourceType": "Luxury",
 		"gold": 1
 	},
+	{
+		"name": "Pineapple",
+		"resourceType": "Luxury",
+		"gold": 1
+	},
 ]
