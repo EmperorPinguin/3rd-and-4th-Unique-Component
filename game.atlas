@@ -822,6 +822,13 @@ BuildingIcons/Trans-Andean Railway
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Viking Longhouse
+  rotate: false
+  xy: 1668, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Iroquois Warrior
   rotate: false
   xy: 4, 1460
@@ -1081,29 +1088,15 @@ UnitIcons/Uhlan
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Vegetation Training
-  rotate: false
-  xy: 1668, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 
 game3.png
 size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Viking Longhouse
-  rotate: false
-  xy: 4, 40
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 BuildingIcons/Vo Khi
   rotate: false
-  xy: 212, 40
+  xy: 4, 40
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -1166,14 +1159,14 @@ TileSets/HexaRealm/Tiles/Kurgan
   index: -1
 UnitIcons/Vytis
   rotate: false
-  xy: 420, 40
+  xy: 212, 40
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Vytis
+UnitPromotionIcons/Vytis ability
   rotate: false
-  xy: 420, 40
+  xy: 212, 40
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -1281,5 +1274,12 @@ UnitPromotionIcons/Uhlan ability
   xy: 1692, 36
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Woods Warfare
+  rotate: false
+  xy: 420, 40
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1

@@ -13,7 +13,7 @@
 		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>", "[-100]% maintenance costs"]
 	},
 {
-		"name": "Vegetation Training",
+		"name": "Woods Warfare",
 		"uniques": ["[+33]% Strength <when fighting in [Jungle] tiles>","[+33]% Strength <when fighting in [Forest] tiles>"]
 	},
 {
@@ -46,7 +46,7 @@
 	},
 {
 		"name": "Iroquois Warrior ability",
-		"uniques": ["No movement cost to pillage", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
 {
 		"name": "River Warlord",

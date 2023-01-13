@@ -119,7 +119,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-            "promotions": ["Vegetation Training", "Woodsman"],
+            "promotions": ["Woods Warfare", "Woodsman"],
 		"attackSound": "shot"
 	},
 {
@@ -539,7 +539,7 @@
 		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Civil Service",
-		"promotions": ["Vegetation Training"],
+		"promotions": ["Woods Warfare"],
 		"uniques": ["Consumes [1] [Iron]","[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
@@ -1022,7 +1022,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
-            "promotions": ["Vegetation Training"],
+            "promotions": ["Woods Warfare"],
 		"uniques": ["Upgrades to Rifleman"],
 		"attackSound": "metalhit"
 	},
