@@ -460,7 +460,7 @@
 		"cost": 150,
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Industrialization",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "elephant"
 	},
@@ -542,7 +542,7 @@
 		"promotions": ["Woods Warfare"],
 		"uniques": ["Consumes [1] [Iron]","[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
 {
@@ -786,7 +786,7 @@
 		"cost": 125,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Rifleman",
             "promotions": ["Streltsy ability"],
 		"attackSound": "shot"
 	},
@@ -988,7 +988,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Tibet",
-		"uniques": ["Can start an [10]-turn golden age","Can construct [Holy site] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
+		"uniques": ["Can start an [10]-turn golden age","Can construct [Holy site]", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
