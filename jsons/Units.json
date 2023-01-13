@@ -385,7 +385,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-                "promotions": ["Mobility"],
+                "uniques": ["This Unit upgrades for free"],
 		"attackSound": "shot"
 	},
 {
