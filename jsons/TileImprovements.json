@@ -37,6 +37,7 @@
 		"techRequired": "Calendar",
 		"uniques": [
 "Provides [1] [Pineapple]",
+"[+1 Food] <after discovering [Fertilizer]>",
 "Cannot be built on [Bonus resource] tiles", 
 "Cannot be built on [Luxury resource] tiles",
 "Does not need removal of [Jungle]"]

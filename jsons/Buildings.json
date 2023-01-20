@@ -18,7 +18,7 @@
 		"name": "Ivy League School",
 		"replaces": "Public School",
 		"uniqueTo": "America",
-		"science": 5,
+		"science": 6,
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
 		"maintenance": 3,
@@ -79,7 +79,7 @@
 		"name": "Orchestra",
 		"replaces": "Opera House",
 		"uniqueTo": "Austria",
-		"culture": 6,
+		"culture": 7,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
@@ -381,10 +381,7 @@
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city",
 			"Must be on [River]",
 			"[+2 Production] from every [Engineer]",
-			"[+2 Production] from [Stone] tiles [in this city]",
-			"[+2 Production] from [Iron] tiles [in this city]",
-			"[+2 Production] from [Coal] tiles [in this city]",
-			"[+2 Production] from [Manufactory] tiles [in this city]"],
+			"[+2 Production] from every [Manufactory"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -501,7 +498,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city", "[+1 Production] from [Forest] tiles [in all cities]"],
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city", "[+1 Production] from every [Forest]"],
 		"requiredTech": "Metal Casting"
 	},
 {
@@ -627,7 +624,7 @@
 		"cost": 145,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["[+100]% Yield from every [Holy site] <in cities with a [St. Peter's Basilica]>","[+3 Gold] from every [Cathedral] <before the [Industrial era]>","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+		"uniques": ["[+3 Gold, +3 Culture] from [Holy site] tiles [in this city]","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true

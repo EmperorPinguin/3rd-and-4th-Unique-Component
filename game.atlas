@@ -656,112 +656,112 @@ BuildingIcons/Phoenician Port
   index: -1
 BuildingIcons/Qadi Court
   rotate: false
-  xy: 1460, 1460
+  xy: 1252, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Qolqe Qhoya
   rotate: false
-  xy: 1668, 1668
+  xy: 1460, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Qullqa
   rotate: false
-  xy: 212, 4
+  xy: 1668, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Religious Complex
   rotate: false
-  xy: 836, 628
+  xy: 628, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Riad
   rotate: false
-  xy: 1044, 836
+  xy: 836, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rock-Hewn Church
   rotate: false
-  xy: 1252, 1044
+  xy: 1044, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Ruhr Valley
   rotate: false
-  xy: 1460, 1252
+  xy: 1252, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sala
   rotate: false
-  xy: 628, 212
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Seowon
   rotate: false
-  xy: 1044, 628
+  xy: 836, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Shadoof
   rotate: false
-  xy: 1252, 836
+  xy: 1044, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Shannon Free Zone
   rotate: false
-  xy: 1460, 1044
+  xy: 1252, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Silk Road
   rotate: false
-  xy: 836, 212
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sorbonne
   rotate: false
-  xy: 1252, 628
+  xy: 1044, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/St. Peter's Basilica
   rotate: false
-  xy: 1668, 1044
+  xy: 1460, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/State Oil Company
   rotate: false
-  xy: 836, 4
+  xy: 1668, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Statue of Aspetos
   rotate: false
-  xy: 1044, 212
+  xy: 836, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -962,100 +962,100 @@ UnitIcons/Ph'kak
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Pickelhaube
+UnitIcons/Pirate
   rotate: false
   xy: 420, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Pirate
+UnitIcons/Proniar
   rotate: false
   xy: 628, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Proniar
+UnitIcons/Pucara
   rotate: false
   xy: 836, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Pucara
+UnitIcons/Pyrrhic War Elephant
   rotate: false
   xy: 1044, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Pyrrhic War Elephant
-  rotate: false
-  xy: 1252, 1252
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Rabona
   rotate: false
-  xy: 420, 212
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Redcoat
   rotate: false
-  xy: 628, 420
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sabum Kibittum
   rotate: false
-  xy: 1668, 1460
+  xy: 1460, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Saka Horse Archer
   rotate: false
-  xy: 420, 4
+  xy: 1668, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Samogitian Soldier
   rotate: false
-  xy: 836, 420
+  xy: 628, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sho't Kal
   rotate: false
-  xy: 1668, 1252
+  xy: 1460, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Shoshone Warrior
   rotate: false
-  xy: 628, 4
+  xy: 1668, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Slave
   rotate: false
-  xy: 1044, 420
+  xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Spear Thrower
   rotate: false
-  xy: 1460, 836
+  xy: 1252, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Stormtrooper
+  rotate: false
+  xy: 1044, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

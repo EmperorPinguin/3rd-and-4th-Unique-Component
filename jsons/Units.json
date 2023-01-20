@@ -375,7 +375,7 @@
 		"movement": 2
 	},
 {
-		"name": "Pickelhaube",
+		"name": "Stormtrooper",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Germany",
@@ -385,7 +385,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-                "uniques": ["This Unit upgrades for free"],
+		"promotions": ["Charge"],
 		"attackSound": "shot"
 	},
 {
