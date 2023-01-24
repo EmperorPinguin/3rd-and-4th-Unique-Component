@@ -72,6 +72,8 @@
 		"name": "Vytis ability",
 		"uniques": ["Damage is ignored when determining unit Strength","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
 	},
-
-
+//{
+//		"name": "Warrior Monk",
+//		"uniques": ["[+50]% Strength <when fighting in [Holy site] tiles>"]
+//	},
 ]

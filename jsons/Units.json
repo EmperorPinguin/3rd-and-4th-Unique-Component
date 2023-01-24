@@ -798,13 +798,13 @@
 		"uniqueTo": "Scythia",
 		"replaces": "Horseman",
 		"movement": 5,
-		"strength": 14,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+50]% to Flank Attack bonuses","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -867,23 +867,6 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
-/*
-{
-		"name": "Gripen",
-		"unitType": "Helicopter",
-		"uniqueTo": "Sweden",
-		"replaces": "Helicopter Gunship",
-		"movement": 6,
-		"strength": 70,
-		"cost": 425,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
-            "promotions": ["Great Generals II"],
-		"attackSound": "machinegun"
-	},
-*/
 {
 		"name": "Music Group",
 		"unitType": "Civilian",
@@ -990,7 +973,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Tibet",
-		"uniques": ["Can start an [10]-turn golden age","Can construct [Holy site]", "Can [Spread Religion] [4] times",
+		"uniques": ["Can start an [10]-turn golden age","Can construct [Holy site] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
