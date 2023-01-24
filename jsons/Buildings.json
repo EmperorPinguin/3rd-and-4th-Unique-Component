@@ -714,7 +714,7 @@
 		"cost": 145,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "[+1 Culture, +1 Happiness] [in all cities]", "Cost increases by [10] per owned city"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "[+1 Culture, +1 Happiness] [in all cities connected to capital]", "Cost increases by [10] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
 {
@@ -950,11 +950,11 @@
             "cost": 75,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]",
+		"uniques": ["[+15]% Production when constructing [{Land} {Melee}] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]",
-                  "[+1 Happiness] from [Pasture] tiles [in this city]"],
+                  "[+1 Happiness, +1 Gold] from [Pasture] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 ]
