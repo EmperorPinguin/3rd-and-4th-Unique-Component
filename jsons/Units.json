@@ -306,6 +306,7 @@
 	      "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
 	},
+/*
 {
 		"name": "Pyrrhic War Elephant",
 		"unitType": "Mounted",
@@ -321,6 +322,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
+*/
 {
 		"name": "Oromo",
 		"unitType": "Sword",
@@ -812,7 +814,7 @@
 		"replaces": "Composite Bowman",
 		"uniqueTo": "Scythia",
 		"unitType": "Archery",
-		"movement": 4,
+		"movement": 3,
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,

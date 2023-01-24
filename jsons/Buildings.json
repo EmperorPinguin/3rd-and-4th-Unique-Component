@@ -59,7 +59,7 @@
 		"uniqueTo": "Armenia",
 		"cost": 145,
 		"culture": 1,
-		"faith": 3,
+		"faith": 1,
 		"uniques": ["[+100]% Yield from every [Mountain]","Gain a free [University] [in this city]","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
@@ -457,10 +457,10 @@
 		"cost": 360,
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
-		"specialistSlots": {"Merchant": 3},
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
-		"uniques": ["Unlocked at Flight","+1 Merchant Slot","[+3 Gold] from every specialist [in this city]"]
+		"uniques": ["Unlocked at Flight","[+2 Gold] from every specialist [in this city]"]
 		"requiredTech": "Flight"
 	},
 {
@@ -484,8 +484,9 @@
 		"cost": 145,
 		"culture": 1,
 		"faith": 8,
+		"cityStrength": 5,
 		"cityHealth": 50,
-		"uniques": ["Empire enters golden age","[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+		"uniques": ["[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
 			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -590,15 +591,15 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniqueText": " Great Improvements in this city receive +2 Faith for each adjacent Colossal Head.
+		"uniqueText": " Great Improvements in this city receive +1 Faith for each adjacent Colossal Head.
 		",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
-"[+2 Faith] from [Great Improvement] tiles [in this city] <with [1] to [1] neighboring [Colossal Head] tiles>",
-"[+4 Faith] from [Great Improvement] tiles [in this city] <with [2] to [2] neighboring [Colossal Head] tiles>",
-"[+6 Faith] from [Great Improvement] tiles [in this city] <with [3] to [3] neighboring [Colossal Head] tiles>",
-"[+8 Faith] from [Great Improvement] tiles [in this city] <with [4] to [4] neighboring [Colossal Head] tiles>",
-"[+10 Faith] from [Great Improvement] tiles [in this city] <with [5] to [5] neighboring [Colossal Head] tiles>",
-"[+12 Faith] from [Great Improvement] tiles [in this city] <with [6] to [6] neighboring [Colossal Head] tiles>",
+"[+1 Faith] from [Great Improvement] tiles [in this city] <with [1] to [1] neighboring [Colossal Head] tiles>",
+"[+2 Faith] from [Great Improvement] tiles [in this city] <with [2] to [2] neighboring [Colossal Head] tiles>",
+"[+3 Faith] from [Great Improvement] tiles [in this city] <with [3] to [3] neighboring [Colossal Head] tiles>",
+"[+4 Faith] from [Great Improvement] tiles [in this city] <with [4] to [4] neighboring [Colossal Head] tiles>",
+"[+5 Faith] from [Great Improvement] tiles [in this city] <with [5] to [5] neighboring [Colossal Head] tiles>",
+"[+6 Faith] from [Great Improvement] tiles [in this city] <with [6] to [6] neighboring [Colossal Head] tiles>",
 ]
 	},
 {
@@ -822,7 +823,7 @@
 		"replaces": "Forge",
 		"uniqueTo": "The Hittites",
 		"maintenance": 1,
-		"cost": 90,
+		"cost": 120,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Iron Working",
@@ -887,7 +888,6 @@
 		"replaces": "Castle",
 		"uniqueTo": "Tibet",
             "cost": 160,
-            "faith": 2,
 		"cityStrength": 10,
 		"cityHealth": 40,
 		"hurryCostModifier": 25,
