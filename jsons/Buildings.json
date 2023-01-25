@@ -891,7 +891,7 @@
 		"cityStrength": 10,
 		"cityHealth": 40,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
+		"requiredBuilding": "Temple",
 		"requiredTech": "Theology",
 		"uniques": ["Must be on [Hill]",
 //"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion"
