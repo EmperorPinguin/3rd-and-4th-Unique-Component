@@ -591,16 +591,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniqueText": " Great Improvements in this city receive +1 Faith for each adjacent Colossal Head.
-		",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured",
-"[+1 Faith] from [Great Improvement] tiles [in this city] <with [1] to [1] neighboring [Colossal Head] tiles>",
-"[+2 Faith] from [Great Improvement] tiles [in this city] <with [2] to [2] neighboring [Colossal Head] tiles>",
-"[+3 Faith] from [Great Improvement] tiles [in this city] <with [3] to [3] neighboring [Colossal Head] tiles>",
-"[+4 Faith] from [Great Improvement] tiles [in this city] <with [4] to [4] neighboring [Colossal Head] tiles>",
-"[+5 Faith] from [Great Improvement] tiles [in this city] <with [5] to [5] neighboring [Colossal Head] tiles>",
-"[+6 Faith] from [Great Improvement] tiles [in this city] <with [6] to [6] neighboring [Colossal Head] tiles>",
-]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
 	},
 {
 		"name": "Holy See",
