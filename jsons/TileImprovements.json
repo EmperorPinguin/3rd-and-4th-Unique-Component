@@ -14,19 +14,14 @@
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Does not need removal of [Jungle]"],
 	},
-	{
+		{
 		"name": "Colossal Head",
 		"uniqueTo": "The Olmec",
 		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
 		"faith": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 6,
 		"techRequired": "Calendar",
-		"uniques": [
-"[+1 Culture] <after discovering [Archaeology]>",
-"[+2 Science] for each adjacent [Great Improvement]",
-"Does not need removal of [Jungle]",
-"Does not need removal of [Forest]"
-]
+		"uniques": ["[+1 Culture] <after discovering [Archaeology]>","[+1 Science] for each adjacent [Great Improvement]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"]
 	},
 	{
 		"name": "Pineapple Plantation",
