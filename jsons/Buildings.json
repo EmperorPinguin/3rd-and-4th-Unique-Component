@@ -102,10 +102,10 @@
 		"name": "Etemenanki",
 		"replaces": "National Epic",
 		"uniqueTo": "Babylon",
-		"cost": 145,
+		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [10] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
 		"requiredTech": "Writing"
 	},
 {
@@ -152,20 +152,20 @@
 		"name": "Byzantine Walls",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Byzantium",
-		"cost": 145,
+		"cost": 125,
 		"cityStrength": 7,
 		"cityHealth": 70,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Walls] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [10] per owned city"],
+			"Cost increases by [30] per owned city"],
 		"requiredTech": "Iron Working"
 	},
 {
 		"name": "Hippodrome",
 		"replaces": "Amphitheater",
 		"uniqueTo": "Byzantium",
-                "happiness": 1,
+		"happiness": 1,
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
@@ -273,11 +273,11 @@
 		"name": "Banana Corporation",
 		"replaces": "Ironworks",
 		"uniqueTo": "Ecuador",
-		"cost": 145,
+		"cost": 125,
 		"production": 0,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+100]% Yield from every [Bananas] <in tiles without [Great Improvement]>","Requires a [Aqueduct] in all cities", "Cost increases by [10] per owned city"],
+		"uniques": ["[+100]% Yield from every [Bananas] <in tiles without [Great Improvement]>","Requires a [Aqueduct] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -314,18 +314,6 @@
 			"Can only be built [in annexed cities]"],
 		"requiredTech": "Mathematics"
 	},
-/*{
-		"name": "Textile Mill",
-		"replaces": "Windmill",
-		"uniqueTo": "England",
-            "requiredNearbyImprovedResources": ["Cotton", "Dyes", "Furs", "Silk"],
-		"production": 2,
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
-		"maintenance": 0,
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+2 Production] from [Cotton] tiles [in this city]", "[+2 Production] from [Dyes] tiles [in this city]", "[+2 Production] from [Furs] tiles [in this city]", "[+2 Production] from [Silk] tiles [in this city]"],
-		"requiredTech": "Economics"
-	},*/
 {
 		"name": "Statue of Aspetos",
 		"replaces": "Shrine",
@@ -355,11 +343,11 @@
 		"name": "Sorbonne",
 		"replaces": "Oxford University",
 		"uniqueTo": "France",
-		"cost": 145,
+		"cost": 125,
 		"science": 3,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city", "Can only be built [in capital]", "[+25]% Yield from every [Great Improvement] <in cities with a [Palace]>"],
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [30] per owned city", "Can only be built [in capital]", "[+25]% Yield from every [Great Improvement] <in cities with a [Palace]>"],
 		"requiredTech": "Education"
 	},
 /* {           "name": "Hanse",
@@ -377,11 +365,11 @@
 		"name": "Ruhr Valley",
             "replaces": "Ironworks",
             "uniqueTo": "Germany",
-		"cost": 145,
+		"cost": 125,
 		"production": 0,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city",
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
 			"Must be on [River]",
 			"[+2 Production] from every [Engineer]",
 			"[+2 Production] from every [Manufactory"],
@@ -428,7 +416,7 @@
 		"production": 1,
 		"uniques": ["[+10]% growth [in this city]", "Must be next to [Mountain]"],
 		"hurryCostModifier": 25,
-		"maintenance": 0,
+		"maintenance": 2,
 		"requiredTech": "The Wheel"
 	},
 {
@@ -471,11 +459,11 @@
 		"replaces": "Amphitheater",
 		"uniqueTo": "Ireland",
 		"culture": 3,
-		"faith": 2,
+		"faith": 3,
 		"cost": 100,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
-		"maintenance": 0,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
@@ -484,12 +472,12 @@
 		"name": "Temple of King Solomon",
 		"replaces": "Grand Temple",
 		"uniqueTo": "Israel",
-		"cost": 145,
+		"cost": 125,
 		"culture": 1,
 		"faith": 8,
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"uniques": ["[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+		"uniques": ["[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -498,11 +486,11 @@
 		"name": "Confederacy",
 		"replaces": "Ironworks",
 		"uniqueTo": "Iroquois",
-		"cost": 145,
+		"cost": 125,
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city", "[+1 Production] from every [Forest]"],
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+1 Production] from every [Forest]"],
 		"requiredTech": "Metal Casting"
 	},
 {
@@ -616,10 +604,10 @@
 		"name": "St. Peter's Basilica",
 		"replaces": "Grand Temple",
 		"uniqueTo": "Papal States",
-		"cost": 145,
+		"cost": 125,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["[+3 Gold, +3 Culture] from [Holy site] tiles [in this city]","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+		"uniques": ["[+3 Gold, +3 Culture] from [Holy site] tiles [in this city]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
@@ -655,7 +643,7 @@
             "cost": 100,
             "requiredNearbyImprovedResources": ["Gold Ore","Silver"],
             "hurryCostModifier": 25,
-	      "uniques": ["[+2 Production, +2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Production, +2 Gold] from [Silver] tiles [in this city]"],
+	      "uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+2 Production] from [Gold Ore] tiles [in this city]", "[+2 Production] from [Silver] tiles [in this city]"],
             "requiredTech": "Currency"
     },  
 {
@@ -707,10 +695,10 @@
 		"name": "Forum Romanum",
 		"replaces": "National Epic",
 		"uniqueTo": "Rome",
-		"cost": 145,
+		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "[+1 Culture, +1 Happiness] [in all cities connected to capital]", "Cost increases by [10] per owned city"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "[+1 Culture, +1 Happiness] [in all cities connected to capital]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
 {
@@ -761,11 +749,11 @@
 		"name": "Imperial Epic",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Songhai",
-		"cost": 145,
+		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			 "All newly-trained [non-air] units [in all cities] receive the [River Warlord] promotion", "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Cost increases by [10] per owned city"],
+			 "All newly-trained [non-air] units [in all cities] receive the [River Warlord] promotion", "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Cost increases by [30] per owned city"],
 		"requiredTech": "Iron Working"
 	},
 {
@@ -842,7 +830,7 @@
 		"uniqueTo": "The Khmer",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
-		"maintenance": 0,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["[+1 Food] from every specialist [in this city] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"]
