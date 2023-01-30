@@ -213,7 +213,7 @@
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper", "Iron"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Iron] tiles [in this city]","Can also be build with Coper, Iron"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Iron] tiles [in this city]","Can also be build with Copper, Iron"],
 		"requiredTech": "Currency"
 	},
 	{
