@@ -240,7 +240,7 @@
 		"cost": 100,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"uniques": ["Unlocked at Compass","[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
             "promotions": ["Coastal Raider I", "Landing Party"],
 		"attackSound": "cannon"
