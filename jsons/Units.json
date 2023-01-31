@@ -895,7 +895,7 @@
 		"name": "Cur",
 		"unitType": "Mounted",
 		"uniqueTo": "The Huns",
-		"replaces": "Horseman",
+		"replaces": "Great General",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
