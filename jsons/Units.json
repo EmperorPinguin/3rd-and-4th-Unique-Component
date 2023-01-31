@@ -891,20 +891,17 @@
 		"promotions": ["Drill I"],
 		"attackSound": "metalhit"
 	},
-{
+	{
 		"name": "Cur",
 		"unitType": "Mounted",
 		"uniqueTo": "The Huns",
 		"replaces": "Horseman",
-		"movement": 5,
+		"movement": 4,
 		"strength": 12,
 		"cost": 75,
-		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"promotions": ["Quick Study", "Great Generals I", "Cur ability"],
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
