@@ -405,7 +405,7 @@
 		"uniqueTo": "Hungary",
 		"uniques": ["[+50]% Great Person generation [in this city] <during a Golden Age>", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
-		"maintenance": 0,
+		"maintenance": 1,
 		"requiredTech": "Theology"
 	},
 {
