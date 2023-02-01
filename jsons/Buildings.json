@@ -490,7 +490,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Unlocked at Metal Casting","Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+1 Production] from every [Forest] <in cities with a [Longhouse]>"],
+		"uniques": ["Unlocked at Metal Casting","Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+1 Production] from every [Forest] <in cities with a [Workshop]>"],
 		"requiredTech": "Metal Casting"
 	},
 {
