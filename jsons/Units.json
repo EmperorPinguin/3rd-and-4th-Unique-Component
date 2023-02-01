@@ -242,7 +242,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["Unlocked at Compass","[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
-            "promotions": ["Coastal Raider I", "Landing Party"],
+            "promotions": ["Coastal Raider I", "Coastal Raider II"],
 		"attackSound": "cannon"
 	},
 {
@@ -642,9 +642,9 @@
 		"cost": 100,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Unlocked at Compass","[+1] Sight", "May withdraw before melee ([80]%)"],
+		"uniques": ["Unlocked at Compass","[+2] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
-            "promotions": ["Coastal Raider I", "Coastal Raider II"],
+            "promotions": ["Coastal Raider I"],
 		"attackSound": "cannon"
 	},
 {
