@@ -57,10 +57,10 @@
 		"name": "Tatev Monastery",
 		"replaces": "Grand Temple",
 		"uniqueTo": "Armenia",
-		"cost": 145,
+		"cost": 125,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["[+100]% Yield from every [Mountain]","Gain a free [University] [in this city]","Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+		"uniques": ["[+100]% Yield from every [Mountain]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -395,7 +395,7 @@
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]","[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
+		"uniques": ["Must be on [River]","[+1 Food, +1 Gold] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
 		"requiredTech": "The Wheel"
 	},
 {
@@ -428,7 +428,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+10]% [Food] [in this city]"]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+15]% growth [in this city]"]
 	},
 {
 		"name": "Kampung",
@@ -794,7 +794,7 @@
 		"name": "Irrigation System",
 		"replaces": "Water Mill",
 		"uniqueTo": "Sumeria",
-		"maintenance": 2,
+		"maintenance": 3,
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
