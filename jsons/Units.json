@@ -463,7 +463,7 @@
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
 	},
 {
