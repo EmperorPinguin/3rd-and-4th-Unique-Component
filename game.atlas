@@ -514,7 +514,7 @@ BuildingIcons/Imperial Epic
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Iron Furnace
+BuildingIcons/Blacksmith
   rotate: false
   xy: 420, 1460
   size: 200, 200

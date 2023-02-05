@@ -803,17 +803,16 @@
 		"requiredTech": "The Wheel"
 	},
 {
-		"name": "Iron Smeltery",
+		"name": "Blacksmith",
 		"replaces": "Forge",
 		"uniqueTo": "The Hittites",
 		"maintenance": 0,
-		"cost": 120,
+		"cost": 100,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Iron Working",
 		"uniques": ["Available at Iron Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]","[+15]% Production when constructing [Sword] units [in this city]",
-			"All newly-trained [Sword] units [in this city] receive the [Altitude Training] promotion",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
 {
