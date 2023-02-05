@@ -1,19 +1,19 @@
 
-game2.png
+game.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Abbey
   rotate: false
-  xy: 954, 1806
+  xy: 954, 1800
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Acropolis
   rotate: false
-  xy: 954, 1598
+  xy: 954, 1592
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -34,28 +34,28 @@ BuildingIcons/Atacama Telescope
   index: -1
 BuildingIcons/Ballcourt
   rotate: false
-  xy: 970, 1182
+  xy: 964, 1176
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Banana Corporation
   rotate: false
-  xy: 1178, 1390
+  xy: 1172, 1384
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Baray
   rotate: false
-  xy: 1370, 1598
+  xy: 1370, 1592
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Blood Altar
   rotate: false
-  xy: 1178, 1182
+  xy: 1172, 1176
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -69,7 +69,7 @@ BuildingIcons/British East India Company
   index: -1
 BuildingIcons/Bullring
   rotate: false
-  xy: 212, 578
+  xy: 212, 572
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -83,35 +83,35 @@ BuildingIcons/Byzantine Walls
   index: -1
 BuildingIcons/Canals
   rotate: false
-  xy: 1044, 558
+  xy: 1044, 552
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Chagra Hacienda
   rotate: false
-  xy: 4, 370
+  xy: 4, 364
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Confederacy
   rotate: false
-  xy: 1252, 558
+  xy: 1252, 552
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Cothon
   rotate: false
-  xy: 1344, 974
+  xy: 1344, 968
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dacha
   rotate: false
-  xy: 1578, 1806
+  xy: 1578, 1800
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -119,76 +119,76 @@ BuildingIcons/Dacha
 BuildingIcons/Dairy Cooperative
   rotate: false
   xy: 512, 1044
-  size: 450, 450
-  orig: 450, 450
+  size: 444, 444
+  orig: 444, 444
   offset: 0, 0
   index: -1
 BuildingIcons/Dam
   rotate: false
-  xy: 1344, 766
+  xy: 1344, 760
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dar-e Mehr
   rotate: false
-  xy: 1552, 974
+  xy: 1552, 968
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Doge's Palace
   rotate: false
-  xy: 1594, 1390
+  xy: 1588, 1384
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dojo
   rotate: false
-  xy: 1786, 1806
+  xy: 1786, 1800
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dzong
   rotate: false
-  xy: 1594, 1182
+  xy: 1588, 1176
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Estancia
   rotate: false
-  xy: 1668, 558
+  xy: 1668, 552
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Etemenanki
   rotate: false
-  xy: 1760, 974
+  xy: 1760, 968
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Examination Hall
   rotate: false
-  xy: 1760, 766
+  xy: 1760, 760
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Factorij
   rotate: false
-  xy: 1802, 1390
+  xy: 1796, 1384
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Fale Tele
   rotate: false
-  xy: 1802, 1182
+  xy: 1796, 1176
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -202,7 +202,7 @@ BuildingIcons/Folwark
   index: -1
 BuildingIcons/Forum Romanum
   rotate: false
-  xy: 4, 162
+  xy: 4, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -223,56 +223,56 @@ BuildingIcons/Guri Reservoir
   index: -1
 BuildingIcons/Hammam
   rotate: false
-  xy: 1460, 142
+  xy: 1460, 136
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Harp Conservatory
   rotate: false
-  xy: 1668, 142
+  xy: 1668, 136
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Thermal Bath
   rotate: false
-  xy: 4, 1502
+  xy: 4, 1496
   size: 504, 504
   orig: 504, 504
   offset: 0, 0
   index: -1
 ResourceIcons/Pineapple
   rotate: false
-  xy: 516, 1576
+  xy: 516, 1570
   size: 430, 430
   orig: 430, 430
   offset: 0, 0
   index: -1
 ImprovementIcons/Pineapple Plantation
   rotate: false
-  xy: 516, 1576
+  xy: 516, 1570
   size: 430, 430
   orig: 430, 430
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Colossal Head
   rotate: false
-  xy: 4, 994
+  xy: 4, 988
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
   index: -1
 UnitIcons/Amazon
   rotate: false
-  xy: 4, 786
+  xy: 4, 780
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Arpia
   rotate: false
-  xy: 212, 786
+  xy: 212, 780
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -286,49 +286,49 @@ UnitIcons/Assyrian Chariot
   index: -1
 UnitIcons/Auxilliary
   rotate: false
-  xy: 970, 1390
+  xy: 964, 1384
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Azatavrear
   rotate: false
-  xy: 1162, 1806
+  xy: 1162, 1800
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/BAE
   rotate: false
-  xy: 1162, 1598
+  xy: 1162, 1592
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Ballista Elephant
   rotate: false
-  xy: 1136, 974
+  xy: 1136, 968
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Bandeirante
   rotate: false
-  xy: 1370, 1806
+  xy: 1370, 1800
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Brigantine
   rotate: false
-  xy: 1136, 766
+  xy: 1136, 760
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Buin
   rotate: false
-  xy: 4, 578
+  xy: 4, 572
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -349,7 +349,7 @@ UnitIcons/Carpentom
   index: -1
 UnitIcons/Chasqui
   rotate: false
-  xy: 212, 370
+  xy: 212, 364
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -370,56 +370,56 @@ UnitIcons/Colonist
   index: -1
 UnitIcons/Cur
   rotate: false
-  xy: 1386, 1390
+  xy: 1380, 1384
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Daimyo
   rotate: false
-  xy: 1578, 1598
+  xy: 1578, 1592
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Dalai Lama
   rotate: false
-  xy: 1386, 1182
+  xy: 1380, 1176
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Dao Swordsman
   rotate: false
-  xy: 1460, 558
+  xy: 1460, 552
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Drakkar
   rotate: false
-  xy: 1786, 1598
+  xy: 1786, 1592
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Eagle Warrior
   rotate: false
-  xy: 1552, 766
+  xy: 1552, 760
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/First of Line
   rotate: false
-  xy: 1044, 350
+  xy: 1044, 344
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Galleon
   rotate: false
-  xy: 212, 162
+  xy: 212, 156
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -433,28 +433,28 @@ UnitIcons/Genoese Merchant
   index: -1
 UnitIcons/Golden Horde
   rotate: false
-  xy: 1252, 350
+  xy: 1252, 344
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Goumier
   rotate: false
-  xy: 1460, 350
+  xy: 1460, 344
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Bombard
   rotate: false
-  xy: 1668, 350
+  xy: 1668, 344
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Gribeauval
   rotate: false
-  xy: 1044, 142
+  xy: 1044, 136
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -475,13 +475,13 @@ UnitIcons/Gungdo Archer
   index: -1
 UnitIcons/Halberdman
   rotate: false
-  xy: 1252, 142
+  xy: 1252, 136
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 
-game3.png
+game2.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -1054,7 +1054,7 @@ UnitIcons/Streltsy
   offset: 0, 0
   index: -1
 
-game4.png
+game3.png
 size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
