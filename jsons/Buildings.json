@@ -373,7 +373,7 @@
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
 			"Must be on [River]",
 			"[+2 Production] from every [Engineer]",
-			"[+2 Production] from every [Manufactory"],
+			"[+2 Production] from every [Manufactory]",
 		"requiredTech": "Machinery"
 	},
 {
