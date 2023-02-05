@@ -936,6 +936,7 @@
             "replaces": "Stable",
             "uniqueTo": "Zulu",
 		"maintenance": 0,
+		"happiness": 2,
             "cost": 75,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
@@ -943,7 +944,7 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]",
-                  "[+1 Happiness, +1 Gold] from [Pasture] tiles [in this city]"],
+                  "[+1 Gold] from [Pasture] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 ]
