@@ -1059,7 +1059,7 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Textile Mill
+BuildingIcons/Textile Manufactory
   rotate: false
   xy: 4, 276
   size: 200, 200

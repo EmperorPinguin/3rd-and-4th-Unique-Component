@@ -431,6 +431,18 @@
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+15]% growth [in this city]"]
 	},
 {
+		"name": "Textile Manufactory",
+		"replaces": "Mint",
+		"uniqueTo": "India",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Cotton", "Silk", "Dyes"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Food] from [Cotton] tiles [in this city]", 
+                        "[+2 Food] from [Silk] tiles [in this city]",
+                        "[+2 Food] from [Dyes] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+{
 		"name": "Kampung",
 		"replaces": "Lighthouse",
 		"uniqueTo": "Indonesia",

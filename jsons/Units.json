@@ -435,21 +435,6 @@
 		"attackSound": "nonmetalhit"
 	},
 {
-		"name": "Mughal Elephant",
-		"unitType": "Archery",
-		"replaces": "Knight",
-		"uniqueTo": "India",
-		"movement": 3,
-		"strength": 15,
-		"rangedStrength": 19,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"uniques": ["No defensive terrain bonus"],
-		"attackSound": "elephant"
-	},
-{
 		"name": "Kapal Jung",
 		"unitType": "Ranged Water",
 		"replaces": "Galleass",
