@@ -112,11 +112,11 @@
 		"name": "Llama Farm",
 		"replaces": "Water Mill",
 		"uniqueTo": "Bolivia",
-		"food": 2,
-		"production": 1,
-		"uniques": ["Must be next to [Mountain]","[+2 Food, +1 Production] from [Mountain] tiles [in this city]"],
+		"food": 0,
+		"production": 0,
+		"uniques": ["Must be next to [Mountain]","[+2 Food, +2 Production] from [Mountain] tiles [in this city]"],
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredTech": "The Wheel"
 	},
 {
@@ -250,12 +250,11 @@
 		"uniqueTo": "Colombia",
 		"cost": 300,
 		"hurryCostModifier": 25,
-		"happiness": 2,
-		"culture": 2,
+		"happiness": 3,
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"requiredBuilding": "Castle",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured","[50]% of excess happiness converted to [Culture]"],
 		"requiredTech": "Metallurgy"
 	},
 {
@@ -294,14 +293,14 @@
 	},
 {
 		"name": "Monument to the Savior",
-		"replaces": "Broadcast Tower",
+		"replaces": "Hermitage",
 		"uniqueTo": "El Salvador",
-		"culture": 3,
-		"percentStatBonus": {"culture": 33},
-		"requiredBuilding": "Museum",
-		"maintenance": 3,
-		"requiredTech": "Radio",
-		"uniques": ["[+1 Faith] per [1] population [in this city]","Destroyed when the city is captured"]
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["[+1 Faith] per [1] population [in this city]","Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Architecture"
 	},
 {
 		"name": "British East India Company",
@@ -532,12 +531,12 @@
 		"name": "Taco and Burrito Restaurant",
 		"replaces": "Opera House",
 		"uniqueTo": "Mexico",
-            "food": 2,
+            "food": 3,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
+		"maintenance": 3,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -617,13 +616,13 @@
 		"name": "Harp Conservatory",
 		"replaces": "Opera House",
 		"uniqueTo": "Paraguay",
-		"culture": 4,
+		"culture": 0,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["[+1 Production] from [River] tiles [in this city] <when fighting units from a Civilization with more Cities than you>","Destroyed when the city is captured"]
+		"uniques": ["[+1 Culture] from every specialist [in this city]","Destroyed when the city is captured"]
 	},			
 {
 		"name": "Dar-e Mehr",
@@ -644,7 +643,7 @@
             "cost": 100,
             "requiredNearbyImprovedResources": ["Gold Ore","Silver"],
             "hurryCostModifier": 25,
-	      "uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+2 Production] from [Gold Ore] tiles [in this city]", "[+2 Production] from [Silver] tiles [in this city]"],
+	      "uniques": ["[+2 Production] from [Gold Ore] tiles [in this city]", "[+2 Production] from [Silver] tiles [in this city]"],
             "requiredTech": "Currency"
     },  
 {

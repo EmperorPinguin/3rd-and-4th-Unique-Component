@@ -306,23 +306,6 @@
 	      "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
 	},
-/*
-{
-		"name": "Pyrrhic War Elephant",
-		"unitType": "Mounted",
-		"replaces": "Horseman",
-		"uniqueTo": "Epirus",
-		"movement": 3,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Trapping",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Unlocked at Trapping","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"hurryCostModifier": 20,
-		"attackSound": "elephant"
-	},
-*/
 {
 		"name": "Oromo",
 		"unitType": "Sword",
@@ -487,11 +470,10 @@
 		"uniqueTo": "Iroquois",
 		"movement": 2,
 		"strength": 21,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"promotions": ["Iroquois Warrior ability"],
 		"attackSound": "nonmetalhit"
 	},
 {
@@ -613,7 +595,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"promotions": ["Drill I", "Altitude Training"],
+		"promotions": ["Drill I"],
 		"attackSound": "shot"
 	},
 {
@@ -729,8 +711,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-            "promotions": ["Uhlan ability"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+1] Sight","Earn [100]% of killed [Military] unit's [Strength] as [Culture]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 {
