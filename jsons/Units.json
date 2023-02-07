@@ -596,6 +596,7 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"promotions": ["Drill I"],
+		"uniques": ["Double movement in [Hill]"],
 		"attackSound": "shot"
 	},
 {

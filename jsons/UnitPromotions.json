@@ -24,18 +24,18 @@
 		"name": "Mamluk ability",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
 	},
-{
-		"name": "Uhlan ability",
-		"uniques": ["[+1] Sight", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
-	},
+//{
+//		"name": "Uhlan ability",
+//		"uniques": ["[+1] Sight", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
+//	},
 {
 		"name": "Buin ability",
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark","Eliminates combat penalty for attacking across a coast"]
 	},
-{
-		"name": "Cur ability",
-		"uniques": ["No movement cost to pillage"]
-	},
+//{
+//		"name": "Cur ability",
+//		"uniques": ["No movement cost to pillage"]
+//	},
 {
 		"name": "Shoshone Warrior ability",
 		"uniques": ["Double movement in [Plains]", "[+1] Sight"]
@@ -44,10 +44,10 @@
 		"name": "Gungdo Archer ability",
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
-{
-		"name": "Iroquois Warrior ability",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
-	},
+//{
+//		"name": "Iroquois Warrior ability",
+//		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+//	},
 {
 		"name": "River Warlord",
 		"uniques": ["[+15]% Strength <when fighting in [River] tiles>"]
@@ -64,10 +64,10 @@
 		"name": "Pirate ability",
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
-{
-		"name": "Altitude Training",
-		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
-	},
+//{
+//		"name": "Altitude Training",
+//		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
+//	},
 {
 		"name": "Vytis ability",
 		"uniques": ["Damage is ignored when determining unit Strength","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
