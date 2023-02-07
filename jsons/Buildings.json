@@ -430,6 +430,7 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+15]% growth [in this city]"]
 	},
+/*
 {
 		"name": "Textile Manufactory",
 		"replaces": "Mint",
@@ -442,6 +443,7 @@
                         "[+2 Food] from [Dyes] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
+*/
 {
 		"name": "Kampung",
 		"replaces": "Lighthouse",

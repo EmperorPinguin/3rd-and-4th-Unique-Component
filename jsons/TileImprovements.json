@@ -24,8 +24,8 @@
 		"uniques": ["[+1 Culture] <after discovering [Archaeology]>","[+1 Science] for each adjacent [Great Improvement]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"]
 	},
 	{
-		"name": "Pineapple Plantation",
-		"uniqueTo": "Costa Rica",
+		"name": "Pineapple Plantation",		
+            "uniqueTo": "Costa Rica",
 		"terrainsCanBeBuiltOn": ["Jungle"],
 		"gold": 2,
 		"turnsToBuild": 7,
@@ -37,4 +37,22 @@
 "Cannot be built on [Luxury resource] tiles",
 "Does not need removal of [Jungle]"]
 	},
+/*
+	{
+		"name": "Volcano Reserve",
+		"uniqueTo": "Costa Rica",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"uniques": ["Must be next to [Mountain]",
+                        "[+1 Gold, +1 Science, +1 Culture] for each adjacent [Mountain]",
+                        "[+1 Gold, +1 Science, +1 Culture] <with [1] to [6] neighboring [Volcano Reserve] tiles>",
+                        "Does not need removal of [Jungle]"
+                        "Does not need removal of [Forest]"],
+		"techRequired": "Archaeology",
+		"shortcutKey": "V"
+	},
+*/
+
+
+
 ]	
