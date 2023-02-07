@@ -250,7 +250,7 @@
 		"uniqueTo": "Colombia",
 		"cost": 300,
 		"hurryCostModifier": 25,
-		"happiness": 3,
+		"happiness": 2,
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"requiredBuilding": "Castle",
