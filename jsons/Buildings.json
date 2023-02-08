@@ -966,7 +966,7 @@
             "uniqueTo": "Zulu",
 		"maintenance": 0,
 		"happiness": 2,
-            "cost": 75,
+            "cost": 100,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+15]% Production when constructing [{Land} {Melee}] units [in this city]",
