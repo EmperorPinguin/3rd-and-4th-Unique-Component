@@ -13,6 +13,7 @@ Ball Court: Ball by Benjamin Sommerlad
 Baray: Dam by Graphic Nehar
 Banana Corporation: Bananas by Wahyuntitle
 Bandeirante: Pith Helmet by M. Oki Orlando
+Basilica: Basilica by Dániel Z. Aczél
 Blood Altar: ara by Denis Moskowitz
 Brigantine: brigantine by Smalllike
 Buin: sabre by Robert Bjurshagen
@@ -122,6 +123,7 @@ Sabum Kibittum: spear and shield by Andrejs Kirma
 Saka Horse Archer: bow and arrow by Kevin
 Samogitian Warrior: Knight by Hey Rabbit
 Sala: Sala by Krisada
+Salon: High Tea by Made by Made
 Seowon: hanok by Joh Gurn
 Shadoof: irrigate by Eucalyp
 Shannon Free Zone: economic zone by Md Saiful Alam Saif
@@ -154,6 +156,6 @@ Yurt: Ger by Laurens
 
 
 I would like to thank the following people for contributing to this mod:
-Ajmak, for suggesting many important improvements and balance changes to the game.
-Caballero von Pancakeco, for suggesting new components to add to extend this mod to support Latin American_Civs.
+Ajmak, for suggesting improvements and balance changes to the game.
+Caballero Arepa, for suggesting new components to add to extend this mod to support Latin American_Civs.
 ravignir, for catching a bug.
