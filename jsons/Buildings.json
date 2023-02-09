@@ -266,7 +266,7 @@
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"requiredBuilding": "Castle",
-		"uniques": ["Destroyed when the city is captured","[50]% of excess happiness converted to [Culture]"],
+		"uniques": ["Destroyed when the city is captured","[25]% of excess happiness converted to [Culture]"],
 		"requiredTech": "Metallurgy"
 	},
 {
