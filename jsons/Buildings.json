@@ -133,7 +133,7 @@
 		"uniqueTo": "Brazil",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cost": 125,
+		"cost": 120,
 		"uniques": ["Unlocked at Acoustics","[+2 Faith] from [Jungle] tiles [in this city]", "[+34]% Great Person generation [in this city]"],
 		"requiredTech": "Acoustics"
 	},
