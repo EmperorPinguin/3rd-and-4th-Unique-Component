@@ -129,14 +129,15 @@
 	},
 {
 		"name": "Landscape Garden",
-                "replaces": "Garden",
-                "uniqueTo": "Brazil",
-		"uniques": ["[+2 Culture] from [Jungle] tiles [in this city]", "[+25]% Great Person generation [in this city]"],
+		"replaces": "Garden",
+		"uniqueTo": "Brazil",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"cost": 125,
+		"uniques": ["Unlocked at Acoustics","[+2 Faith] from [Jungle] tiles [in this city]", "[+34]% Great Person generation [in this city]"],
+		"requiredTech": "Acoustics"
 	},
-	{
+{
 		"name": "Golden Church",
 		"replaces": "Temple",
 		"uniqueTo": "Bulgaria",
@@ -516,11 +517,11 @@
 		"replaces": "Ironworks",
 		"uniqueTo": "Iroquois",
 		"cost": 125,
-		"production": 8,
+		"production": 1,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Unlocked at Metal Casting","Requires a [Workshop] in all cities", "Cost increases by [30] per owned city", "[+1 Production] from every [Forest] <in cities with a [Workshop]>"],
-		"requiredTech": "Metal Casting"
+		"uniques": ["[+10]% [Production] from every [Workshop]", "Requires a [Workshop] in all cities", "Cost increases by [30] per owned city","[+1 Production] from every [Forest]"],
+		"requiredTech": "Machinery"
 	},
 {
 		"name": "Dojo",
