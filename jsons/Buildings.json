@@ -675,7 +675,7 @@
             "cost": 100,
             "requiredNearbyImprovedResources": ["Gold Ore","Silver"],
             "hurryCostModifier": 25,
-	      "uniques": ["[+2 Production] from [Gold Ore] tiles [in this city]", "[+2 Production] from [Silver] tiles [in this city]"],
+	      "uniques": ["[+4 Gold] from [Gold Ore] tiles [in this city]", "[+4 Gold] from [Silver] tiles [in this city]"],
             "requiredTech": "Currency"
     },  
 {
