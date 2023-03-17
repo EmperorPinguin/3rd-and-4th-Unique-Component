@@ -272,6 +272,17 @@
 		"requiredTech": "Metallurgy"
 	},
 {
+		"name": "San Jose Theatre",
+		"replaces": "Circus Maximus",
+		"uniqueTo": "Costa Rica",
+		"isNationalWonder": true,
+		"cost": 300,
+		"requiredTech": "Architecture",
+		"culture": 1,
+		"happiness": 5,
+		"uniques": ["Requires a [Theatre] in all cities","Empire enters golden age", "[+5 Gold] from every [Theatre]"],
+	},
+{
 		"name": "Viking Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Denmark",
