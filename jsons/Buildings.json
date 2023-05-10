@@ -982,4 +982,42 @@
                   "[+1 Gold] from [Pasture] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
+// Comunity Civs:
+	{
+		"name": "Obelisk of the Daring",
+		"replaces": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","[+1 Culture] from every [Wonder]","[+15]% Production when constructing [All] wonders [in all cities]"],
+		"requiredTech": "Drama and Poetry"
+	},
+{
+        "name": "Heroic School",
+        "replaces": "Heroic Epic",
+        "uniqueTo": "Wonderland",
+        "cost": 130,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": ["Requires a [Barracks] in all cities", 
+        "All newly-trained [non-air] units [in this city] receive the [Medic] promotion",
+        "[non-air] units gain the [Morale] promotion",
+        "[+2 Science] from every [Hospital]",
+            "Cost increases by [30] per owned city"],
+            "quote": "'He who struggles is better than he who never attempts.' - Swami Vivekananda",
+        "requiredTech": "Iron Working"
+    },
+{
+        "name": "Marvelous Records",
+        "replaces": "Grand Temple",
+        "uniqueTo": "Wonderland",
+        "cost": 125,
+        "culture": 3,
+        "faith": 3,
+        "science": 3,
+        "uniques": ["Cost increases by [40] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "[+1 Happiness] for every known Natural Wonder", "[+1 Happiness] from every [Wonder]"],
+        "quote": "'The good historian… must be fearless, uncorrupted, free, the friend of truth and of liberty. One who calls a fig a fig, and a skiff a skiff, neither giving nor withholding from any, from favour or from enmity, not influenced by pity, by shame, or by remorse. A just judge… a stranger to all, of no country, bound only by his own laws, acknowledging no sovereign, never considering what this or that man may say of him, but relating faithfully everything as it happened.' - Lucian, ancient Greek writer and satirist'",
+        "requiredTech": "Education",
+        "isNationalWonder": true
+    },
 ]
