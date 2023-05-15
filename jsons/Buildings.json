@@ -986,6 +986,7 @@
 	{
 		"name": "Obelisk of the Daring",
 		"replaces": "National Epic",
+            "uniqueTo": "The Imperium of Fire",
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,

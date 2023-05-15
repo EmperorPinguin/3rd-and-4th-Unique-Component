@@ -1009,6 +1009,7 @@
 		"name": "Drake fire",
 		"replaces": "Cannon",
 		"unitType": "Siege",
+            "uniqueTo": "The Imperium of Fire",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 20,
