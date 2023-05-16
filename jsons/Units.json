@@ -215,7 +215,7 @@
 		"attackSound": "metalhit"
 	},
 {
-		"name": "Llanero",
+		"name": "Llanero fighter",
 		"replaces": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
