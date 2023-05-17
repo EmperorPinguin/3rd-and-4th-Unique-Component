@@ -808,7 +808,7 @@ UnitIcons/Landwehr
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Llanero
+UnitIcons/Llanero fighter
   rotate: false
   xy: 1460, 1460
   size: 200, 200
