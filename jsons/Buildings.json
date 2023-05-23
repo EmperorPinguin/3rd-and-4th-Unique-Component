@@ -1021,4 +1021,28 @@
         "requiredTech": "Education",
         "isNationalWonder": true
     },
+{
+        "name": "Reaction Video Company",
+        "replaces": "Stadium",
+        "uniqueTo": "The Reactors",
+        "happiness": 2,
+        "gold": 1,
+        "culture": 1,
+        "maintenance": 3,
+        "requiredTech": "Refrigeration"
+    },
+    {
+        "name": "Signing Wall",
+        "replaces": "Walls",
+        "uniqueTo": "The Reactors",
+        "cost": 65,
+        "gold": 1,
+        "culture": 1,
+        "happiness": 1,
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "hurryCostModifier": 25,
+        "requiredTech": "Masonry",
+        "uniques": ["Destroyed when the city is captured"]
+    }
 ]
