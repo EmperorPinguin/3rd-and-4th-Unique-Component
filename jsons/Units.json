@@ -1023,17 +1023,16 @@
 /*
 	{
 		"name": "Watch Tower",
-		"replaces": "Trebuchet",
             "uniqueTo": "Penguinesia",
 		"unitType": "Siege",
-		"movement": 1,
+		"movement": 0,
 		"strength": 24,
 		"rangedStrength": 28,
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["All tiles cost 1 movement","Ranged attacks may be performed over obstacles","Can only attack [Military] units","[+2] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Ranged attacks may be performed over obstacles","Can only attack [Military] units","[+2] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "throw"
 	},
 */

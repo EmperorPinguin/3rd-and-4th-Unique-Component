@@ -37,7 +37,6 @@
 "Cannot be built on [Luxury resource] tiles",
 "Does not need removal of [Jungle]"]
 	},
-/*
 {
 		"name": "Penguin Preserve",
 		"uniqueTo": "Penguinesia",
@@ -52,5 +51,4 @@
 "[+1 Culture] for each adjacent [Penguin Preserve] <after discovering [Ecology]>",
 "Unlocked at Education"],
 	},
-*/
 ]	
