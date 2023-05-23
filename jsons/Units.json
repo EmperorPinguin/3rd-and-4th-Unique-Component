@@ -1037,4 +1037,21 @@
 		"attackSound": "throw"
 	},
 */
+
+	{
+		"name": "Paileador",
+		"replaces": "Longswordsman",
+            	"uniqueTo": "Arepandia",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["[+100]% Strength <when fighting in [Arepa House] tiles>","Can see over obstacles"],
+		"promotions": ["March"],
+		"attackSound": "metalhit"
+	},
 ]
