@@ -1001,11 +1001,11 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": ["Requires a [Barracks] in all cities", 
-        "All newly-trained [non-air] units [in this city] receive the [Medic] promotion",
-        "[non-air] units gain the [Morale] promotion",
-        "[+2 Science] from every [Hospital]",
-            "Cost increases by [30] per owned city"],
-            "quote": "'He who struggles is better than he who never attempts.' - Swami Vivekananda",
+        	"All newly-trained [non-air] units [in this city] receive the [Homeric Resilience] promotion",
+        	"[non-air] units gain the [Morale] promotion",
+        	"[+2 Science] from every [Hospital]",
+        	"Cost increases by [30] per owned city"],
+        "quote": "'He who struggles is better than he who never attempts.' - Swami Vivekananda",
         "requiredTech": "Iron Working"
     },
 {
