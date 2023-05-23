@@ -1037,4 +1037,20 @@
 		"attackSound": "throw"
 	},
 */
+
+	{
+		"name": "Paileador",
+		"replaces": "Longswordsman",
+            	"uniqueTo": "Arepandia",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["Arepa Power","March"],
+		"attackSound": "metalhit"
+	},
 ]

@@ -76,4 +76,12 @@
 //		"name": "Warrior Monk",
 //		"uniques": ["[+50]% Strength <when fighting in [Holy site] tiles>"]
 //	},
+	{
+        "name": "Homeric Resilience",
+        "uniques": ["[+10] HP when healing"]
+    },
+{
+		"name": "Arepa Power",
+		"uniques": ["[+100]% Strength <when fighting in [Arepa House] tiles>","Can see over obstacles"]
+	},
 ]

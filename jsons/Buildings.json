@@ -1001,11 +1001,11 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": ["Requires a [Barracks] in all cities", 
-        "All newly-trained [non-air] units [in this city] receive the [Medic] promotion",
-        "[non-air] units gain the [Morale] promotion",
-        "[+2 Science] from every [Hospital]",
-            "Cost increases by [30] per owned city"],
-            "quote": "'He who struggles is better than he who never attempts.' - Swami Vivekananda",
+        	"All newly-trained [non-air] units [in this city] receive the [Homeric Resilience] promotion",
+        	"[non-air] units gain the [Morale] promotion",
+        	"[+2 Science] from every [Hospital]",
+        	"Cost increases by [30] per owned city"],
+        "quote": "'He who struggles is better than he who never attempts.' - Swami Vivekananda",
         "requiredTech": "Iron Working"
     },
 {
@@ -1021,4 +1021,42 @@
         "requiredTech": "Education",
         "isNationalWonder": true
     },
+{
+        "name": "Reaction Video Company",
+        "replaces": "Stadium",
+        "uniqueTo": "The Reactors",
+        "happiness": 2,
+        "gold": 1,
+        "culture": 1,
+        "maintenance": 3,
+        "requiredTech": "Refrigeration"
+    },
+    {
+        "name": "Signing Wall",
+        "replaces": "Walls",
+        "uniqueTo": "The Reactors",
+        "cost": 65,
+        "gold": 1,
+        "culture": 1,
+        "happiness": 1,
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "hurryCostModifier": 25,
+        "requiredTech": "Masonry",
+        "uniques": ["Destroyed when the city is captured"]
+    },
+{
+	"name": "Trapiche",
+	"replaces": "Windmill",
+        "uniqueTo": "Arepandia",
+	"production": 2,
+	"food": 2,
+	"gold": 1,
+	"happiness": 1,
+	"specialistSlots": {"Engineer": 1},
+	"hurryCostModifier": 25,
+	"maintenance": 2,
+	"uniques": ["Only available <with [Sugar]>", "[+10]% Production when constructing [All] buildings [in this city]"],
+	"requiredTech": "Economics"
+	},
 ]
