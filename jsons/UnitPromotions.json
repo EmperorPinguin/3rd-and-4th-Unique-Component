@@ -76,4 +76,8 @@
 //		"name": "Warrior Monk",
 //		"uniques": ["[+50]% Strength <when fighting in [Holy site] tiles>"]
 //	},
+	{
+        "name": "Homeric Resilience",
+        "uniques": ["[+10] HP when healing"]
+    },
 ]
