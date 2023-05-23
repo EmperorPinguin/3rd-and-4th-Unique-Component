@@ -528,6 +528,7 @@ BuildingIcons/Kampung
   orig: 200, 200
   offset: 0, 0
   index: -1
+<<<<<<< HEAD
 BuildingIcons/Kraal
   rotate: false
   xy: 1044, 1044
@@ -543,6 +544,9 @@ BuildingIcons/Lamassu
   offset: 0, 0
   index: -1
 BuildingIcons/Landscape Garden
+=======
+UnitIcons/Llanero fighter
+>>>>>>> 2dce659ecc96e8b9ac8b8cc8b8dbebc4c2310526
   rotate: false
   xy: 1460, 1460
   size: 200, 200
