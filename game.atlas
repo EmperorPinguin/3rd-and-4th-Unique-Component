@@ -528,7 +528,6 @@ BuildingIcons/Kampung
   orig: 200, 200
   offset: 0, 0
   index: -1
-<<<<<<< HEAD
 BuildingIcons/Kraal
   rotate: false
   xy: 1044, 1044
@@ -544,9 +543,6 @@ BuildingIcons/Lamassu
   offset: 0, 0
   index: -1
 BuildingIcons/Landscape Garden
-=======
-UnitIcons/Llanero fighter
->>>>>>> 2dce659ecc96e8b9ac8b8cc8b8dbebc4c2310526
   rotate: false
   xy: 1460, 1460
   size: 200, 200
@@ -805,7 +801,7 @@ UnitIcons/Landwehr
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Llanero
+UnitIcons/Llanero fighter
   rotate: false
   xy: 628, 420
   size: 200, 200
@@ -951,6 +947,13 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Reaction Video Company
+  rotate: false
+  xy: 420, 520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Riad
   rotate: false
   xy: 4, 1776
@@ -998,6 +1001,13 @@ BuildingIcons/Shannon Free Zone
   xy: 628, 1776
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Signing Wall
+  rotate: false
+  xy: 1776, 1768
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Silk Road
@@ -1128,77 +1138,77 @@ ResourceIcons/Lapis Lazuli
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 1776, 1768
+  xy: 528, 628
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/JungleG+Yam Farm
   rotate: false
-  xy: 528, 672
+  xy: 736, 880
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/JungleG+Yam Farm
   rotate: false
-  xy: 528, 672
+  xy: 736, 880
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/JungleP+Yam Farm
   rotate: false
-  xy: 628, 772
+  xy: 836, 980
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/JungleP+Yam Farm
   rotate: false
-  xy: 628, 772
+  xy: 836, 980
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kurgan
   rotate: false
-  xy: 736, 880
+  xy: 944, 1088
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kurgan
   rotate: false
-  xy: 736, 880
+  xy: 944, 1088
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Penguin Preserve
   rotate: false
-  xy: 944, 1112
+  xy: 1252, 1420
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Penguin Preserve
   rotate: false
-  xy: 944, 1112
+  xy: 1252, 1420
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Llanero
   rotate: false
-  xy: 1044, 1216
+  xy: 1360, 1532
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Llanero
   rotate: false
-  xy: 1044, 1216
+  xy: 1360, 1532
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1303,7 +1313,7 @@ UnitPromotionIcons/Vytis ability
   index: -1
 UnitPromotionIcons/Altitude Training
   rotate: false
-  xy: 836, 986
+  xy: 1044, 1194
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1327,6 +1337,13 @@ UnitPromotionIcons/Gungdo Archer ability
   xy: 836, 1044
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Homeric Resilience
+  rotate: false
+  xy: 1152, 1302
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ignore terrain cost
@@ -1366,42 +1383,42 @@ UnitPromotionIcons/Pirate ability
   index: -1
 UnitPromotionIcons/Redcoat ability
   rotate: false
-  xy: 420, 520
+  xy: 420, 412
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/River Warlord
   rotate: false
-  xy: 420, 412
+  xy: 1668, 1772
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sho't Kal ability
   rotate: false
-  xy: 1668, 1772
+  xy: 1776, 1876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shoshone Warrior ability
   rotate: false
-  xy: 1776, 1876
+  xy: 1884, 1876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Streltsy ability
   rotate: false
-  xy: 1884, 1876
+  xy: 1884, 1768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Uhlan ability
   rotate: false
-  xy: 1884, 1768
+  xy: 528, 520
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
