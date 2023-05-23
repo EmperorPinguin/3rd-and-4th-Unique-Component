@@ -37,6 +37,22 @@
 "Cannot be built on [Luxury resource] tiles",
 "Does not need removal of [Jungle]"]
 	},
+	{
+		"name": "Blessed Woods",
+		"uniqueTo": "Absolute Union",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 3,
+		"faith": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built",
+		"[+1 Culture, +1 Faith] <after discovering [Philosophy]>",
+		"[+1 Culture, +1 Faith] <after discovering [Theology]>",
+		"[+1 Culture, +1 Faith] <after discovering [Acoustics]>",
+		"[+1 Culture] <after discovering [Archaeology]>",
+		"[+1 Culture] <after discovering [Radio]>",
+		"[+1 Culture] <after discovering [Pharmaceuticals]>",
+		"[+1 Culture] <after discovering [Telecommunications]>",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	}
 /*
 {
 		"name": "Penguin Preserve",
