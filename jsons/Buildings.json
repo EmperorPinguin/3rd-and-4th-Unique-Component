@@ -1044,5 +1044,19 @@
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured"]
-    }
+    },
+{
+	"name": "Trapiche",
+	"replaces": "Windmill",
+        "uniqueTo": "Arepandia",
+	"production": 2,
+	"food": 2,
+	"gold": 1,
+	"happiness": 1,
+	"specialistSlots": {"Engineer": 1},
+	"hurryCostModifier": 25,
+	"maintenance": 2,
+	"uniques": ["Only available <with [Sugar]>", "[+10]% Production when constructing [All] buildings [in this city]"],
+	"requiredTech": "Economics"
+	},
 ]
