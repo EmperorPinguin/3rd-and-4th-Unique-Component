@@ -1050,8 +1050,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[+100]% Strength <when fighting in [Arepa House] tiles>","Can see over obstacles"],
-		"promotions": ["March"],
+		"promotions": ["Arepa Power","March"],
 		"attackSound": "metalhit"
 	},
 ]
