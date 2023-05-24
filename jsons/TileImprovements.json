@@ -66,5 +66,10 @@
 		"[+1 Culture] <after discovering [Pharmaceuticals]>",
 		"[+1 Culture] <after discovering [Telecommunications]>",
 		"Pillaging this improvement yields approximately [+20 Gold]"]
-	}
+	},
+	{
+		"name": "Arepa House",
+		"uniqueTo": "Arepandia",
+		"terrainsCanBeBuiltOn": ["Land"],
+	},
 ]	
