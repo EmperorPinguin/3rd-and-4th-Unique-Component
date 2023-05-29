@@ -1138,4 +1138,22 @@
 		"[-50]% Strength <vs [Siege] units> <when defending>", "[+50]% Strength <vs [Melee] units> <when defending>"]
 		"attackSound": "shot",
 	},
+	{
+		"name": "SEAL",
+		"uniqueTo": "Penguinesia",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"movement": 2,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked",
+"Can enter ice tiles",
+"Double movement in [Coast]",
+"[1] Movement point cost to embark",
+"[1] Movement point cost to disembark",
+"Heal this unit by [20] HP <upon ending a turn in a [Water] tile>"],
+		"attackSound": "nonmetalhit"
+	},
 ]
