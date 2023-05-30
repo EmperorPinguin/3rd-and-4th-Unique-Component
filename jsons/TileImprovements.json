@@ -78,4 +78,17 @@
 			"Great Improvement","Provides [1] [Arepa]", "Does not need removal of [All]",
 			    "Pillaging this improvement yields approximately [+25 Gold]"]
 	},
+	{
+		"name": "Bamboo farm",
+		"uniqueTo": "Bamboo Kingdom",
+		"terrainsCanBeBuiltOn": ["Jungle","Grassland"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Mathematics",
+		"uniques": [
+			"[+1 Culture] <after discovering [Civil Service]>",
+			"[+1 Production] <after discovering [Machinery]>",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Does not need removal of [Jungle]"],
+	},
 ]	
