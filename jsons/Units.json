@@ -964,18 +964,23 @@
 		"religiousStrength": 1000
 	},
 {
-		"name": "Tiuna",
-		"unitType": "Gunpowder",
-		"replaces": "Infantry",
+		"name": "Libertador",
+		"replaces": "Great General",
 		"uniqueTo": "Venezuela",
-		"movement": 3,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
-            "promotions": ["Medic"],
-		"attackSound": "shot"
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"[+10]% Strength bonus for [Military] units within [2] tiles <when fighting in [Rough terrain] tiles>",
+		"Transfer Movement to [Melee]", "Can pass through impassable tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4,
+		"civilopediaText": [
+			{
+				"text": "Great ad fierce generals who fought for the independence, not only for Venezuela, but for a third of the continent as well, leading their troops to victory at the top of the Andes and the swamps."
+			}
+		]
 	},
 {
 		"name": "Cam Quan",
