@@ -975,7 +975,12 @@
 		"[+10]% Strength bonus for [Military] units within [2] tiles <when fighting in [Rough terrain] tiles>",
 		"Transfer Movement to [Melee]", "Can pass through impassable tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 4
+		"movement": 4,
+		"civilopediaText": [
+			{
+				"text": "Great ad fierce generals who fought for the independence, not only for Venezuela, but for a third of the continent as well, leading their troops to victory at the top of the Andes and the swamps."
+			}
+		]
 	},
 {
 		"name": "Cam Quan",
