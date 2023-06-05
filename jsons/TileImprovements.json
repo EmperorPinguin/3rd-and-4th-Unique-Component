@@ -86,9 +86,12 @@
 		"turnsToBuild": 10,
 		"techRequired": "Mathematics",
 		"uniques": [
-			"[+1 Culture] <after discovering [Civil Service]>",
-			"[+1 Production] <after discovering [Machinery]>",
-			"[+1 Gold] <after discovering [Economics]>",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"[+1 Culture] <after discovering [Civil Service]> <in [Jungle] tiles>",
+			"[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Gold] <after discovering [Economics]> <in [Jungle] tiles>",
 			"Does not need removal of [Jungle]"],
 	},
 ]	
