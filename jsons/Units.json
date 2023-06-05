@@ -1161,4 +1161,20 @@
 "Heal this unit by [20] HP <upon ending a turn in a [Water] tile>"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Bamboo Lancewielder",
+		"replaces": "Lancer",
+            	"uniqueTo": "Bamboo Kingdom",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 210,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+50]% to Flank Attack bonuses"],
+		"promotions": ["Formation I","Woods Warfare"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Computers",
+		"attackSound": "horse"
+	},
 ]
