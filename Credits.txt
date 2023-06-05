@@ -11,6 +11,8 @@ BAE: warship by Hada Arkanda (modified)
 Ballista Elephant: Elephant by FBianchi
 Ball Court: Ball by Benjamin Sommerlad
 Baray: Dam by Graphic Nehar
+Bamboo Lancewielder: Lance by Firza Alamsyah
+Bamboo farm: Bamboo by Foxyard Studio
 Banana Corporation: Bananas by Wahyuntitle
 Bandeirante: Pith Helmet by M. Oki Orlando
 Basilica: Basilica by Dániel Z. Aczél
