@@ -1177,4 +1177,19 @@
 		"obsoleteTech": "Computers",
 		"attackSound": "horse"
 	},
+	{
+		"name": "Fire Archer",
+		"replaces": "Composite Bowman",
+            	"uniqueTo": "VividVale",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"uniqes": ["No movement cost to pillage"],
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
 ]
