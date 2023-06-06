@@ -1016,7 +1016,8 @@
         "culture": 3,
         "faith": 3,
         "science": 3,
-        "uniques": ["Cost increases by [40] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "[+1 Happiness] for every known Natural Wonder", "[+1 Happiness] from every [Wonder]"],
+        "uniques": ["Cost increases by [40] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled",
+		    "[+1 Happiness] for every known Natural Wonder", "[+1 Gold] from every [Wonder]"],
         "quote": "'The good historian… must be fearless, uncorrupted, free, the friend of truth and of liberty. One who calls a fig a fig, and a skiff a skiff, neither giving nor withholding from any, from favour or from enmity, not influenced by pity, by shame, or by remorse. A just judge… a stranger to all, of no country, bound only by his own laws, acknowledging no sovereign, never considering what this or that man may say of him, but relating faithfully everything as it happened.' - Lucian, ancient Greek writer and satirist'",
         "requiredTech": "Education",
         "isNationalWonder": true
@@ -1058,5 +1059,18 @@
 	"maintenance": 2,
 	"uniques": ["Only available <with [Sugar]>", "[+10]% Production when constructing [All] buildings [in this city]"],
 	"requiredTech": "Economics"
+	},
+
+	{
+		"name": "Star Gazing Spot",
+		"replaces": "Amphitheater",
+        	"uniqueTo": "VividVale",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Happiness] per [5] population [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
 	},
 ]
