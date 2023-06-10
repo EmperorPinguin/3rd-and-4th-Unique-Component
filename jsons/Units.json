@@ -1192,4 +1192,20 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
+	{
+	"name":"Artillery Tank",
+	"unitType":"Siege",
+	"movement": 2,
+	"strength": 45,
+	"rangedStrength": 28,
+	"range": 3,
+	"cost":400,
+	"replaces":"Artillery",
+	"uniqueTo":"Ketonia",
+	"requiredTech": "Combustion",
+	"uniques": ["[+200]% Strength <vs cities> <when attacking>",
+		"Never appears as a Barbarian unit","[-1] Sight","Available after [Combustion]"],
+	"promotions": ["Indirect Fire","Scouting I"],
+	"attackSound": "artillery"
+	},
 ]
