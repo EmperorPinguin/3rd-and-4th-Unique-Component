@@ -1073,4 +1073,20 @@
 		"uniques": ["[+2 Happiness] per [5] population [in this city]","Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
 	},
+	{
+	"name":"Freeport",
+	"cost":250,
+	"replaces":"Seaport",
+	"requiredTech":"Navigation",
+	"uniqueTo":"Ketonia",
+	"maintenance":3,
+	"requiredBuilding": "Harbor",
+	"uniques":[
+		"[+5]% [Gold] from Trade Routes",
+		"[+15]% Production when constructing [Water] units [in this city]",
+		"Must be next to [Coast]",
+		"[+1 Happiness] from [Luxury resource] tiles [in this city]",
+		"No [Gold] from Water tiles"
+	]
+	},
 ]
