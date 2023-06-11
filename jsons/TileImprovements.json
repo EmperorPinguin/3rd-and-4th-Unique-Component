@@ -78,4 +78,20 @@
 			"Great Improvement","Provides [1] [Arepa]", "Does not need removal of [All]",
 			    "Pillaging this improvement yields approximately [+25 Gold]"]
 	},
+	{
+		"name": "Bamboo farm",
+		"uniqueTo": "Bamboo Kingdom",
+		"terrainsCanBeBuiltOn": ["Jungle","Grassland"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Mathematics",
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"[+1 Culture] <after discovering [Civil Service]> <in [Jungle] tiles>",
+			"[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Gold] <after discovering [Economics]> <in [Jungle] tiles>",
+			"Does not need removal of [Jungle]"],
+	},
 ]	
