@@ -1208,4 +1208,16 @@
 	"promotions": ["Indirect Fire","Scouting I"],
 	"attackSound": "artillery"
 	},
+	{
+		"name": "Torchbearer",
+		"unitType": "Scout",
+		"uniqueTo": "Principality of Vinroth",
+		"replaces": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects","No movement cost to pillage","Can build [Remove Forest] improvements on tiles","Can see over obstacles"],
+		"attackSound": "nonmetalhit",
+      },
 ]
