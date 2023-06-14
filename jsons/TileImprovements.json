@@ -45,10 +45,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Education",
 		"uniques": [
-"[+1 Science] for each adjacent [Coast]",
-"[+1 Culture] for each adjacent [Penguin Preserve]",
-"[+1 Science] for each adjacent [Coast] <after discovering [Ecology]>",
-"[+1 Culture] for each adjacent [Penguin Preserve] <after discovering [Ecology]>",
+"[+2 Science] for each adjacent [Academy]",
+"[+2 Culture] for each adjacent [Landmark]",
+"Tile provides yield without assigned population",
 "Unlocked at Education"],
 	},
 	{
