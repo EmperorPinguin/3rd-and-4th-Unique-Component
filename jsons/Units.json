@@ -1149,7 +1149,7 @@
 		"unitType": "Gunpowder",
 		"replaces": "Marine",
 		"movement": 2,
-		"strength": 70,
+		"strength": 65,
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
