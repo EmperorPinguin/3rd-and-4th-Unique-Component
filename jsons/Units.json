@@ -1,6 +1,20 @@
 [
 
 //Units
+	{
+		"name": "Patriot System",
+		"unitType": "Gunpowder",
+		"replaces": "Mobile SAM",
+		"uniqueTo": "America",
+		"movement": 3,
+		"interceptRange": 3,
+		"strength": 70,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit", "+1 Intercept Range"],
+		"attackSound": "missile"
+	},
 {
 		"name": "Mamluk",
 		"unitType": "Sword",
@@ -1149,7 +1163,7 @@
 		"unitType": "Gunpowder",
 		"replaces": "Marine",
 		"movement": 2,
-		"strength": 70,
+		"strength": 65,
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
@@ -1208,4 +1222,16 @@
 	"promotions": ["Indirect Fire","Scouting I"],
 	"attackSound": "artillery"
 	},
+	{
+		"name": "Torchbearer",
+		"unitType": "Scout",
+		"uniqueTo": "Principality of Vinroth",
+		"replaces": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects","No movement cost to pillage","Can build [Remove Forest] improvements on tiles","Can see over obstacles"],
+		"attackSound": "nonmetalhit",
+      },
 ]

@@ -14,6 +14,7 @@
 			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
+/*
 {
 		"name": "Ivy League School",
 		"replaces": "Public School",
@@ -25,7 +26,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Science] from every specialist [in this city]"],
 		"requiredTech": "Scientific Theory"
-	},
+	},*/
 {
 		"name": "Madrasah",
 		"replaces": "University",
@@ -81,7 +82,7 @@
 		"replaces": "Opera House",
 		"uniqueTo": "Austria",
 		"culture": 6,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -117,7 +118,7 @@
 		"production": 0,
 		"uniques": ["Must be next to [Mountain]","[+2 Food, +2 Production] from [Mountain] tiles [in this city]"],
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "The Wheel"
 	},
 {
@@ -250,11 +251,11 @@
 		"name": "Examination Hall",
 		"replaces": "University",
 		"uniqueTo": "China",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"happiness": 2,
+		"happiness": 1,
 		"requiredBuilding": "Library",
 		"requiredTech": "Education"
 	},
@@ -275,8 +276,8 @@
 		"name": "Viking Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Denmark",
-		"cost": 100,
-		"maintenance": 0,
+		"cost": 90,
+		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
@@ -298,9 +299,9 @@
 		"name": "Shadoof",
 		"replaces": "Water Mill",
 		"uniqueTo": "Egypt",
-		"food": 3,
+		"food": 2,
 		"production": 1,
-		"uniques": ["Must be on [River]", "[+1 Food] from [Flood plains] tiles [in this city] <before discovering [Civil Service]>"],
+		"uniques": ["Must be on [River]", "[+1 Food] from [Flood plains] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel"
@@ -324,7 +325,6 @@
 		"hurryCostModifier": 0,
 		"uniques": ["Cheaper to buy", "Remove extra unhappiness from annexed cities",
 			"Provides [1] [Tea]",
-			"[+2 Gold] from [Plantation] tiles [in this city]",
 			"Can only be built [in annexed cities]"],
 		"requiredTech": "Mathematics"
 	},
@@ -332,7 +332,7 @@
 		"name": "Statue of Aspetos",
 		"replaces": "Shrine",
 		"uniqueTo": "Epirus",
-		"faith": 0,
+		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
@@ -347,7 +347,7 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
+		"uniques": ["Can be on Plains",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]",
 			"[+2 Faith] from [Quarry] tiles [in this city]"],
@@ -357,15 +357,14 @@
 		"name": "Salon",
 		"replaces": "Opera House",
 		"uniqueTo": "France",
-            "science": 2,
+                "science": 2,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
-		"cost": 200,
 		"maintenance": 2,
-		"requiredTech": "Economics",
-		"uniques": ["Unlocked at Economics","Destroyed when the city is captured"]
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 /* {           "name": "Hanse",
 		"replaces": "Bank",
@@ -380,23 +379,22 @@
 	}, */
 {
 		"name": "Ruhr Valley",
-            "replaces": "Ironworks",
-            "uniqueTo": "Germany",
+		"replaces": "Ironworks",
+		"uniqueTo": "Germany",
 		"cost": 125,
-		"production": 0,
+		"production": 1,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
 			"Must be on [River]",
-			"[+2 Production] from every [Engineer]",
-			"[+2 Production] from every [Manufactory]"],
+			"[+2 Production] from every [Engineer]"],
 		"requiredTech": "Machinery"
 	},
 {
 		"name": "Acropolis",
 		"replaces": "Walls",
 		"uniqueTo": "Greece",
-            "culture": 2
+		"culture": 2
 		"cost": 65,
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -418,7 +416,7 @@
 {
 		"name": "Thermal Bath",
 		"replaces": "Garden",
-		"happiness": 2,
+		"production": 2,
 		"uniqueTo": "Hungary",
 		"uniques": ["[+50]% Great Person generation [in this city] <during a Golden Age>", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
@@ -518,10 +516,10 @@
 		"replaces": "Ironworks",
 		"uniqueTo": "Iroquois",
 		"cost": 125,
-		"production": 1,
+		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+10]% [Production] from every [Workshop]", "Requires a [Workshop] in all cities", "Cost increases by [30] per owned city","[+1 Production] from every [Forest]"],
+		"uniques": ["[+10]% [Production] from every [Workshop]", "Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -538,13 +536,13 @@
 	},
 {
 		"name": "Seowon",
-		"replaces": "Garden",
+		"replaces": "Library",
 		"uniqueTo": "Korea",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["+1 Artist Slot","[+25]% Great Person generation [in this city]", "[+1 Science] from [Great Improvement] tiles [in this city]"],
+		"uniques": ["+1 Artist Slot"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"requiredTech": "Writing"
 	},
 {
 		"name": "Nomadic Herd",
@@ -642,7 +640,7 @@
 		"cost": 125,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["[+3 Gold, +3 Culture] from [Holy site] tiles [in this city]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["[+100]% Yield from every [Holy site]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
@@ -710,7 +708,7 @@
 		"uniqueTo": "Portugal",
 		"requiredNearbyImprovedResources": ["Cattle","Horses","Ivory"],
 		"happiness": 2,
-		"culture": 2,
+		"culture": 1,
 		"hurryCostModifier": 25,
             "uniques": ["Also available with Cattle"],
 		"requiredTech": "Trapping"
@@ -722,9 +720,8 @@
 		"cost": 75,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", "[+1 Food] from [Fishing Boats] tiles [in this city] <with [1] to [2] neighboring [Moai] tiles>",
-"[+2 Food] from [Fishing Boats] tiles [in this city] <with [3] to [6] neighboring [Moai] tiles>",
-			"Connects trade routes over water","Must be next to [Coast]", "[+50]% Production when constructing [Settler] units [in this city]", "Unlocked at Optics"],
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", "[+1 Production] from [Fishing Boats] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]", "Unlocked at Optics"],
 		"requiredTech": "Optics"
 	},
 {
@@ -741,7 +738,7 @@
 		"name": "Dacha",
 		"replaces": "Garden",
 		"uniqueTo": "Russia",
-            "happiness": 3,
+            "happiness": 2,
 		"uniques": ["[+25]% Great Person generation [in this city]","Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -765,7 +762,7 @@
 		"name": "Sala",
 		"replaces": "Garden",
 		"uniqueTo": "Siam",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Free [Great Merchant] appears", "Unsellable"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Free [Great Merchant] appears", "Unsellable", "Cost increases by [20] per owned city"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
@@ -830,11 +827,11 @@
 		"name": "Irrigation System",
 		"replaces": "Water Mill",
 		"uniqueTo": "Sumeria",
-		"maintenance": 3,
-		"food": 2,
+		"maintenance": 2,
+		"food": 3,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food, +1 Production] [in this city] <in cities with at least [1] [Specialists]>","Must be on [River]"],
+		"uniques": ["Must be on [River]"],
 		"requiredTech": "The Wheel"
 	},
 {
@@ -896,7 +893,7 @@
 		"name": "Hammam",
 		"replaces": "Aqueduct",
 		"uniqueTo": "The Ottomans",
-            "happiness": 2,
+		"happiness": 1,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
@@ -906,7 +903,7 @@
 		"name": "Dzong",
 		"replaces": "Castle",
 		"uniqueTo": "Tibet",
-            "cost": 160,
+		"cost": 160,
 		"cityStrength": 10,
 		"cityHealth": 40,
 		"hurryCostModifier": 25,
@@ -970,7 +967,7 @@
 		"name": "Kraal",
             "replaces": "Stable",
             "uniqueTo": "Zulu",
-		"maintenance": 0,
+		"maintenance": 1,
 		"happiness": 2,
             "cost": 100,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
@@ -1094,9 +1091,24 @@
 		"replaces": "Circus",
 		"uniqueTo": "Penguinesia",
 		"requiredNearbyImprovedResources": ["Fish","Pearls","Crab"],
-		"happiness": 2,
+		"happiness": 3,
 		"hurryCostModifier": 25,
 		"uniques": ["Available with Fish, Pearls, Crab", "Unlocked at Sailing"],
 		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Graveyard",
+		"replaces": "Stone Works",
+		"uniqueTo": "Principality of Vinroth",
+		"happiness": 1,
+		"faith": 2,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]",
+			"[+1 Culture] from [Quarry] tiles [in this city]"],
+		"requiredTech": "Calendar"
 	},
 ]

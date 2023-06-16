@@ -105,6 +105,7 @@ Obsidian Warrior: Stone Age Knife by Misha Petrishchev
 Open-Air Museum: reindeer by tulpahn
 Orchestra: orchestra by Adrien Coquet
 Oromo: Maasai by Smashing Stocks
+Patriot System: Patriot Anti Missile Launcer by usabaliev
 Ph'kak: Spear by sam maulinda
 Phoenician Port: Harbor by Pham Thanh Loc
 Pioneer: American Eagle by Raymond
@@ -161,3 +162,4 @@ I would like to thank the following people for contributing to this mod:
 Ajmak, for suggesting improvements and balance changes to the game.
 Caballero Arepa, for suggesting new components to add to extend this mod to support Latin American_Civs.
 ravignir, for catching a bug.
+Many others, for extending support to the Community Civs mod
