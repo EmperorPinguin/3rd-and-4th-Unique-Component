@@ -1,32 +1,17 @@
 [
 
 //Buildings
-{
-		"name": "Homestead",
-		"replaces": "Granary",
+		{
+		"name": "Saloon",
+		"replaces": "Circus",
 		"uniqueTo": "America",
-		"food": 2,
+		"requiredNearbyImprovedResources": ["Horses", "Cattle"],
+		"happiness": 2,
 		"gold": 2,
-		"maintenance": 0,
-		"hurryCostModifier": 40,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Pottery"
+		"hurryCostModifier": 25,
+		"uniques": ["Available with Horses, Cattle"],
+		"requiredTech": "Trapping"
 	},
-/*
-{
-		"name": "Ivy League School",
-		"replaces": "Public School",
-		"uniqueTo": "America",
-		"science": 6,
-		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "University",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] from every specialist [in this city]"],
-		"requiredTech": "Scientific Theory"
-	},*/
 {
 		"name": "Madrasah",
 		"replaces": "University",
