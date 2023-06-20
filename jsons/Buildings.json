@@ -506,7 +506,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+10]% [Production] from every [Workshop]", "Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["[+2 Culture] [in all cities connected to capital]", "Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -648,7 +648,7 @@
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
 		"uniqueTo": "Persia",
-		"happiness": 2,"culture": 1,
+		"culture": 1,
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 0,
@@ -697,7 +697,7 @@
 		"happiness": 2,
 		"culture": 1,
 		"hurryCostModifier": 25,
-            "uniques": ["Also available with Cattle"],
+		"uniques": ["Also available with Cattle"],
 		"requiredTech": "Trapping"
 	},
 {
@@ -816,7 +816,7 @@
 		"uniqueTo": "Sumeria",
 		"maintenance": 2,
 		"food": 3,
-		"production": 1,
+		"production": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "The Wheel"
