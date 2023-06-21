@@ -714,7 +714,7 @@
 		"replaces": "Settler",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Cheaper to buy", "Founds a new city", "Excess Food converted to Production when under construction",
+		"uniques": ["Cheaper to buy", "Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","[1] Movement point cost to embark", "[1] Movement point cost to disembark","Double movement in [Coast]"],
 		"hurryCostModifier": -50
 	},
@@ -872,7 +872,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Sweden",
 		"replaces": "Great Artist",
-		"uniques": ["Can start an [16]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [16]-turn golden age <by consuming this unit>", "Can construct [Landmark] <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
@@ -900,7 +900,7 @@
 		"strength": 12,
 		"upgradesTo": "Knight",
 		"requiredResource": "Horses",
-		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can start an [8]-turn golden age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel] <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -968,7 +968,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Tibet",
-		"uniques": ["Can start an [10]-turn golden age","Can construct [Holy site] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
+		"uniques": ["Can start an [10]-turn golden age <by consuming this unit>","Can construct [Holy site]  <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
@@ -1016,7 +1016,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great General",
 		"uniqueTo": "Zulu",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel] <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"movement": 3
 	},
