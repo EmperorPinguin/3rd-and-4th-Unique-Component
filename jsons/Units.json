@@ -370,7 +370,7 @@
 		"uniqueTo": "Republic of Genoa",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Double movement in [Coast]"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Double movement in [Coast]"],
 		"movement": 2
 	},
 {
@@ -514,7 +514,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
 		"replaces": "Great General",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+15] HP when healing", "Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+15] HP when healing", "Empire enters an [8]-turn Golden Age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
@@ -872,7 +872,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Sweden",
 		"replaces": "Great Artist",
-		"uniques": ["Can start an [16]-turn golden age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters an [16]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
@@ -900,7 +900,7 @@
 		"strength": 12,
 		"upgradesTo": "Knight",
 		"requiredResource": "Horses",
-		"uniques": ["Can start an [8]-turn golden age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Empire enters an [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -968,7 +968,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Tibet",
-		"uniques": ["Can start an [10]-turn golden age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
+		"uniques": ["Empire enters an [10]-turn Golden Age <by consuming this unit>","Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
@@ -1016,7 +1016,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great General",
 		"uniqueTo": "Zulu",
-		"uniques": ["Can start an [8]-turn golden age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"uniques": ["Empire enters an [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"movement": 3
 	},
