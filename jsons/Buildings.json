@@ -1079,7 +1079,7 @@
 		"replaces": "Circus",
 		"uniqueTo": "Penguinesia",
 		"requiredNearbyImprovedResources": ["Fish","Pearls","Crab"],
-		"happiness": 3,
+		"happiness": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Available with Fish, Pearls, Crab", "Unlocked at Sailing"],
 		"requiredTech": "Sailing"
