@@ -711,15 +711,18 @@
 		"requiredTech": "Optics"
 	},
 {
-		"name": "Forum Romanum",
-		"replaces": "Market",
+		"name": "Latifundium",
+		"replaces": "Granary",
 		"uniqueTo": "Rome",
-		"gold": 2,
-		"culture": 2,
-		"specialistSlots": {"Merchant": 1},
+		"food": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Currency"
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Culture] from [Plantation] tiles [in this city]",
+			"[+1 Food] [in capital]"],
+		"requiredTech": "Pottery"
 	},
 {
 		"name": "Dacha",
@@ -737,7 +740,7 @@
 		"uniqueTo": "Shoshone",
 		"food": 2,
 		"culture": 1,
-		"maintenance": 0,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
