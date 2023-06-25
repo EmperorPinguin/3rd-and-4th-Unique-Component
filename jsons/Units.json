@@ -256,7 +256,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["Unlocked at Compass","[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
-		"promotions": ["Coastal Raider I", "Coastal Raider II"],
+		"promotions": ["Coastal Raider I"],
 		"attackSound": "cannon"
 	},
 {
@@ -514,7 +514,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
 		"replaces": "Great General",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+15] HP when healing", "Empire enters a [8]-turn Golden Age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+15] HP when healing", "Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
