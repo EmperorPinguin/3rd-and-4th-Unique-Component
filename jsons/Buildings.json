@@ -209,16 +209,6 @@
 		"requiredTech": "Optics"
 	},
 	{
-		"name": "Metalworker",
-		"replaces": "Mint",
-		"uniqueTo": "Celts",
-		"maintenance": 0,
-		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper", "Iron"],
-		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Iron] tiles [in this city]","Can also be build with Copper, Iron"],
-		"requiredTech": "Currency"
-	},
-	{
 		"name": "Atacama Telescope",
 		"replaces": "Observatory",
 		"uniqueTo": "Chile",
@@ -769,15 +759,14 @@
 		"requiredTech": "Philosophy"
 	},
 {
-		"name": "Imperial Epic",
-		"replaces": "Heroic Epic",
+		"name": "Trans-Saharan Caravan",
+		"replaces": "Mint",
 		"uniqueTo": "Songhai",
-		"cost": 125,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			 "All newly-trained [non-air] units [in all cities] receive the [River Warlord] promotion", "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Cost increases by [30] per owned city"],
-		"requiredTech": "Iron Working"
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Salt", "Gold Ore", "Copper", "Ivory"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]","[+2 Gold] from [Gold Ore] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Ivory] tiles [in this city]","Can be build with Salt, Gold Ore, Copper, Ivory"],
+		"requiredTech": "Currency"
 	},
 {
 		"name": "Alcazar",
