@@ -136,21 +136,19 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
-/*
 {
 		"name": "Byzantine Walls",
-		"replaces": "Heroic Epic",
+		"replaces": "Walls",
 		"uniqueTo": "Byzantium",
-		"cost": 125,
-		"cityStrength": 7,
-		"cityHealth": 70,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Walls] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city"],
-		"requiredTech": "Iron Working"
+		"faith": 2
+		"cost": 65,
+		"cityStrength": 8,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
 	},
-*/
+/*
 {
 		"name": "Basilica",
 		"replaces": "Shrine",
@@ -160,7 +158,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled"]
-	},
+	},*/
 {
 		"name": "Hippodrome",
 		"replaces": "Amphitheater",
@@ -364,7 +362,8 @@
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
 			"Must be on [River]",
-			"[+2 Production] from every [Engineer]"],
+			"[+2 Production] from every [Engineer]"
+			"[+2 Production] from [Manufactory] tiles [in this city]"],
 		"requiredTech": "Machinery"
 	},
 {
