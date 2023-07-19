@@ -1,3 +1,4 @@
+
 [
 
 //Units
@@ -881,12 +882,17 @@
 		"attackSound": "arrow"
 	},
 {
-		"name": "Music Group",
-		"unitType": "Civilian",
+		"name": "NLAW",
+		"unitType": "Gunpowder",
 		"uniqueTo": "Sweden",
-		"replaces": "Great Artist",
-		"uniques": ["Empire enters a [16]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"replaces": "Anti-Tank Gun",
+		"movement": 3,
+		"strength": 60,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
 	},
 {
 		"name": "Hittite Garrison",
