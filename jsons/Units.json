@@ -944,7 +944,7 @@
 		"uniqueTo": "The Maya",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 10,
+		"strength": 9,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
