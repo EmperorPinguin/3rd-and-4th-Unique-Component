@@ -240,11 +240,12 @@
 		"uniqueTo": "Colombia",
 		"cost": 300,
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"happiness": 1,
+		"culture": 1,
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"requiredBuilding": "Castle",
-		"uniques": ["Destroyed when the city is captured","[25]% of excess happiness converted to [Culture]"],
+		"uniques": ["Destroyed when the city is captured","New [Siege] units start with [5] Experience [in this city]"],
 		"requiredTech": "Metallurgy"
 	},
 {
