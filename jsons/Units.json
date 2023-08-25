@@ -1201,7 +1201,7 @@
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,
-		"uniqes": ["No movement cost to pillage"],
+		"uniques": ["No movement cost to pillage"],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
