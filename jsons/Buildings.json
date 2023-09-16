@@ -249,7 +249,7 @@
 		"requiredTech": "Metallurgy"
 	},
 	{
-		"name": "Sugarcane Hacienda",
+		"name": "Ingenio Azucarero",
 		"replaces": "Windmill",
 		"uniqueTo": "Cuba",
 		"gold": 2,
