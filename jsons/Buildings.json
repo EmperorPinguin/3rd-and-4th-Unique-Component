@@ -248,6 +248,40 @@
 		"uniques": ["Destroyed when the city is captured","New [Siege] units start with [5] Experience [in this city]"],
 		"requiredTech": "Metallurgy"
 	},
+	{
+		"name": "Ingenio Azucarero",
+		"replaces": "Windmill",
+		"uniqueTo": "Cuba",
+		"gold": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]","[+3 Production] from [Sugar] tiles [in this city]",
+		"Must not be on [Tundra]","Must not be on [Snow]","Must not be on [Desert]",],
+		"requiredTech": "Economics",
+		"civilopediaText": [
+			{
+				"text": "For centuries, the sugarcane industry made the long island prosperous and important for the empire that controlled it, remaining ingrained in their culture."
+			}
+		]
+	},
+	{
+		"name": "Torcedores",
+		"replaces": "Bank",
+		"uniqueTo": "Cuba",
+		"gold": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"uniques": ["Provides [1] [Cuban Cigars]","[+2 Gold] from [Plantation] tiles [in this city]"],
+		"requiredTech": "Banking",
+		"civilopediaText": [
+			{
+				"text": "Cuban cigars are one of the most characteristic things about Cuban culture, with a long-lasting tradition of crafting that makes them unique."
+			}
+		]
+	},
 {
 		"name": "Viking Longhouse",
 		"replaces": "Workshop",
