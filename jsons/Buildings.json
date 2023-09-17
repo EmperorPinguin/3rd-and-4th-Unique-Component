@@ -420,7 +420,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+15]% growth [in this city]"]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+25]% growth [in this city]"]
 	},
 /*
 {
