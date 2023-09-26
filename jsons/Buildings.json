@@ -421,9 +421,15 @@
 		"cityStrength": 7,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"requiredTech": "Chivalry",
+		"requiredTech": "Banking",
 		"uniques": ["[+1 Culture, +1 Faith] from [Fort] tiles [in all cities]",
-					"Destroyed when the city is captured"]
+					"[+1 Culture, +1 Faith] from [Citadel] tiles [in all cities]",
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{
+							"text": "To secure freedom from the overpowered overlord, the former slaves shall make a last effort to build up defenses."
+			}
+		]
 	},
 	{
 		"name": "Le Marron Inconnu",
@@ -434,7 +440,12 @@
 		"isNationalWonder": true,
 		"uniques": ["[+25]% Production when constructing [Military] units [in this city] ",
 					"Requires a [Monument] in all cities","Cost increases by [15] per owned city"],
-		"requiredTech": "Gunpowder"
+		"requiredTech": "Gunpowder",
+		"civilopediaText": [
+			{
+				"text": "The effort made by the oppressed will never be forgotten, reminding us that no matter how much weaker you are, unity makes strength."
+			}
+		]
 	},
 {
 		"name": "Dam",
