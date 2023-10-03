@@ -677,6 +677,28 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Treasury Galleon",
+		"replaces": "Caravel",
+		"uniqueTo": "Panama",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)",
+					"Gain [20]-[50] [Gold] <by consuming this unit>",
+					"Enemies plunder 30 Gold upon being defeated"],
+		"hurryCostModifier": 30,
+		"civilopediaText": [
+			{
+				"text": "During the colonial period, these ships of the Spanish Empire were the most valuable ships in the world, as they carried the great sums of Gold and Silver extracted from the Americas. And yet, without the technology for a canal, all these goods passed through Panama to go to the Atlantic."
+			}
+		],
+		"attackSound": "cannon"
+	},
 {
 		"name": "First of Line",
 		"uniqueTo": "Paraguay",
