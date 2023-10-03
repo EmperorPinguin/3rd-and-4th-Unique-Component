@@ -257,7 +257,7 @@
 		"requiredTech": "Acoustics",
 		"culture": 1,
 		"happiness": 5,
-		"uniques": ["Requires a [Amphitheater] in all cities","Empire enters golden age", "[+5 Gold] from every [Theatre]"]
+		"uniques": ["Requires a [Amphitheater] in all cities","Empire enters golden age", "[+2 Gold, +2 Culture] from every [Colosseum]"]
 	},
 	{
 		"name": "Ingenio Azucarero",
