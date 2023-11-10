@@ -197,7 +197,7 @@
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city","All adjacent units heal [+15] HP when healing"],
+			"Takes your religion over the one in their birth city","All adjacent units heal [+15] HP when healing <in [Forest] tiles>"],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
@@ -532,7 +532,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
 		"replaces": "Great General",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+15] HP when healing", "Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+10] HP when healing", "Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
