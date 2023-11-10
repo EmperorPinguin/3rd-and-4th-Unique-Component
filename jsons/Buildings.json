@@ -20,9 +20,9 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"faith": 3,
+		"faith": 4,
 		"requiredBuilding": "Library",
-		"uniques": ["[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times","[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 {
@@ -699,12 +699,10 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"cityStrength": 2,
+		"cityStrength": 5,
 		"cost": 1,
 		"uniques": ["Indicates the capital city",
-"May choose [1] additional [Founder] beliefs when [founding] a religion",
-"[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
-"[Inquisitor] units built [in this city] can [Remove Foreign religions from your own cities] [1] extra times"]
+"May choose [1] additional [Founder] beliefs when [founding] a religion"]
 	},
 {
 		"name": "St. Peter's Basilica",
@@ -713,7 +711,7 @@
 		"cost": 125,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["[+100]% Yield from every [Holy site]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["[+100]% Yield from every [Holy site]","Gain a free [Cathedral] [in this city]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
