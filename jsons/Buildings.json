@@ -595,7 +595,7 @@
 		"replaces": "Library",
 		"uniqueTo": "Korea",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["+1 Artist Slot"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","+1 Artist Slot"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Writing"
