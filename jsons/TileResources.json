@@ -25,5 +25,10 @@
 		"name": "Cuban Cigars", //Unique to Cuba, doesn't spawn on map
 		"resourceType": "Luxury",
 		"gold": 1
-	}
+	},
+	{
+		"name": "Amber",
+		"resourceType": "Luxury",
+		"gold": 1
+	},
 ]

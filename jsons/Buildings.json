@@ -20,9 +20,8 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"faith": 4,
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science, +2 Faith] from [Oasis] tiles [in this city]","[+1 Science, +1 Faith] from [Flood plains] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 {
@@ -601,6 +600,15 @@
 		"requiredTech": "Writing"
 	},
 {
+		"name": "Amber Fishery",
+		"replaces": "Mint",
+		"uniqueTo": "Lithuania",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","Provides [1] [Amber]","[+1 Gold] from [Coast] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+{
 		"name": "Nomadic Herd",
 		"replaces": "Stable",
 		"uniqueTo": "Macrobia",
@@ -617,12 +625,12 @@
 		"name": "Taco and Burrito Restaurant",
 		"replaces": "Opera House",
 		"uniqueTo": "Mexico",
-            "food": 2,
+            "food": 3,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
-		"maintenance": 3,
+		"maintenance": 4,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -774,15 +782,15 @@
 		"requiredTech": "Economics"
 	},
 {
-		"name": "Bullring",
-		"replaces": "Circus",
+		"name": "Torre de Belem",
+		"replaces": "National Epic",
 		"uniqueTo": "Portugal",
-		"requiredNearbyImprovedResources": ["Cattle","Horses","Ivory"],
-		"happiness": 2,
+		"cityStrength": 12,
+		"cost": 125,
 		"culture": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Also available with Cattle"],
-		"requiredTech": "Trapping"
+		"isNationalWonder": true,
+		"uniques": ["Unlocked at Compass","Must be next to [Coast]","Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Nau] appears"],
+		"requiredTech": "Compass"
 	},
 {
 		"name": "Fale Tele",
@@ -861,18 +869,6 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]","[+2 Gold] from [Gold Ore] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Ivory] tiles [in this city]","Can be build with Salt, Gold Ore, Copper, Ivory"],
 		"requiredTech": "Currency"
-	},
-{
-		"name": "Alcazar",
-		"cost": 160,
-		"replaces": "Castle",
-		"uniqueTo": "Spain",
-		"cityStrength": 7,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"uniques": ["Destroyed when the city is captured", "New [non-air] units start with [15] Experience [in this city]"],
-		"requiredTech": "Chivalry"
 	},
 {
 		"name": "Mission",
