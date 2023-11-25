@@ -809,77 +809,77 @@ BuildingIcons/Nomadic Herd
   index: -1
 BuildingIcons/Obelisk of the Daring
   rotate: false
-  xy: 1044, 628
+  xy: 1252, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Open-Air Museum
   rotate: false
-  xy: 1460, 1044
+  xy: 1668, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Orchestra
   rotate: false
-  xy: 1668, 1252
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Phoenician Port
   rotate: false
-  xy: 1252, 628
+  xy: 1460, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Qadi Court
   rotate: false
-  xy: 1252, 420
+  xy: 1460, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Qolqe Qhoya
   rotate: false
-  xy: 1460, 628
+  xy: 1668, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Qullqa
   rotate: false
-  xy: 1668, 836
+  xy: 1044, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Religious Complex
   rotate: false
-  xy: 1460, 420
+  xy: 1668, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Riad
   rotate: false
-  xy: 1668, 628
+  xy: 1252, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rock-Hewn Church
   rotate: false
-  xy: 1252, 4
+  xy: 1460, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Ruhr Valley
   rotate: false
-  xy: 1460, 212
+  xy: 1668, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -1080,91 +1080,91 @@ UnitIcons/Nok Warrior
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Numidian
+UnitIcons/Nomadic Warrior
   rotate: false
   xy: 836, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Obsidian Warrior
+UnitIcons/Numidian
   rotate: false
-  xy: 1252, 836
+  xy: 1044, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Obsidian Swordsman
+  rotate: false
+  xy: 1460, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Oromo
   rotate: false
-  xy: 628, 4
+  xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Paileador
   rotate: false
-  xy: 836, 212
+  xy: 1044, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Ph'kak
   rotate: false
-  xy: 1044, 420
+  xy: 1252, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pirate
   rotate: false
-  xy: 1460, 836
+  xy: 1668, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Proniar
   rotate: false
-  xy: 1668, 1044
+  xy: 836, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pucara
   rotate: false
-  xy: 836, 4
+  xy: 1044, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pyrrhic War Elephant
   rotate: false
-  xy: 1044, 212
+  xy: 1252, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Rabona
   rotate: false
-  xy: 1044, 4
+  xy: 1252, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Redcoat
   rotate: false
-  xy: 1252, 212
+  xy: 1460, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sabum Kibittum
-  rotate: false
-  xy: 1668, 420
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Saka Horse Archer
   rotate: false
   xy: 1460, 4
   size: 200, 200
