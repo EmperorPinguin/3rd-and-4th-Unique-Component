@@ -979,19 +979,19 @@
 		"attackSound": "nonmetalhit"
 	},
 {
-		"name": "Obsidian Swordsman",
+		"name": "Holkan",
 		"unitType": "Sword",
+		"replaces": "Spearman",
 		"uniqueTo": "The Maya",
-		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
-		"promotions": ["Home Sweet Home"],
-		"attackSound": "nonmetalhit"
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["Woodsman"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [50]% of killed [Military] unit's [Strength] as [Science]","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Halberdman",
