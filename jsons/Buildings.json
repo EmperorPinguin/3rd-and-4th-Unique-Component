@@ -465,7 +465,7 @@
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]","[+1 Food, +1 Gold] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
+		"uniques": ["Must be on [River]","[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
 		"requiredTech": "The Wheel"
 	},
 {
@@ -484,9 +484,9 @@
 		"uniqueTo": "Inca",
 		"food": 2,
 		"production": 1,
-		"uniques": ["[+10]% growth [in this city]", "Must be next to [Mountain]"],
+		"uniques": ["Must be next to [Mountain]"],
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 0,
 		"requiredTech": "The Wheel"
 	},
 {
@@ -561,7 +561,7 @@
 		"faith": 8,
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"uniques": ["[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -674,9 +674,9 @@
 		"name": "Religious Complex",
 		"replaces": "Temple",
 		"uniqueTo": "The Olmec",
-		"faith": 0,
+		"faith": 1,
 		"requiredBuilding": "Shrine",
-		"maintenance": 0,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
