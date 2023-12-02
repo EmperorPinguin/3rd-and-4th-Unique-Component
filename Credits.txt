@@ -3,6 +3,7 @@ Abbey: Chapel by Gyorgy Hunor-Arpad
 Acropolis: Acropolis by Wolf Böse
 Alcazar: Alcazar of Segovia by Felipe Alvarado
 Amazon: Athena by parkjisun
+Amber: amber by Maxicons
 Arpia: image taken from Latin American_Civs
 Assyrian Chariot: chariot by ATOM
 Auxilliary: horse racing by sergio Morozov
@@ -24,6 +25,7 @@ Byzantine Walls: Great Wall of China by Hea Poh Lin
 Cam Quang: Sword by Anna Wang
 Canals: Gondola by Luis Prado
 Carpenthom: Chariot and Horse by Andrew Doane
+Carraca: galleon ship by Kevin
 Chasqui: Runner by Vectorstall
 Clibanarii: warrior by Lars Meiertoberens
 Colonist: Ancient Phoenician religion by Dabid J. Pascual
@@ -52,7 +54,6 @@ Fale Tele: pavilion by Eucalyp
 First of Line: Rifle by Michael T
 Folwark: Shovel and Pitchfork by Symbolon 
 Forum Romanum: Pillar by Mochamad Ilham
-Galleon: galleon ship by Kevin
 Genoese Merchant: Salami by Vectors Market
 Golden Church: the rotunda of st george church by Marya Petkova
 Golden Horde: Horse by Nestor Arellano
@@ -93,6 +94,7 @@ Mamluk: scheich by Andrejs Kirma
 Mandir: katas raj temple by Vectors Point
 Mapuche: Spear by Made AU
 Metalworker: metalworking by Ben Avery
+Military Order: Cross by Jaime Serra
 Mission: Cathedral by IconMark
 Monument to the Savior: Christ Redeemer by ProSymbols
 Mounted Javelinman: javelin throw by Adrien Coquet

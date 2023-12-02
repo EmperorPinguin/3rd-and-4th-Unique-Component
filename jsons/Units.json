@@ -28,7 +28,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["Mamluk ability", "Morale"],
+		"promotions": ["Morale"],
 		"attackSound": "metalhit"
 	},
 {
@@ -550,7 +550,7 @@
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
-{
+/*{
 		"name": "Samogitian Soldier",
 		"unitType": "Sword",
 		"uniqueTo": "Lithuania",
@@ -564,7 +564,7 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
-	},
+	},*/
 {
 		"name": "Vytis",
 		"unitType": "Mounted",
@@ -790,17 +790,18 @@
 		"attackSound": "nonmetalhit"
 	},
 {
-		"name": "Galleon",
-		"unitType": "Melee Water",
-		"replaces": "Privateer",
+		"name": "Military Order",
+		"unitType": "Mounted",
 		"uniqueTo": "Portugal",
-		"movement": 4,
-		"strength": 35,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I"],
-		"attackSound": "cannon"
+		"replaces": "Inquisitor",
+		"strength": 20,
+		"requiredTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased for [200] [Faith] [in all cities]",
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+		],
+		"movement": 4
 	},
 {
 		"name": "Auxilliary",
@@ -815,7 +816,6 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
-		"promotions": ["Medic"],
 		"hurryCostModifier": 0,
 		"attackSound": "horse"
 	},
@@ -838,32 +838,18 @@
 		"unitType": "Mounted",
 		"uniqueTo": "Scythia",
 		"replaces": "Horseman",
-		"movement": 5,
+		"movement": 4,
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["[+50]% to Flank Attack bonuses","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+200]% to Flank Attack bonuses","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-{
-		"name": "Saka Horse Archer",
-		"unitType": "Archery",
-		"replaces": "Composite Bowman",
-		"uniqueTo": "Scythia",
-		"unitType": "Archery",
-		"movement": 3,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
-	},
+
 {
 		"name": "Shoshone Warrior",
 		"unitType": "Sword",
@@ -891,6 +877,21 @@
 		"upgradesTo": "Cannon",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Never appears as a Barbarian unit", "Only available <after adopting [Scholasticism]>"],
 		"attackSound": "elephant"
+	},
+	{
+		"name": "Carraca",
+		"unitType": "Melee Water",
+		"uniqueTo": "Spain",
+		"replaces": "Caravel",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
 	},
 {
 		"name": "Nim",
@@ -965,17 +966,32 @@
 		"attackSound": "metalhit"
 	},
 {
-		"name": "Obsidian Warrior",
+		"name": "Nomadic Warrior",
 		"unitType": "Sword",
-		"uniqueTo": "The Maya",
+		"uniqueTo": "Scythia",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 9,
+		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-                "uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+                "uniques" : ["May upgrade to [Spearman] through ruins-like effects","Can build [Pasture] improvements on tiles"],
 		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Holkan",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "The Maya",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["Woodsman"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [50]% of killed [Military] unit's [Strength] as [Science]","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Halberdman",
