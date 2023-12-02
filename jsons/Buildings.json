@@ -12,19 +12,18 @@
 		"uniques": ["Available with Horses, Cattle"],
 		"requiredTech": "Trapping"
 	},
-{
-		"name": "Madrasah",
-		"replaces": "University",
-		"uniqueTo": "Arabia",
-		"maintenance": 2,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 2},
-		"faith": 4,
-		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
-		"requiredTech": "Education"
-	},
+	{
+			"name": "Madrasah",
+			"replaces": "University",
+			"uniqueTo": "Arabia",
+			"maintenance": 2,
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"science": 33},
+			"specialistSlots": {"Scientist": 2},
+			"requiredBuilding": "Library",
+			"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science, +2 Faith] from [Oasis] tiles [in this city]","[+1 Science, +1 Faith] from [Flood plains] tiles [in this city]"],
+			"requiredTech": "Education"
+		},
 {
 		"name": "Estancia",
 		"replaces": "Stable",
@@ -95,17 +94,17 @@
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
 		"requiredTech": "Writing"
 	},
-{
-		"name": "Llama Farm",
-		"replaces": "Water Mill",
-		"uniqueTo": "Bolivia",
-		"food": 0,
-		"production": 0,
-		"uniques": ["Must be next to [Mountain]","[+2 Food, +2 Production] from [Mountain] tiles [in this city]"],
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"requiredTech": "The Wheel"
-	},
+	{
+			"name": "Llama Farm",
+			"replaces": "Water Mill",
+			"uniqueTo": "Bolivia",
+			"food": 2,
+			"production": 1,
+			"uniques": ["Must be next to [Mountain]","[+2 Food, +2 Production] from [Mountain] tiles [in this city]"],
+			"hurryCostModifier": 25,
+			"maintenance": 2,
+			"requiredTech": "The Wheel"
+		},
 {
 		"name": "Lithium Mine",
 		"replaces": "Recycling Center",
@@ -458,17 +457,17 @@
 			}
 		]
 	},
-{
-		"name": "Dam",
-		"replaces": "Water Mill",
-		"uniqueTo": "Himyar",
-		"maintenance": 2,
-		"food": 2,
-		"production": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]","[+1 Food, +1 Gold] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
-		"requiredTech": "The Wheel"
-	},
+	{
+			"name": "Dam",
+			"replaces": "Water Mill",
+			"uniqueTo": "Himyar",
+			"maintenance": 2,
+			"food": 2,
+			"production": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["Must be on [River]","[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
+			"requiredTech": "The Wheel"
+		},
 	{
 		"name": "Lancetilla Botanic Garden",
 		"replaces": "National Epic",
@@ -499,16 +498,16 @@
 			}
 		]
 	},
-{
-		"name": "Thermal Bath",
-		"replaces": "Garden",
-		"production": 2,
-		"uniqueTo": "Hungary",
-		"uniques": ["[+50]% Great Person generation [in this city] <during a Golden Age>", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Theology"
-	},
+	{
+			"name": "Thermal Bath",
+			"replaces": "Garden",
+			"production": 2,
+			"uniqueTo": "Hungary",
+			"uniques": ["[+50]% Great Person generation [in this city] <during a Golden Age>", "Must be next to [Fresh water]"],
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"requiredTech": "Theology"
+		},
 {
 		"name": "Qullqa",
 		"replaces": "Water Mill",
@@ -584,19 +583,19 @@
 		"requiredTech": "Drama and Poetry"
 	},
 {
-		"name": "Temple of King Solomon",
-		"replaces": "Grand Temple",
-		"uniqueTo": "Israel",
-		"cost": 125,
-		"culture": 1,
-		"faith": 8,
-		"cityStrength": 5,
-		"cityHealth": 50,
-		"uniques": ["[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
-		"requiredTech": "Theology",
-		"isNationalWonder": true
-	},
+			"name": "Temple of King Solomon",
+			"replaces": "Grand Temple",
+			"uniqueTo": "Israel",
+			"cost": 125,
+			"culture": 1,
+			"faith": 8,
+			"cityStrength": 5,
+			"cityHealth": 50,
+			"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+				"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
+			"requiredTech": "Theology",
+			"isNationalWonder": true
+		},
 {
 		"name": "Confederacy",
 		"replaces": "Ironworks",
@@ -630,6 +629,15 @@
 		"maintenance": 1,
 		"requiredTech": "Writing"
 	},
+	{
+			"name": "Amber Fishery",
+			"replaces": "Mint",
+			"uniqueTo": "Lithuania",
+			"maintenance": 0,
+			"hurryCostModifier": 25,
+			"uniques": ["Must be next to [Coast]","Provides [1] [Amber]","[+1 Gold] from [Coast] tiles [in this city]"],
+			"requiredTech": "Currency"
+		},
 {
 		"name": "Nomadic Herd",
 		"replaces": "Stable",
@@ -643,19 +651,19 @@
 			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
 		"requiredTech": "Animal Husbandry"
 	},
-{
-		"name": "Taco and Burrito Restaurant",
-		"replaces": "Opera House",
-		"uniqueTo": "Mexico",
-            "food": 2,
-		"culture": 4,
-		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 10,
-		"requiredBuilding": "Amphitheater",
-		"maintenance": 3,
-		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
-	},
+	{
+			"name": "Taco and Burrito Restaurant",
+			"replaces": "Opera House",
+			"uniqueTo": "Mexico",
+				"food": 3,
+			"culture": 4,
+			"specialistSlots": {"Artist": 1},
+			"hurryCostModifier": 10,
+			"requiredBuilding": "Amphitheater",
+			"maintenance": 4,
+			"requiredTech": "Acoustics",
+			"uniques": ["Destroyed when the city is captured"]
+		},
 {
 		"name": "Jarliq",
 		"replaces": "Courthouse",
@@ -692,17 +700,17 @@
 		"uniques": ["Unlocked at Biology","+1 Engineer Slot","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+8 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
 		"requiredTech": "Biology"
 	},
-{
-		"name": "Religious Complex",
-		"replaces": "Temple",
-		"uniqueTo": "The Olmec",
-		"faith": 0,
-		"requiredBuilding": "Shrine",
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
-	},
+	{
+			"name": "Religious Complex",
+			"replaces": "Temple",
+			"uniqueTo": "The Olmec",
+			"faith": 1,
+			"requiredBuilding": "Shrine",
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
+		},
 	{ //Panama´s
 		"name": "Colon Free Port",
 		"isNationalWonder": true,
@@ -803,17 +811,17 @@
 		"uniques": ["[+2 Food] from [Wheat] tiles [in this city]","[+10]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
 	},
-{
-		"name": "Bullring",
-		"replaces": "Circus",
-		"uniqueTo": "Portugal",
-		"requiredNearbyImprovedResources": ["Cattle","Horses","Ivory"],
-		"happiness": 2,
-		"culture": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Also available with Cattle"],
-		"requiredTech": "Trapping"
-	},
+	{
+			"name": "Torre de Belem",
+			"replaces": "National Epic",
+			"uniqueTo": "Portugal",
+			"cityStrength": 12,
+			"cost": 125,
+			"culture": 1,
+			"isNationalWonder": true,
+			"uniques": ["Unlocked at Compass","Must be next to [Coast]","Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Nau] appears"],
+			"requiredTech": "Compass"
+		},
 {
 		"name": "Fale Tele",
 		"replaces": "Harbor",
@@ -891,18 +899,6 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]","[+2 Gold] from [Gold Ore] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Ivory] tiles [in this city]","Can be build with Salt, Gold Ore, Copper, Ivory"],
 		"requiredTech": "Currency"
-	},
-{
-		"name": "Alcazar",
-		"cost": 160,
-		"replaces": "Castle",
-		"uniqueTo": "Spain",
-		"cityStrength": 7,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"uniques": ["Destroyed when the city is captured", "New [non-air] units start with [15] Experience [in this city]"],
-		"requiredTech": "Chivalry"
 	},
 {
 		"name": "Mission",
