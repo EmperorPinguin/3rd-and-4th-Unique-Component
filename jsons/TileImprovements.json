@@ -66,7 +66,12 @@
 		"science": 2,
 		"uniques": ["Provides [1] [Bananas]",
 		"Removes removable features when built","Great Improvement","Irremovable",
-		"Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles","Cannot be built on [Desert] tiles",]
+		"Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles","Cannot be built on [Desert] tiles"],
+		"civilopediaText": [
+			{
+							"text": "One of the biggest and most important gardens on the continent, with an ideal location for the types of soils and climate varieties, this beautiful garden provides great value for humanity."
+			}
+		]
 	},
 	{
 		"name": "Yoro Fish Rain",		
@@ -78,8 +83,12 @@
 		"uniques": ["[+1 Science] <starting from the [Industrial era]>","Provides [1] [Fish]",
 				"Great Improvement","Unpillagable","Irremovable","Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles","Cannot be built on [Desert] tiles",
 				"Cannot be built on [Coastal] tiles",
-				"Cannot be built on [Fresh water] tiles", ]
-
+				"Cannot be built on [Fresh water] tiles"],
+				"civilopediaText": [
+					{
+									"text": "It's just a miracle from heaven to provide food to the poor citizens of the town."
+					}
+				]
 	},
 	{
 		"name": "Yam Farm",
@@ -114,5 +123,15 @@
 "[+2 Culture] for each adjacent [Landmark]",
 "Tile provides yield without assigned population",
 "Unlocked at Education"]
+	},
+	{
+		"name": "Guri Lake",
+		"uniqueTo": "Venezuela",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": [
+			"Can only be built on [Fresh Water] tiles", "Irremovable", "Removes removable features when built",
+			"Great Improvement","Will not be displayed in Civilopedia",
+			"Pillaging this improvement yields approximately [+57 Gold]",
+		]
 	},
 ]	

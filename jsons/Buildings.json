@@ -20,8 +20,9 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
+		"faith": 4,
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science, +2 Faith] from [Oasis] tiles [in this city]","[+1 Science, +1 Faith] from [Flood plains] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 {
@@ -98,8 +99,8 @@
 		"name": "Llama Farm",
 		"replaces": "Water Mill",
 		"uniqueTo": "Bolivia",
-		"food": 2,
-		"production": 1,
+		"food": 0,
+		"production": 0,
 		"uniques": ["Must be next to [Mountain]","[+2 Food, +2 Production] from [Mountain] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -465,7 +466,7 @@
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]","[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
+		"uniques": ["Must be on [River]","[+1 Food, +1 Gold] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -478,7 +479,12 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Gain a free [Garden] [in this city]", 
 				"Creates a [Lancetilla Garden] improvement on a specific tile",
 				"Requires a [Monument] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Scientific Theory"
+		"requiredTech": "Scientific Theory",
+		"civilopediaText": [
+			{
+							"text": "One of the biggest and most important gardens on the continent, with an ideal location for the types of soils and climate varieties, this beautiful garden provides great value for humanity."
+			}
+		]
 	},
 	{
 		"name": "Raining Fish",
@@ -486,7 +492,12 @@
 		"culture": 1,
 		"uniqueTo": "Honduras",
 		"uniques": ["Creates a [Yoro Fish Rain] improvement on a specific tile","Cost increases by [30] per owned city"],
-		"requiredTech": "Theology"
+		"requiredTech": "Theology",
+		"civilopediaText": [
+			{
+							"text": "Cloudy with a chance of... fish? Once every year, a storm brings fish not normally found in the area to this town far off the coast."
+			}
+		]
 	},
 {
 		"name": "Thermal Bath",
@@ -504,9 +515,9 @@
 		"uniqueTo": "Inca",
 		"food": 2,
 		"production": 1,
-		"uniques": ["Must be next to [Mountain]"],
+		"uniques": ["[+10]% growth [in this city]", "Must be next to [Mountain]"],
 		"hurryCostModifier": 25,
-		"maintenance": 0,
+		"maintenance": 2,
 		"requiredTech": "The Wheel"
 	},
 {
@@ -581,7 +592,7 @@
 		"faith": 8,
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["[Faith] cost of purchasing items in cities [-25]%","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -620,15 +631,6 @@
 		"requiredTech": "Writing"
 	},
 {
-		"name": "Amber Fishery",
-		"replaces": "Mint",
-		"uniqueTo": "Lithuania",
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Coast]","Provides [1] [Amber]","[+1 Gold] from [Coast] tiles [in this city]"],
-		"requiredTech": "Currency"
-	},
-{
 		"name": "Nomadic Herd",
 		"replaces": "Stable",
 		"uniqueTo": "Macrobia",
@@ -645,12 +647,12 @@
 		"name": "Taco and Burrito Restaurant",
 		"replaces": "Opera House",
 		"uniqueTo": "Mexico",
-            "food": 3,
+            "food": 2,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
-		"maintenance": 4,
+		"maintenance": 3,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -694,9 +696,9 @@
 		"name": "Religious Complex",
 		"replaces": "Temple",
 		"uniqueTo": "The Olmec",
-		"faith": 1,
+		"faith": 0,
 		"requiredBuilding": "Shrine",
-		"maintenance": 1,
+		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
@@ -802,15 +804,15 @@
 		"requiredTech": "Economics"
 	},
 {
-		"name": "Torre de Belem",
-		"replaces": "National Epic",
+		"name": "Bullring",
+		"replaces": "Circus",
 		"uniqueTo": "Portugal",
-		"cityStrength": 12,
-		"cost": 125,
+		"requiredNearbyImprovedResources": ["Cattle","Horses","Ivory"],
+		"happiness": 2,
 		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Unlocked at Compass","Must be next to [Coast]","Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Nau] appears"],
-		"requiredTech": "Compass"
+		"hurryCostModifier": 25,
+		"uniques": ["Also available with Cattle"],
+		"requiredTech": "Trapping"
 	},
 {
 		"name": "Fale Tele",
@@ -889,6 +891,18 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]","[+2 Gold] from [Gold Ore] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Ivory] tiles [in this city]","Can be build with Salt, Gold Ore, Copper, Ivory"],
 		"requiredTech": "Currency"
+	},
+{
+		"name": "Alcazar",
+		"cost": 160,
+		"replaces": "Castle",
+		"uniqueTo": "Spain",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["Destroyed when the city is captured", "New [non-air] units start with [15] Experience [in this city]"],
+		"requiredTech": "Chivalry"
 	},
 {
 		"name": "Mission",
@@ -1008,14 +1022,22 @@
 	},
 {
 		"name": "Guri Reservoir",
-		"replaces": "Hydro Plant",
 		"uniqueTo": "Venezuela",
+		"isNationalWonder": true,
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 50,
             "production": 3,
 		"maintenance": 3,
-		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]", "[+2 Production] from [Lakes] tiles [in this city]"],
-		"requiredTech": "Electricity"
+		"uniques": ["[+2 Production] from every specialist [in this city]","[+1 Production] from [River] tiles [in this city]", 
+			"Creates a [Guri Lake] improvement on a specific tile",
+				"[+2 Food] from [Farm] tiles [in all cities] <within [1] tiles of a [Guri Lake]>",
+				"[+4 Food, +2 Gold] from [Guri Lake] tiles [in this city]"],
+		"requiredTech": "Electricity",
+		"civilopediaText": [
+			{
+							"text": "The Guri Reservoir stands high for the Venezuelan pride, who own the third-largest reservoir in the world, creating a lake so big that it can be seen from space, providing a great amount of electricity for all the nation thanks to the abundant rain of the region."
+			}
+		]
 	},
 {
 		"name": "Canals",
