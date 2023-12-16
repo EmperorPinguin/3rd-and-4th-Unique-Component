@@ -1050,7 +1050,7 @@
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-		"[+10]% Strength bonus for [Military] units within [2] tiles <when fighting in [Rough terrain] tiles>",
+		"[+25]% Strength bonus for [Military] units within [2] tiles <when fighting in [Rough terrain] tiles>",
 		"Transfer Movement to [Melee]", "Can pass through impassable tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4,
