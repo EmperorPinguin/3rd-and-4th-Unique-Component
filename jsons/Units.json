@@ -789,20 +789,20 @@
 	      "uniques": ["Defense bonus when embarked"],
 		"attackSound": "nonmetalhit"
 	},
-{
-		"name": "Military Order",
-		"unitType": "Mounted",
-		"uniqueTo": "Portugal",
-		"replaces": "Inquisitor",
-		"strength": 20,
-		"requiredTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Prevents spreading of religion to the city it is next to",
-			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-            "Can be purchased for [200] [Faith] [in all cities]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
-		],
-		"movement": 4
-	},
+	{
+			"name": "Military Order",
+			"unitType": "Mounted",
+			"uniqueTo": "Portugal",
+			"replaces": "Inquisitor",
+			"strength": 20,
+			"requiredTech": "Chivalry",
+			"uniques": ["Can move after attacking","No defensive terrain bonus","Prevents spreading of religion to the city it is next to",
+				"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+				"Can be purchased for [200] [Faith] [in all cities]",
+				"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+			],
+			"movement": 4
+		},
 {
 		"name": "Auxilliary",
 		"unitType": "Mounted",
@@ -833,23 +833,22 @@
 		"promotions": ["Streltsy ability"],
 		"attackSound": "shot"
 	},
-{
-		"name": "Amazon",
-		"unitType": "Mounted",
-		"uniqueTo": "Scythia",
-		"replaces": "Horseman",
-		"movement": 4,
-		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"requiredResource": "Horses",
-		"uniques": ["[+200]% to Flank Attack bonuses","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-
+	{
+			"name": "Amazon",
+			"unitType": "Mounted",
+			"uniqueTo": "Scythia",
+			"replaces": "Horseman",
+			"movement": 4,
+			"strength": 12,
+			"cost": 75,
+			"requiredTech": "Horseback Riding",
+			"upgradesTo": "Knight",
+			"obsoleteTech": "Chivalry",
+			"requiredResource": "Horses",
+			"uniques": ["[+200]% to Flank Attack bonuses","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+			"hurryCostModifier": 20,
+			"attackSound": "horse"
+		},
 {
 		"name": "Shoshone Warrior",
 		"unitType": "Sword",
@@ -965,34 +964,34 @@
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
-{
-		"name": "Nomadic Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Scythia",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-                "uniques" : ["May upgrade to [Spearman] through ruins-like effects","Can build [Pasture] improvements on tiles"],
-		"attackSound": "nonmetalhit"
-	},
-{
-		"name": "Holkan",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "The Maya",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"promotions": ["Woodsman"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [50]% of killed [Military] unit's [Strength] as [Science]","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-		"attackSound": "metalhit"
-	},
+	{
+			"name": "Nomadic Warrior",
+			"unitType": "Sword",
+			"uniqueTo": "Scythia",
+			"replaces": "Warrior",
+			"movement": 2,
+			"strength": 8,
+			"cost": 40,
+			"obsoleteTech": "Metal Casting",
+			"upgradesTo": "Swordsman",
+					"uniques" : ["May upgrade to [Spearman] through ruins-like effects","Can build [Pasture] improvements on tiles"],
+			"attackSound": "nonmetalhit"
+		},
+		{
+				"name": "Holkan",
+				"unitType": "Sword",
+				"replaces": "Spearman",
+				"uniqueTo": "The Maya",
+				"movement": 2,
+				"strength": 11,
+				"cost": 56,
+				"requiredTech": "Bronze Working",
+				"obsoleteTech": "Civil Service",
+				"upgradesTo": "Pikeman",
+				"promotions": ["Woodsman"],
+				"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [50]% of killed [Military] unit's [Strength] as [Science]","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+				"attackSound": "metalhit"
+			},
 {
 		"name": "Halberdman",
 		"unitType": "Sword",
