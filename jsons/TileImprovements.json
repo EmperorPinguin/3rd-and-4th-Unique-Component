@@ -111,19 +111,6 @@
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Culture] <after discovering [Archaeology]>","[+1 Science] for each adjacent [Great Improvement]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"]
 	},
-{
-		"name": "Penguin Preserve",
-		"uniqueTo": "Penguinesia",
-		"terrainsCanBeBuiltOn": ["Snow"],
-		"happiness": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Education",
-		"uniques": [
-"[+2 Science] for each adjacent [Academy]",
-"[+2 Culture] for each adjacent [Landmark]",
-"Tile provides yield without assigned population",
-"Unlocked at Education"]
-	},
 	{
 		"name": "Guri Lake",
 		"uniqueTo": "Venezuela",
