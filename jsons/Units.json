@@ -651,20 +651,19 @@
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
-{
-		"name": "Drakkar",
-		"unitType": "Melee Water",
-		"replaces": "Caravel",
+	{
+		"name": "Fridtjof-Nansen Frigate",
+		"replaces": "Destroyer",
 		"uniqueTo": "Norway",
-		"movement": 5,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Combustion",
-		"uniques": ["Unlocked at Compass","[+2] Sight", "May withdraw before melee ([80]%)"],
-		"hurryCostModifier": 30,
-            "promotions": ["Coastal Raider I"],
-		"attackSound": "cannon"
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": ["[+1] Sight", "Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>","[+150]% Strength <vs [Air] units>"],
+		"attackSound": "shipguns"
 	},
 {
 		"name": "Spear Thrower",
