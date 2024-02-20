@@ -1230,4 +1230,26 @@
 			"[+1 Culture] from [Quarry] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
+	{
+		"name": "Trading Center",
+		"uniqueTo": "The Fast Economists",
+		"replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 45},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Commercial Hub",
+		"uniqueTo": "The Fast Economists",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 10},
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	}
 ]
