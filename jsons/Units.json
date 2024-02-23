@@ -1279,4 +1279,19 @@
 		"uniques": ["May upgrade to [Archer] through ruins-like effects","No movement cost to pillage","Can build [Remove Forest] improvements on tiles","Can see over obstacles"],
 		"attackSound": "nonmetalhit",
       },
+	{
+		"name": "Forest Dweller",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Sylvanor",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["Indirect Fire"],
+		"attackSound": "arrow"
+	},
 ]
