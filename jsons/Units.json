@@ -397,12 +397,13 @@
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Germany",
 		"movement": 2,
-		"strength": 55,
+		"strength": 50,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"promotions": ["Charge"],
+		"uniques": ["Heals [100] damage if it kills a unit","Damage is ignored when determining unit Strength"],
+		"promotions": ["Great Generals II"],
 		"attackSound": "shot"
 	},
 {

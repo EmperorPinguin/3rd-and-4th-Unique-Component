@@ -24,6 +24,7 @@ Bullring: Bullfighting by Paulo Valkova
 Byzantine Walls: Great Wall of China by Hea Poh Lin
 Cam Quang: Sword by Anna Wang
 Canals: Gondola by Luis Prado
+Caravansary: Camel by WEBTECHOPS LLP
 Carpenthom: Chariot and Horse by Andrew Doane
 Carraca: galleon ship by Kevin
 Chasqui: Runner by Vectorstall
@@ -156,6 +157,7 @@ Tiuna: military vehicle by Atif Arsha
 Trade Network: peer to peer by Ayub Irawan
 Trigarante: bicorne by Mohamed Amine BENZAKOUR
 Tunel de la Linea: Tunnel by Viktor Feduyk (Tim P)
+Tzompantli: Skulls by Danil Polshin
 Uhlan: Spear by Firza Alamsyah
 Vegetation Training: forest by YANDI RS
 Viking Longhouse: building by evan gerard kalerasan
