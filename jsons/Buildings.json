@@ -46,7 +46,7 @@
 		"cost": 125,
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["[+100]% Yield from every [Mountain]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["[+100]% Yield from every [Mountain] <in tiles without [Natural Wonder]>","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -92,7 +92,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city", "[+1 Food, +2 Faith] from [Academy] tiles [in this city]"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -246,7 +246,7 @@
 		"requiredTech": "Acoustics",
 		"culture": 1,
 		"happiness": 5,
-		"uniques": ["Requires a [Amphitheater] in all cities","Empire enters golden age", "[+2 Gold, +2 Culture] from every [Colosseum]"]
+		"uniques": ["Only available <if [Amphitheater] is constructed in all [non-[Puppeted]] cities>","Empire enters golden age", "[+2 Gold, +2 Culture] from every [Colosseum]"]
 	},
 	{
 		"name": "Ingenio Azucarero",
@@ -302,7 +302,7 @@
 		"production": 0,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+100]% Yield from every [Bananas] <in tiles without [Great Improvement]>","Requires a [Aqueduct] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["[+100]% Yield from every [Bananas] <in tiles without [Great Improvement]>","Only available <if [Aqueduct] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -324,7 +324,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["[+1 Faith] per [1] population [in this city]","Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["[+1 Faith] per [1] population [in this city]","Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Architecture"
 	},
 {
@@ -392,13 +392,12 @@
 		"replaces": "Ironworks",
 		"uniqueTo": "Germany",
 		"cost": 125,
-		"production": 1,
+		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
-			"Must be on [River]",
-			"[+2 Production] from every [Engineer]"
-			"[+2 Production] from [Manufactory] tiles [in this city]"],
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"Only available <in cities without a [Palace]>",
+			"[+1 Production, +1 Science] from every [Engineer]"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -439,7 +438,7 @@
 		"culture": 3,
 		"isNationalWonder": true,
 		"uniques": ["[+25]% Production when constructing [Military] units [in this city] ",
-					"Requires a [Monument] in all cities","Cost increases by [15] per owned city"],
+					"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>","Cost increases by [15] per owned city"],
 		"requiredTech": "Gunpowder",
 		"civilopediaText": [
 			{
@@ -467,7 +466,7 @@
 		"uniqueTo": "Honduras",
 		"uniques": ["[+25]% Great Person generation [in this city]", "Gain a free [Garden] [in this city]", 
 				"Creates a [Lancetilla Garden] improvement on a specific tile",
-				"Requires a [Monument] in all cities", "Cost increases by [30] per owned city"],
+				"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Scientific Theory",
 		"civilopediaText": [
 			{
@@ -581,7 +580,7 @@
 			"faith": 8,
 			"cityStrength": 5,
 			"cityHealth": 50,
-			"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+			"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 				"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built [in holy cities]"],
 			"requiredTech": "Theology",
 			"isNationalWonder": true
@@ -594,7 +593,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+2 Culture] [in all cities connected to capital]", "Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["[+2 Culture] [in all cities connected to capital]", "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 {
@@ -739,7 +738,7 @@
 		"cost": 125,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["[+100]% Yield from every [Holy site]","Gain a free [Cathedral] [in this city]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["[+100]% Yield from every [Holy site]","Gain a free [Cathedral] [in this city]","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
@@ -809,7 +808,7 @@
 			"cost": 125,
 			"culture": 1,
 			"isNationalWonder": true,
-			"uniques": ["Unlocked at Compass","Must be next to [Coast]","Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Nau] appears"],
+			"uniques": ["Unlocked at Compass","Must be next to [Coast]","Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Nau] appears"],
 			"requiredTech": "Compass"
 		},
 {
@@ -1096,7 +1095,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","[+1 Culture] from every [Wonder]","[+15]% Production when constructing [All] wonders [in all cities]"],
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","[+1 Culture] from every [Wonder]","[+15]% Production when constructing [All] wonders [in all cities]"],
 		"requiredTech": "Drama and Poetry"
 	},
 {
@@ -1106,7 +1105,7 @@
         "cost": 130,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": ["Requires a [Barracks] in all cities", 
+        "uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", 
         	"All newly-trained [non-air] units [in this city] receive the [Homeric Resilience] promotion",
         	"[non-air] units gain the [Morale] promotion",
         	"[+2 Science] from every [Hospital]",
