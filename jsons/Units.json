@@ -533,7 +533,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
 		"replaces": "Great General",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+10] HP when healing", "Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "All adjacent units heal [+10] HP when healing", "Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Can be earned through combat","Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
@@ -945,7 +945,7 @@
 		"strength": 12,
 		"upgradesTo": "Knight",
 		"requiredResource": "Horses",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "Can be earned through combat", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1047,10 +1047,9 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "[+20]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-		"[+25]% Strength bonus for [Military] units within [2] tiles <when fighting in [Rough terrain] tiles>",
-		"Transfer Movement to [Melee]", "Can pass through impassable tiles",
+		"Transfer Movement to [Melee]","Can be earned through combat", "Can pass through impassable tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4,
 		"civilopediaText": [
@@ -1081,7 +1080,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Zulu",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+			"Great Person - [War]", "Can be earned through combat", "Unbuildable", "Uncapturable", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"movement": 3
 	},
 
