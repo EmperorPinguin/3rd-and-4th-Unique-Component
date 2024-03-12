@@ -1205,8 +1205,6 @@
 		"requiredTech": "Sailing"
 	},
 {
-<<<<<<< HEAD
-=======
 		"name": "Enlightenment House",
 		"replaces": "Lighthouse",
 		"uniqueTo": "Penguinesia",
@@ -1227,7 +1225,6 @@
 		"requiredTech": "Engineering"
 	},
 {
->>>>>>> 643d3314a4287798e40d03cef7297aa4af577c2f
 		"name": "Graveyard",
 		"replaces": "Stone Works",
 		"uniqueTo": "Principality of Vinroth",
