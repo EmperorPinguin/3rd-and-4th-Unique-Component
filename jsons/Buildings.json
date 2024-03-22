@@ -1161,7 +1161,7 @@
 		"specialistSlots": {"Artist": 1},
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1 Food] per [6] population [in this city]","[+5]% [Faith] from Trade Routes",
+			"[+1 Food] per [6] population [in this city]","[+2 Food] [in all cities] <in cities connected to the capital>",
 			"Only available <if [Aqueduct] is constructed in all [non-[Puppeted]] cities>", "Free Social Policy", "Cost increases by [30] per owned city"],
 		"requiredTech": "Education"
 	},
