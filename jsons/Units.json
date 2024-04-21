@@ -94,20 +94,21 @@
 		"promotions": ["Survivalism I"],
 		"attackSound": "shot"
 	}
-{
-		"name": "Eagle Warrior",
-		"unitType": "Sword",
+	{
+		"name": "Quetzalcoatl",
+		"unitType": "Bomber",
+		"replaces": "Stealth Bomber",
 		"uniqueTo": "Aztecs",
-		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
-		"promotions": ["Charge"],
-		"attackSound": "nonmetalhit"
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"promotions": ["Quick Study", "Great Generals I"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
 	},
 {
 		"name": "Sabum Kibittum",

@@ -78,12 +78,12 @@
 		"replaces": "Walls",
 		"uniqueTo": "Aztecs",
 		"happiness": 1,
-		"cost": 75,
+		"cost": 65,
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["[+1 Happiness] <during We Love The King Day>", "[+1 Happiness] <during a Golden Age>","Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"]
 	},
 {
 		"name": "Etemenanki",
@@ -1151,19 +1151,19 @@
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured"]
     },
-{
-	"name": "Trapiche",
-	"replaces": "Windmill",
-        "uniqueTo": "Arepandia",
-	"production": 2,
-	"food": 2,
-	"gold": 1,
-	"happiness": 1,
-	"specialistSlots": {"Engineer": 1},
-	"hurryCostModifier": 25,
-	"maintenance": 2,
-	"uniques": ["Only available <with [Sugar]>", "[+10]% Production when constructing [All] buildings [in this city]"],
-	"requiredTech": "Economics"
+	{
+		"name": "Cook Academy",
+        	"uniqueTo": "Arepandia",
+		"replaces": "Oxford University",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"specialistSlots": {"Artist": 1},
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1 Food] per [6] population [in this city]","[+2 Food] [in all cities] <in cities connected to the capital>",
+			"Only available <if [Aqueduct] is constructed in all [non-[Puppeted]] cities>", "Free Social Policy", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
 	},
 
 	{
