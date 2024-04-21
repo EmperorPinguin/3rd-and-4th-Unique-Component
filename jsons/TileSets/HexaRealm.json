@@ -1,0 +1,10 @@
+
+{
+    "useColorAsBaseTerrain": "false",
+    "ruleVariants": {
+		
+        //Yam Farm
+        "Grassland+Jungle+Yam Farm": ["Grassland","JungleG+Yam Farm"],
+        "Plains+Jungle+Yam Farm": ["Plains","JungleP+Yam Farm"],
+    }
+ }

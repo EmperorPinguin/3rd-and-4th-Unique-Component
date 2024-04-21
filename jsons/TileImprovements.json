@@ -1,0 +1,124 @@
+[	
+	{
+		"name": "Blessed Woods",
+		"uniqueTo": "Absolute Union",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 3,
+		"faith": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built",
+		"[+1 Culture, +1 Faith] <after discovering [Philosophy]>",
+		"[+1 Culture, +1 Faith] <after discovering [Theology]>",
+		"[+1 Culture, +1 Faith] <after discovering [Acoustics]>",
+		"[+1 Culture] <after discovering [Archaeology]>",
+		"[+1 Culture] <after discovering [Radio]>",
+		"[+1 Culture] <after discovering [Pharmaceuticals]>",
+		"[+1 Culture] <after discovering [Telecommunications]>",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Arepa House",
+		"uniqueTo": "Arepandia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"[+2 Food, +2 Culture, +1 Gold]",
+			"[+1 Gold] <within [1] tiles of a [Great Improvement]>",
+			"[+1 Food, +1 Production] <starting from the [Industrial era]>",
+			"Great Improvement","Provides [1] [Arepa]", "Does not need removal of [All]",
+			    "Pillaging this improvement yields approximately [+25 Gold]"]
+	},
+	{
+		"name": "Bamboo farm",
+		"uniqueTo": "Bamboo Kingdom",
+		"terrainsCanBeBuiltOn": ["Jungle","Grassland"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Mathematics",
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"[+1 Culture] <after discovering [Civil Service]> <in [Jungle] tiles>",
+			"[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Gold] <after discovering [Economics]> <in [Jungle] tiles>",
+			"Does not need removal of [Jungle]"]
+	},
+	{
+		"name": "Pineapple Plantation",		
+        "uniqueTo": "Costa Rica",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": [
+				"Provides [1] [Pineapple]",
+				"[+1 Food] <after discovering [Fertilizer]>",
+				"Cannot be built on [Bonus resource] tiles", 
+				"Cannot be built on [Luxury resource] tiles",
+				"Does not need removal of [Jungle]"]
+	},
+	{
+		"name": "Lancetilla Garden",		
+        "uniqueTo": "Honduras",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"food": 4,
+		"culture": 1,
+		"science": 2,
+		"uniques": ["Provides [1] [Bananas]",
+		"Removes removable features when built","Great Improvement","Irremovable",
+		"Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles","Cannot be built on [Desert] tiles"],
+		"civilopediaText": [
+			{
+							"text": "One of the biggest and most important gardens on the continent, with an ideal location for the types of soils and climate varieties, this beautiful garden provides great value for humanity."
+			}
+		]
+	},
+	{
+		"name": "Yoro Fish Rain",		
+        "uniqueTo": "Honduras",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 2,
+		"food": 3,
+		"faith": 2,
+		"uniques": ["[+1 Science] <starting from the [Industrial era]>","Provides [1] [Fish]",
+				"Great Improvement","Unpillagable","Irremovable","Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles","Cannot be built on [Desert] tiles",
+				"Cannot be built on [Coastal] tiles",
+				"Cannot be built on [Fresh water] tiles"],
+				"civilopediaText": [
+					{
+									"text": "It's just a miracle from heaven to provide food to the poor citizens of the town."
+					}
+				]
+	},
+	{
+		"name": "Yam Farm",
+		"uniqueTo": "Nok",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Does not need removal of [Jungle]"]
+	},
+		{
+		"name": "Colossal Head",
+		"uniqueTo": "The Olmec",
+		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
+		"faith": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Culture] <after discovering [Archaeology]>","[+1 Science] for each adjacent [Great Improvement]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"]
+	},
+	{
+		"name": "Guri Lake",
+		"uniqueTo": "Venezuela",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": [
+			"Can only be built on [Fresh Water] tiles", "Irremovable", "Removes removable features when built",
+			"Great Improvement","Will not be displayed in Civilopedia",
+			"Pillaging this improvement yields approximately [+57 Gold]",
+		]
+	},
+]	

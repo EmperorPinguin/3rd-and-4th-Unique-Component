@@ -1,0 +1,87 @@
+[
+
+{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
+{
+		"name": "Khopesh ability",
+		"uniques": ["[+33]% Strength <when fighting in [Desert] tiles>"]
+	},
+{
+		"name": "Streltsy ability",
+		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>", "[-100]% maintenance costs"]
+	},
+{
+		"name": "Woods Warfare",
+		"uniques": ["[+33]% Strength <when fighting in [Jungle] tiles>","[+33]% Strength <when fighting in [Forest] tiles>"]
+	},
+{
+		"name": "Dao Swordsman ability",
+		"uniques": ["[+15]% Strength when stacked with [Great General]"]
+	},
+{
+		"name": "Mamluk ability",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
+	},
+//{
+//		"name": "Uhlan ability",
+//		"uniques": ["[+1] Sight", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
+//	},
+{
+		"name": "Buin ability",
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark","Eliminates combat penalty for attacking across a coast"]
+	},
+//{
+//		"name": "Cur ability",
+//		"uniques": ["No movement cost to pillage"]
+//	},
+{
+		"name": "Shoshone Warrior ability",
+		"uniques": ["Double movement in [Plains]", "[+1] Sight"]
+	},
+{
+		"name": "Gungdo Archer ability",
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+//{
+//		"name": "Iroquois Warrior ability",
+//		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+//	},
+{
+		"name": "River Warlord",
+		"uniques": ["[+15]% Strength <when fighting in [River] tiles>"]
+	},
+{
+		"name": "Redcoat ability",
+		"uniques": ["Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
+	},
+{
+		"name": "Sho't Kal ability",
+		"uniques": ["[+50]% Strength <when fighting units from a Civilization with more Cities than you>", "[+50]% Strength <vs [Armored] units>"]
+	},
+{
+		"name": "Pirate ability",
+		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"]
+	},
+//{
+//		"name": "Altitude Training",
+//		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
+//	},
+{
+		"name": "Vytis ability",
+		"uniques": ["Damage is ignored when determining unit Strength","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
+	},
+//{
+//		"name": "Warrior Monk",
+//		"uniques": ["[+50]% Strength <when fighting in [Holy site] tiles>"]
+//	},
+	{
+        "name": "Homeric Resilience",
+        "uniques": ["[+10] HP when healing"]
+    },
+{
+		"name": "Arepa Power",
+		"uniques": ["[+100]% Strength <when fighting in [Arepa House] tiles>","Can see over obstacles"]
+	},
+]
