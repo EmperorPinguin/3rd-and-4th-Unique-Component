@@ -1165,19 +1165,19 @@
 			"Only available <if [Aqueduct] is constructed in all [non-[Puppeted]] cities>", "Free Social Policy", "Cost increases by [30] per owned city"],
 		"requiredTech": "Education"
 	},
-
-	{
-		"name": "Star Gazing Spot",
-		"replaces": "Amphitheater",
-        	"uniqueTo": "VividVale",
-		"culture": 3,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["[+2 Happiness] per [5] population [in this city]","Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
-	},
+{
+        "name": "Star Gazing Spot",
+        "replaces": "Amphitheater",
+        "uniqueTo": "VividVale",
+        "culture": 2,
+        "happiness": 2,
+        "specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Monument",
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "uniques": ["[+2 Science] <after discovering [Astronomy]>","Destroyed when the city is captured"],
+        "requiredTech": "Drama and Poetry"
+    },
 	{
 	"name":"Freeport",
 	"cost":250,
