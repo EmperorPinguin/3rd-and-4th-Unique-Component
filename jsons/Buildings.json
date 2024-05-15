@@ -1220,14 +1220,15 @@
 		"requiredTech": "Calendar"
 	},
 	{
-		"name": "Trading Center",
+		"name": "Fast Economic Growth Center",
 		"uniqueTo": "The Fast Economists",
-		"replaces": "Market",
+		"replaces": "Bank",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 45},
-		"requiredTech": "Currency"
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 50},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
 	},
 	{
 		"name": "Commercial Hub",
