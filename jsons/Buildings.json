@@ -1088,16 +1088,6 @@
 		"requiredTech": "Horseback Riding"
 	},
 // Comunity Civs:
-	{
-		"name": "Obelisk of the Daring",
-		"replaces": "National Epic",
-		"uniqueTo": "The Imperium of Fire",
-		"cost": 125,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","[+1 Culture] from every [Wonder]","[+15]% Production when constructing [All] wonders [in all cities]"],
-		"requiredTech": "Drama and Poetry"
-	},
 {
         "name": "Heroic School",
         "replaces": "Heroic Epic",
