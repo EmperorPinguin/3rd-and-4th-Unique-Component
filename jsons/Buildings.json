@@ -404,7 +404,7 @@
 		"name": "Acropolis",
 		"replaces": "Walls",
 		"uniqueTo": "Greece",
-		"cost": 180,
+		"cost": 145,
 		"culture": 2,
 	"faith": 1,
 		"cityStrength": 5,
@@ -412,7 +412,7 @@
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["[-2]% City-State influence degradation <when not at war>", "Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Drama and Poetry]>"],
 		"requiredTech": "Masonry"
 	},
 	{
