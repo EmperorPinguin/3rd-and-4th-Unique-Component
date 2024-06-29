@@ -1247,7 +1247,6 @@
 		"requiredTech": "Civil Service"
 	},
 /// Infrastructure 
-	
 {	
 	"Name": "Fischereihäfen",
 	"Wartung": 1,
@@ -1263,21 +1262,22 @@
 	"Wartung": 3,	
 	"Glück": 2,		
 	"hurryCostModifier": 5,		
-	"uniques": ["Infrastruktur"," [-5]% Unzufriedenheit der [Bevölkerung] [in dieser Stadt]",
+	"uniques": ["Infrastruktur", " [-5]% Unzufriedenheit der [Bevölkerung] [in dieser Stadt]",
 		"[35]% der Nahrungsmittel werden nach dem Bevölkerungswachstum [in dieser Stadt] überzählig"],		
 	"erforderlicheTechnologie": "Architektur"
 },
 ///Cultural 
 {
-	"Name" : " Stadtplatz " ,
-	"Wartung" : 2 ,
-	"Kultur" : 1 ,
-	"Gold" : 1 ,
-	"Glück" : 1 ,
-	"SpezialistSlots" : { "Händler" : 1 },
-	"hurryCostModifier" : 25 ,
-	"uniques" : [ " Kulturelles Gebäude " , " [-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt]", "Zerstört, wenn die Stadt erobert wird"],
-	"erforderlicheTechnologie" : " Drama und Poesie "
+	"Name": "Stadtplatz",
+	"Wartung": 2,
+	"Kultur": 1,
+	"Gold": 1,
+	"Glück": 1,
+	"SpezialistSlots": { "Händler" : 1 },
+	"hurryCostModifier": 25 ,
+	"uniques": [ "Kulturelles Gebäude", "[-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt]", 
+		"Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : "Drama und Poesie"
 },
 ///Entertainment 
 {
