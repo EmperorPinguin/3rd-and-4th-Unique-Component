@@ -1246,7 +1246,14 @@
 		"requiredTech": "Civil Service"
 	},
 /// Infrastructure 
-	{
+	
+{	"Name" : " Fischereihäfen ",
+	"Wartung" : 1,
+	"Essen" : 2,
+	"hurryCostModifier" : 10,
+	"uniques" : ["Muss neben [Küste] sein" ,"[+1 Nahrung] von [Küsten]-Feldern [in dieser Stadt]",
+		"[+1 Nahrung] von [Wasserressourcen]-Feldern [in dieser Stadt]"],
+	"erforderlicheTechnologie" : "Segeln"	
 	},
 ///heavy Industry 
 	{
