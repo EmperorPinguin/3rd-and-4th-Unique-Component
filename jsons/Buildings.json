@@ -1259,4 +1259,14 @@
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Civil Service"
 	},
+{
+		"Name" : " Tarvern " ,
+		"Wartung" : 1 ,
+		"Glück" : 3 ,
+		"erforderlichesGebäude" : " Stadtplatz " ,
+		"hurryCostModifier" : 25 ,
+		"uniques" : [ " Unterhaltungsgebäude " , " Verbraucht [1] [Wein] " , " Zerstört, wenn die Stadt erobert wird " ],
+		"erforderlicheTechnologie" : " Währung "
+},
+
 ]
