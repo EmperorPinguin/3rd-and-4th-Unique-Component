@@ -40,6 +40,20 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
+		"name": "Steel Mill",
+		"maintenance": 3,
+		"production": 2,
+		"hurryCostModifier": 0,		
+		"uniques": ["Heavy Industry","[+10]% Production when constructing [All] buildings [in this city]",
+			"Consumes [3] [Metal] <before discovering [Industrialization]>",
+			"Provides [4] [Steel]",
+			"Consumes [4] [Metal] <after discovering [Industrialization]> <before discovering [Electricity]>",
+			"Provides [2] [Steel] <after discovering [Industrialization]>",
+			"Consumes [3] [Metal] <after discovering [Electricity]>",
+			"Provides [2] [Steel] <after discovering [Electricity]> <in cities with a [Power Building]>"],
+		"requiredTech": "Metallurgy"
+	},
+{
 		"name": "Tatev Monastery",
 		"replaces": "Grand Temple",
 		"uniqueTo": "Armenia",
