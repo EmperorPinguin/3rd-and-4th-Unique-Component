@@ -435,7 +435,18 @@
 		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Drama and Poetry]>"],
 		"requiredTech": "Masonry"
 	},
-	{
+{
+		"name": "Town Square",
+		"maintenance": 2,
+		"culture": 1,
+		"gold": 1,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["Cultural Building","[-10]% Culture cost of natural border growth [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+{
 		"name": "Citadelle",
 		"replaces": "Castle",
 		"uniqueTo": "Haiti",
