@@ -39,20 +39,6 @@
 			"[+1 Production] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
-	{
-		"name": "Steel Mill",
-		"maintenance": 3,
-		"production": 2,
-		"hurryCostModifier": 0,		
-		"uniques": ["Heavy Industry","[+10]% Production when constructing [All] buildings [in this city]",
-			"Consumes [3] [Metal] <before discovering [Industrialization]>",
-			"Provides [4] [Steel]",
-			"Consumes [4] [Metal] <after discovering [Industrialization]> <before discovering [Electricity]>",
-			"Provides [2] [Steel] <after discovering [Industrialization]>",
-			"Consumes [3] [Metal] <after discovering [Electricity]>",
-			"Provides [2] [Steel] <after discovering [Electricity]> <in cities with a [Power Building]>"],
-		"requiredTech": "Metallurgy"
-	},
 {
 		"name": "Tatev Monastery",
 		"replaces": "Grand Temple",
@@ -1259,6 +1245,37 @@
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Civil Service"
 	},
+/// Infrastructure 
+	{
+	},
+///heavy Industry 
+	{
+		"name": "Steel Mill",
+		"maintenance": 3,
+		"production": 2,
+		"hurryCostModifier": 0,		
+		"uniques": ["Heavy Industry","[+10]% Production when constructing [All] buildings [in this city]",
+			"Consumes [3] [Metal] <before discovering [Industrialization]>",
+			"Provides [4] [Steel]",
+			"Consumes [4] [Metal] <after discovering [Industrialization]> <before discovering [Electricity]>",
+			"Provides [2] [Steel] <after discovering [Industrialization]>",
+			"Consumes [3] [Metal] <after discovering [Electricity]>",
+			"Provides [2] [Steel] <after discovering [Electricity]> <in cities with a [Power Building]>"],
+		"requiredTech": "Metallurgy"
+	},
+///Cultural 
+{
+		"Name" : " Stadtplatz " ,
+		"Wartung" : 2 ,
+		"Kultur" : 1 ,
+		"Gold" : 1 ,
+		"Glück" : 1 ,
+		"SpezialistSlots" : { "Händler" : 1 },
+		"hurryCostModifier" : 25 ,
+		"uniques" : [ " Kulturelles Gebäude " , " [-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt] " , " Zerstört, wenn die Stadt erobert wird " ],
+		"erforderlicheTechnologie" : " Drama und Poesie "
+	},
+///Entertainment 
 {
 		"Name" : " Tarvern " ,
 		"Wartung" : 1 ,
