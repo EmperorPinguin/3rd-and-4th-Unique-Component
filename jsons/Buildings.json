@@ -1247,14 +1247,23 @@
 	},
 /// Infrastructure 
 	
-{	"Name" : " Fischereihäfen ",
-	"Wartung" : 1,
-	"Essen" : 2,
-	"hurryCostModifier" : 10,
-	"uniques" : ["Muss neben [Küste] sein" ,"[+1 Nahrung] von [Küsten]-Feldern [in dieser Stadt]",
+{	"Name": " Fischereihäfen ",
+	"Wartung": 1,
+	"Essen": 2,
+	"hurryCostModifier": 10,
+	"uniques": ["Muss neben [Küste] sein" ,"[+1 Nahrung] von [Küsten]-Feldern [in dieser Stadt]",
 		"[+1 Nahrung] von [Wasserressourcen]-Feldern [in dieser Stadt]"],
-	"erforderlicheTechnologie" : "Segeln"	
+	"erforderlicheTechnologie": "Segeln"	
 	},
+	
+{	"Name" : "Kanalisation",
+	"Wartung": 3,	
+	"Glück": 2,		
+	"hurryCostModifier": 5,		
+	"uniques": ["Infrastruktur"," [-5]% Unzufriedenheit der [Bevölkerung] [in dieser Stadt]",
+		"[35]% der Nahrungsmittel werden nach dem Bevölkerungswachstum [in dieser Stadt] überzählig"],		
+	"erforderlicheTechnologie": "Architektur"
+},
 ///heavy Industry 
 	{
 		"name": "Steel Mill",
