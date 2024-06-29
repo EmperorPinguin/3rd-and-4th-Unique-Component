@@ -238,6 +238,16 @@
 		"requiredTech": "Metallurgy"
 	},
 	{
+		"name": "Sewer",
+		"maintenance": 3,
+		"happiness": 2,
+		"hurryCostModifier": 5,
+		"uniques": ["Infrastructure",
+			"[-5]% Unhappiness from [Population] [in this city]",
+			"[35]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Architecture"
+	},
+	{
 		"name": "San Jose Theatre",
 		"uniqueTo": "Costa Rica",
 		"replaces": "Circus Maximus",
