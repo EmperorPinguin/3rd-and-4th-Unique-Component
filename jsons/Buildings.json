@@ -1229,7 +1229,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 10},
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
+			"Connects trade routes over water", "Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -1242,21 +1242,24 @@
 		"uniques": [
 			"[+10]% Production towards any buildings that already exist in the Capital <in cities connected to the capital>",
 			"[+1 Food] [in all cities] <in cities connected to the capital>",
-			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", 
+			"Cost increases by [30] per owned city"],
 		"requiredTech": "Civil Service"
 	},
 /// Infrastructure 
 	
-{	"Name": " Fischereihäfen ",
+{	
+	"Name": "Fischereihäfen",
 	"Wartung": 1,
 	"Essen": 2,
 	"hurryCostModifier": 10,
-	"uniques": ["Muss neben [Küste] sein" ,"[+1 Nahrung] von [Küsten]-Feldern [in dieser Stadt]",
+	"uniques": ["Muss neben [Küste] sein", "[+1 Nahrung] von [Küsten]-Feldern [in dieser Stadt]",
 		"[+1 Nahrung] von [Wasserressourcen]-Feldern [in dieser Stadt]"],
 	"erforderlicheTechnologie": "Segeln"	
-	},
+},
 	
-{	"Name" : "Kanalisation",
+{	
+	"Name" : "Kanalisation",
 	"Wartung": 3,	
 	"Glück": 2,		
 	"hurryCostModifier": 5,		
@@ -1264,42 +1267,27 @@
 		"[35]% der Nahrungsmittel werden nach dem Bevölkerungswachstum [in dieser Stadt] überzählig"],		
 	"erforderlicheTechnologie": "Architektur"
 },
-///heavy Industry 
-	{
-		"name": "Steel Mill",
-		"maintenance": 3,
-		"production": 2,
-		"hurryCostModifier": 0,		
-		"uniques": ["Heavy Industry","[+10]% Production when constructing [All] buildings [in this city]",
-			"Consumes [3] [Metal] <before discovering [Industrialization]>",
-			"Provides [4] [Steel]",
-			"Consumes [4] [Metal] <after discovering [Industrialization]> <before discovering [Electricity]>",
-			"Provides [2] [Steel] <after discovering [Industrialization]>",
-			"Consumes [3] [Metal] <after discovering [Electricity]>",
-			"Provides [2] [Steel] <after discovering [Electricity]> <in cities with a [Power Building]>"],
-		"requiredTech": "Metallurgy"
-	},
 ///Cultural 
 {
-		"Name" : " Stadtplatz " ,
-		"Wartung" : 2 ,
-		"Kultur" : 1 ,
-		"Gold" : 1 ,
-		"Glück" : 1 ,
-		"SpezialistSlots" : { "Händler" : 1 },
-		"hurryCostModifier" : 25 ,
-		"uniques" : [ " Kulturelles Gebäude " , " [-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt] " , " Zerstört, wenn die Stadt erobert wird " ],
-		"erforderlicheTechnologie" : " Drama und Poesie "
-	},
+	"Name" : " Stadtplatz " ,
+	"Wartung" : 2 ,
+	"Kultur" : 1 ,
+	"Gold" : 1 ,
+	"Glück" : 1 ,
+	"SpezialistSlots" : { "Händler" : 1 },
+	"hurryCostModifier" : 25 ,
+	"uniques" : [ " Kulturelles Gebäude " , " [-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt]", "Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : " Drama und Poesie "
+},
 ///Entertainment 
 {
-		"Name" : " Tarvern " ,
-		"Wartung" : 1 ,
-		"Glück" : 3 ,
-		"erforderlichesGebäude" : " Stadtplatz " ,
-		"hurryCostModifier" : 25 ,
-		"uniques" : [ " Unterhaltungsgebäude " , " Verbraucht [1] [Wein] " , " Zerstört, wenn die Stadt erobert wird " ],
-		"erforderlicheTechnologie" : " Währung "
+	"Name": "Tarvern",
+	"Wartung": 1,
+	"Glück": 3,
+	"erforderlichesGebäude": "Stadtplatz" ,
+	"hurryCostModifier": 25 ,
+	"uniques": [ "Unterhaltungsgebäude" , "Verbraucht [1] [Wein]", "Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie": "Währung"
 },
 
 ]
