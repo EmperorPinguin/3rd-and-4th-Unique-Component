@@ -1266,6 +1266,20 @@
 		"[35]% der Nahrungsmittel werden nach dem Bevölkerungswachstum [in dieser Stadt] überzählig"],		
 	"erforderlicheTechnologie": "Architektur"
 },
+///Governmental
+{
+	"name": "Town Hall",
+	"maintenance": 2,
+	"happiness": 1,
+	"culture": 2,
+	"cityStrength": 2,
+	"specialistSlots": {"Governor": 1},
+	"uniques": ["Political Building",
+		"[-5]% Unhappiness from [Specialists] [in this city]",
+		"Destroyed when the city is captured"],
+	"hurryCostModifier": 40,
+	"requiredTech": "Writing"
+},
 ///Cultural 
 {
 	"Name": "Stadtplatz",
