@@ -39,20 +39,6 @@
 			"[+1 Production] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
-	{
-		"name": "Steel Mill",
-		"maintenance": 3,
-		"production": 2,
-		"hurryCostModifier": 0,		
-		"uniques": ["Heavy Industry","[+10]% Production when constructing [All] buildings [in this city]",
-			"Consumes [3] [Metal] <before discovering [Industrialization]>",
-			"Provides [4] [Steel]",
-			"Consumes [4] [Metal] <after discovering [Industrialization]> <before discovering [Electricity]>",
-			"Provides [2] [Steel] <after discovering [Industrialization]>",
-			"Consumes [3] [Metal] <after discovering [Electricity]>",
-			"Provides [2] [Steel] <after discovering [Electricity]> <in cities with a [Power Building]>"],
-		"requiredTech": "Metallurgy"
-	},
 {
 		"name": "Tatev Monastery",
 		"replaces": "Grand Temple",
@@ -210,16 +196,6 @@
 		"requiredTech": "Optics"
 	},
 	{
-		"name": "Fishing ports",
-		"maintenance": 1,
-		"food": 2,
-		"uniques": ["Must be next to [Coast]",
-			"[+1 Food] from [Coast] tiles [in this city]", 
-			"[+1 Food] from [Water resource] tiles [in this city]"],
-		"hurryCostModifier": 10,
-		"requiredTech": "Sailing"
-	},
-	{
 		"name": "Atacama Telescope",
 		"replaces": "Observatory",
 		"uniqueTo": "Chile",
@@ -260,16 +236,6 @@
 		"requiredBuilding": "Castle",
 		"uniques": ["Destroyed when the city is captured","New [Siege] units start with [5] Experience [in this city]"],
 		"requiredTech": "Metallurgy"
-	},
-	{
-		"name": "Sewer",
-		"maintenance": 3,
-		"happiness": 2,
-		"hurryCostModifier": 5,
-		"uniques": ["Infrastructure",
-			"[-5]% Unhappiness from [Population] [in this city]",
-			"[35]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Architecture"
 	},
 	{
 		"name": "San Jose Theatre",
@@ -438,27 +404,15 @@
 		"name": "Acropolis",
 		"replaces": "Walls",
 		"uniqueTo": "Greece",
-		"cost": 145,
-		"culture": 2,
-	"faith": 1,
+		"cost": 75,
+		"culture": 2, "faith": 1,
 		"cityStrength": 5,
 		"cityHealth": 40,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Drama and Poetry]>"],
+		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Masonry"
-	},
-{
-		"name": "Town Square",
-		"maintenance": 2,
-		"culture": 1,
-		"gold": 1,
-		"happiness": 1,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"uniques": ["Cultural Building","[-10]% Culture cost of natural border growth [in this city]","Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
 	},
 {
 		"name": "Citadelle",
@@ -1058,7 +1012,7 @@
 		"requiredBuilding": "Temple",
 		"requiredTech": "Theology",
 		"uniques": ["Must be on [Hill]",
-//"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion"
+//"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion",
 //"[+1 Poduction] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
 //"[+2 Production] from [Holy] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
 "Destroyed when the city is captured",
