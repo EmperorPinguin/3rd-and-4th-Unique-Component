@@ -1247,4 +1247,61 @@
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Civil Service"
 	},
+///Governmental
+{
+	"name": "Town Hall",
+	"maintenance": 2,
+	"happiness": 1,
+	"culture": 2,
+	"cityStrength": 2,
+	"specialistSlots": {"Governor": 1},
+	"uniques": ["Political Building",
+		"[-5]% Unhappiness from [Specialists] [in this city]",
+		"Destroyed when the city is captured"],
+	"hurryCostModifier": 40,
+	"requiredTech": "Writing"
+},
+///Cultural 
+{
+	"Name": "Stadtplatz",
+	"Wartung": 2,
+	"Kultur": 1,
+	"Gold": 1,
+	"Glück": 1,
+	"SpezialistSlots": { "Händler" : 1 },
+	"hurryCostModifier": 25 ,
+	"uniques": [ "Kulturelles Gebäude", "[-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt]", 
+		"Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : "Drama und Poesie"
+},
+///Entertainment 
+{
+	"Name": "Tarvern",
+	"Wartung": 1,
+	"Glück": 3,
+	"erforderlichesGebäude": "Stadtplatz" ,
+	"hurryCostModifier": 25 ,
+	"uniques": [ "Unterhaltungsgebäude" , "Verbraucht [1] [Wein]", "Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie": "Währung"
+},
+///religious
+{
+	"Name": "Schamanenhütte",
+	"Kultur": 2,
+	"Glück" : 1,
+	"Wartung": 1,
+	"hurryCostModifier": -50,
+	"uniques": ["Übungsgelände", "Nicht baubar", "Versteckt wenn Religion deaktiviert ist", 
+		"Zerstört wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : "Kalender"
+},
+{
+	"Name": "Kapelle",
+	"Glaube": 3,
+	"Wartung": 1,
+	"uniques": ["Kultstätte", "Nur verfügbar <nach Annahme des [Mönchtums]>", "Versteckt, wenn Religion deaktiviert ist",
+		"Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie": "Kalender"
+},
+
 ]
