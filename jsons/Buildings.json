@@ -1267,6 +1267,27 @@
 		"[35]% der Nahrungsmittel werden nach dem Bevölkerungswachstum [in dieser Stadt] überzählig"],		
 	"erforderlicheTechnologie": "Architektur"
 },
+///Light Industry 
+{
+		"name": "Paper Maker",
+		"maintenance": 2,
+		"specialistSlots": {"Engineer":1},
+		"hurryCostModifier": 0,
+		"uniques": ["Light Industry",
+			"[+1 Gold] from every specialist [in this city]",
+			"[+1 Production] <in cities with a [Guild Complex]>"
+			],
+		"requiredTech": "Paper Making"
+},
+{
+		"name": "Guild Complex",
+		"maintenance": 2,
+		"specialistSlots": {"Engineer": 1,"Scientist": 1,"Merchant": 1,"Artist": 1},
+		"percentStatBonus": {"production": 10},
+		"uniques": ["Light Industry"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds"
+},
 ///Governmental
 {
 	"name": "Town Hall",
