@@ -33,7 +33,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
-			"[-25]% Gold cost of acquiring tiles [in this city]"
+			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
@@ -203,11 +203,11 @@
 		"hurryCostModifier": 30,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science] <with [1] to [1] neighboring [Desert] tiles>",
-			      "[+2 Science] <with [2] to [2] neighboring [Desert] tiles>",
-			      "[+3 Science] <with [3] to [3] neighboring [Desert] tiles>",
-			      "[+4 Science] <with [4] to [4] neighboring [Desert] tiles>",
-			      "[+5 Science] <with [5] to [5] neighboring [Desert] tiles>",
+		"uniques": ["[+1 Science] <with [1] to [1] neighboring [{Deser}] tiles>",
+			      "[+2 Science] <with [2] to [2] neighboring [{Desert}] tiles>",
+			      "[+3 Science] <with [3] to [3] neighboring [{Desert}] tiles>",
+			      "[+4 Science] <with [4] to [4] neighboring [{Desert}] tiles>",
+			      "[+5 Science] <with [5] to [5] neighboring [{Desert}] tiles>",
 			      "Only available <within [2] tiles of a [Mountain]>"],
 		"requiredTech": "Astronomy"
 	},
@@ -637,9 +637,9 @@
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": ["Unlocked at Animal Husbandry",
-			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [unimproved] [Cattle] tiles>",
-			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [unimproved] [Horses] tiles>",
-			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
+			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [{unimproved} {Cattle}] tiles>",
+			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [{unimproved} {Horses}] tiles>",
+			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [{unimproved} {Sheep}] tiles>"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
