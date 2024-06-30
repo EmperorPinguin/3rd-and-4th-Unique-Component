@@ -1303,5 +1303,24 @@
 	"uniques": [ "Unterhaltungsgebäude" , "Verbraucht [1] [Wein]", "Zerstört, wenn die Stadt erobert wird"],
 	"erforderlicheTechnologie": "Währung"
 },
+///religious
+{
+	"Name": "Schamanenhütte",
+	"Kultur": 2,
+	"Glück" : 1,
+	"Wartung": 1,
+	"hurryCostModifier": -50,
+	"uniques": ["Übungsgelände", "Nicht baubar", "Versteckt wenn Religion deaktiviert ist", 
+		"Zerstört wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : "Kalender"
+},
+{
+	"Name": "Kapelle",
+	"Glaube": 3,
+	"Wartung": 1,
+	"uniques": ["Kultstätte", "Nur verfügbar <nach Annahme des [Mönchtums]>", "Versteckt, wenn Religion deaktiviert ist",
+		"Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie": "Kalender"
+},
 
 ]
