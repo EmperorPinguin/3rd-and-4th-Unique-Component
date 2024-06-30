@@ -1301,7 +1301,7 @@
 	"Glück": 3,
 	"erforderlichesGebäude": "Stadtplatz" ,
 	"hurryCostModifier": 25 ,
-	"uniques": [ "Unterhaltungsgebäude" , "Verbraucht [1] [Wein]", "Zerstört, wenn die Stadt erobert wird"],
+	"uniques": [ "Unterhaltungsgebäude" , "Verbraucht [2] [Wein]", "Zerstört, wenn die Stadt erobert wird"],
 	"erforderlicheTechnologie": "Währung"
 },
 ///religious
