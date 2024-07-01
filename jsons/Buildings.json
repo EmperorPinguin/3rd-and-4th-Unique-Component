@@ -24,7 +24,7 @@
 			"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science, +2 Faith] from [Oasis] tiles [in this city]","[+1 Science, +1 Faith] from [Flood plains] tiles [in this city]"],
 			"requiredTech": "Education"
 		},
-{
+	{
 		"name": "Estancia",
 		"replaces": "Stable",
 		"uniqueTo": "Argentina",
@@ -33,13 +33,13 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
-			"[-25]% Gold cost of acquiring tiles [in this city]"
+			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
-	{
+{
 		"name": "Tatev Monastery",
 		"replaces": "Grand Temple",
 		"uniqueTo": "Armenia",
@@ -203,11 +203,11 @@
 		"hurryCostModifier": 30,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science] <with [1] to [1] neighboring [Desert] tiles>",
-			      "[+2 Science] <with [2] to [2] neighboring [Desert] tiles>",
-			      "[+3 Science] <with [3] to [3] neighboring [Desert] tiles>",
-			      "[+4 Science] <with [4] to [4] neighboring [Desert] tiles>",
-			      "[+5 Science] <with [5] to [5] neighboring [Desert] tiles>",
+		"uniques": ["[+1 Science] <with [1] to [1] neighboring [{Deser}] tiles>",
+			      "[+2 Science] <with [2] to [2] neighboring [{Desert}] tiles>",
+			      "[+3 Science] <with [3] to [3] neighboring [{Desert}] tiles>",
+			      "[+4 Science] <with [4] to [4] neighboring [{Desert}] tiles>",
+			      "[+5 Science] <with [5] to [5] neighboring [{Desert}] tiles>",
 			      "Only available <within [2] tiles of a [Mountain]>"],
 		"requiredTech": "Astronomy"
 	},
@@ -404,15 +404,17 @@
 		"name": "Acropolis",
 		"replaces": "Walls",
 		"uniqueTo": "Greece",
-		"culture": 2
-		"cost": 65,
+		"cost": 75,
+		"culture": 2, "faith": 1,
 		"cityStrength": 5,
-		"cityHealth": 50,
+		"cityHealth": 40,
+		"specialistSlots": {"Artist": 1},
+		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Flight]>"]
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Masonry"
 	},
-	{
+{
 		"name": "Citadelle",
 		"replaces": "Castle",
 		"uniqueTo": "Haiti",
@@ -635,9 +637,9 @@
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": ["Unlocked at Animal Husbandry",
-			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [unimproved] [Cattle] tiles>",
-			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [unimproved] [Horses] tiles>",
-			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
+			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [{unimproved} {Cattle}] tiles>",
+			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [{unimproved} {Horses}] tiles>",
+			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [{unimproved} {Sheep}] tiles>"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -1010,7 +1012,7 @@
 		"requiredBuilding": "Temple",
 		"requiredTech": "Theology",
 		"uniques": ["Must be on [Hill]",
-//"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion"
+//"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion",
 //"[+1 Poduction] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
 //"[+2 Production] from [Holy] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
 "Destroyed when the city is captured",
@@ -1245,4 +1247,102 @@
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Civil Service"
 	},
+/// Infrastructure 
+{	
+	"Name": "Fischereihäfen",
+	"Wartung": 1,
+	"Essen": 2,
+	"hurryCostModifier": 10,
+	"uniques": ["Muss neben [Küste] sein", "[+1 Nahrung] von [Küsten]-Feldern [in dieser Stadt]",
+		"[+1 Nahrung] von [Wasserressourcen]-Feldern [in dieser Stadt]"],
+	"erforderlicheTechnologie": "Segeln"	
+},
+	
+{	
+	"Name" : "Kanalisation",
+	"Wartung": 3,	
+	"Glück": 2,		
+	"hurryCostModifier": 5,		
+	"uniques": ["Infrastruktur", " [-5]% Unzufriedenheit der [Bevölkerung] [in dieser Stadt]",
+		"[35]% der Nahrungsmittel werden nach dem Bevölkerungswachstum [in dieser Stadt] überzählig"],		
+	"erforderlicheTechnologie": "Architektur"
+},
+///Light Industry 
+{
+		"name": "Paper Maker",
+		"maintenance": 2,
+		"specialistSlots": {"Engineer":1},
+		"hurryCostModifier": 0,
+		"uniques": ["Light Industry",
+			"[+1 Gold] from every specialist [in this city]",
+			"[+1 Production] <in cities with a [Guild Complex]>"
+			],
+		"requiredTech": "Paper Making"
+},
+{
+		"name": "Guild Complex",
+		"maintenance": 2,
+		"specialistSlots": {"Engineer": 1,"Scientist": 1,"Merchant": 1,"Artist": 1},
+		"percentStatBonus": {"production": 10},
+		"uniques": ["Light Industry"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds"
+},
+///Governmental
+{
+	"name": "Town Hall",
+	"maintenance": 2,
+	"happiness": 1,
+	"culture": 2,
+	"cityStrength": 2,
+	"specialistSlots": {"Governor": 1},
+	"uniques": ["Political Building",
+		"[-5]% Unhappiness from [Specialists] [in this city]",
+		"Destroyed when the city is captured"],
+	"hurryCostModifier": 40,
+	"requiredTech": "Writing"
+},
+///Cultural 
+{
+	"Name": "Stadtplatz",
+	"Wartung": 2,
+	"Kultur": 1,
+	"Gold": 1,
+	"Glück": 1,
+	"SpezialistSlots": { "Händler" : 1 },
+	"hurryCostModifier": 25 ,
+	"uniques": [ "Kulturelles Gebäude", "[-10]% Kulturkosten des natürlichen Grenzwachstums [in dieser Stadt]", 
+		"Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : "Drama und Poesie"
+},
+///Entertainment 
+{
+	"Name": "Tarvern",
+	"Wartung": 1,
+	"Glück": 3,
+	"erforderlichesGebäude": "Stadtplatz" ,
+	"hurryCostModifier": 25 ,
+	"uniques": [ "Unterhaltungsgebäude" , "Verbraucht [2] [Wein]", "Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie": "Währung"
+},
+///religious
+{
+	"Name": "Schamanenhütte",
+	"Kultur": 2,
+	"Glück" : 1,
+	"Wartung": 1,
+	"hurryCostModifier": -50,
+	"uniques": ["Übungsgelände", "Nicht baubar", "Versteckt wenn Religion deaktiviert ist", 
+		"Zerstört wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie" : "Kalender"
+},
+{
+	"Name": "Kapelle",
+	"Glaube": 3,
+	"Wartung": 1,
+	"uniques": ["Kultstätte", "Nur verfügbar <nach Annahme des [Mönchtums]>", "Versteckt, wenn Religion deaktiviert ist",
+		"Zerstört, wenn die Stadt erobert wird"],
+	"erforderlicheTechnologie": "Kalender"
+},
+
 ]
