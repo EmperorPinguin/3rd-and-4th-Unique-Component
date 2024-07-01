@@ -1053,7 +1053,7 @@ BuildingIcons/Raining Fish
   index: -1
 BuildingIcons/Reaction Video Company
   rotate: false
-  xy: 174, 65
+  xy: 1876, 1833
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1123,7 +1123,7 @@ BuildingIcons/Shannon Free Zone
   index: -1
 BuildingIcons/Signing Wall
   rotate: false
-  xy: 1876, 1725
+  xy: 390, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1277,7 +1277,7 @@ ResourceIcons/Lapis Lazuli
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 390, 65
+  xy: 1876, 1617
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1326,28 +1326,28 @@ TileSets/HexaRealm/Tiles/JungleP+Yam Farm
   index: -1
 TileSets/FantasyHex/Tiles/Kurgan
   rotate: false
-  xy: 1876, 1661
+  xy: 1876, 1553
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kurgan
   rotate: false
-  xy: 1876, 1661
+  xy: 1876, 1553
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Penguin Preserve
   rotate: false
-  xy: 498, 133
+  xy: 606, 133
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Penguin Preserve
   rotate: false
-  xy: 498, 133
+  xy: 606, 133
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
@@ -1361,14 +1361,14 @@ TileSets/FantasyHex/Tiles/Plains+Jungle+Bamboo farm
   index: -1
 TileSets/FantasyHex/Units/Llanero
   rotate: false
-  xy: 1876, 1625
+  xy: 1876, 1517
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Llanero
   rotate: false
-  xy: 1876, 1625
+  xy: 1876, 1517
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1392,6 +1392,13 @@ UnitIcons/Mapuche
   xy: 4, 1421
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Maracas Player
+  rotate: false
+  xy: 1668, 273
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mounted Javelinman
@@ -1590,6 +1597,13 @@ UnitIcons/Streltsy
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Torch Thrower
+  rotate: false
+  xy: 498, 65
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Torchbearer
   rotate: false
   xy: 836, 173
@@ -1648,21 +1662,21 @@ UnitPromotionIcons/Homeric Resilience
   index: -1
 UnitPromotionIcons/Pirate ability
   rotate: false
-  xy: 1668, 273
+  xy: 174, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Redcoat ability
   rotate: false
-  xy: 1876, 1833
+  xy: 282, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sho't Kal ability
   rotate: false
-  xy: 282, 65
+  xy: 1876, 1725
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
