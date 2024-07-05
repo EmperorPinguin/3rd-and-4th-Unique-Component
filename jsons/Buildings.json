@@ -2,6 +2,30 @@
 
 //Buildings
 		{
+		"name": "Parthenon",
+		"culture": 2,
+		"faith": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great General": 1},
+		"uniques": ["Must be on [Hill]", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory", "Resting point for Influence with City-States is increased by [10]", "Gain a free [Amphitheater] [in this city]"],
+		"requiredTech": "Drama and Poetry",
+		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Acropolis",
+		"replaces": "Walls",
+		"uniqueTo": "Greece",
+		"cost": 75,
+		"culture": 2, "faith": 1,
+		"cityStrength": 5,
+		"cityHealth": 40,
+		"specialistSlots": {"Artist": 1},
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Masonry"
+	},
+	{
 		"name": "Saloon",
 		"replaces": "Circus",
 		"uniqueTo": "America",
