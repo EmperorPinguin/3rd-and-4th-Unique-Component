@@ -4,6 +4,13 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Acropolis
+  rotate: false
+  xy: 1590, 880
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Caravansary
   rotate: false
   xy: 4, 1156
