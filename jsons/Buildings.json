@@ -1,7 +1,22 @@
 [
 
 //Buildings
-		{
+	{
+		"name": "Acropolis",
+		"replaces": "Walls",
+		"uniqueTo": "Greece",
+		"cost": 75,
+		"culture": 2, "faith": 1,
+		"cityStrength": 5,
+		"cityHealth": 40,
+		"specialistSlots": {"Artist": 1},
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Masonry",
+		"quote": "'The history of Greece is a source of inspiration and wonder. It reminds us that we are part of a great tradition.' - Unknown"
+	},
+	{
 		"name": "Saloon",
 		"replaces": "Circus",
 		"uniqueTo": "America",
