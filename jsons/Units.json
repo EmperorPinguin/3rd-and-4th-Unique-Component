@@ -1116,7 +1116,7 @@
 		"requiredResource": "Iron",
 		"upgradesTo": "Triplane",
 		"obsoleteTech": "Flight",
-		"uniques": ["[-200]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[-100]% Strength <vs cities>","[-50]% Strength <vs [Water] units>"],
 		"attackSound": "shipCannonVolley"
 	},
 	{
