@@ -1103,6 +1103,23 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Buzzer",
+		"unitType": "Fighter",
+		"uniqueTo": "Small People",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 185,
+		"requiredTech": "Navigation",
+		"requiredResource": "Iron",
+		"upgradesTo": "Triplane",
+		"obsoleteTech": "Flight",
+		"uniques": ["[-200]% Strength <vs cities> <when attacking>"],
+		"attackSound": "shipCannonVolley"
+	},
+	{
 		"name": "Paileador",
 		"replaces": "Longswordsman",
             	"uniqueTo": "Arepandia",
