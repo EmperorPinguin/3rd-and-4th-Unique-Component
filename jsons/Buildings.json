@@ -1142,6 +1142,16 @@
         "uniques": ["Destroyed when the city is captured"]
     },
 	{
+		"name": "Mosquito tactics academy",
+		"replaces": "Armory",
+		"uniqueTo": "Small People",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion"],
+		"requiredTech": "Steel"
+	},
+	{
 		"name": "Cook Academy",
         	"uniqueTo": "Arepandia",
 		"replaces": "Oxford University",
