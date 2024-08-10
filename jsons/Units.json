@@ -13,7 +13,7 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Air] units>",
-			"[+250]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 {
