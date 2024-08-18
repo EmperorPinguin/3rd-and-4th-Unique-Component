@@ -39,14 +39,14 @@ BuildingIcons/Amber Fishery
   orig: 586, 586
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Colossal Head
+TileSets/HexaRealm/Tiles/Colossal Head
   rotate: false
   xy: 1124, 678
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Colossal Head
+TileSets/FantasyHex/Tiles/Colossal Head
   rotate: false
   xy: 1124, 678
   size: 500, 500
@@ -981,6 +981,13 @@ BuildingIcons/Monument to the Savior
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Mosquito tactics academy
+  rotate: false
+  xy: 1876, 1829
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Nomadic Herd
   rotate: false
   xy: 836, 1837
@@ -1053,7 +1060,7 @@ BuildingIcons/Raining Fish
   index: -1
 BuildingIcons/Reaction Video Company
   rotate: false
-  xy: 1876, 1833
+  xy: 1876, 1721
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1123,7 +1130,7 @@ BuildingIcons/Shannon Free Zone
   index: -1
 BuildingIcons/Signing Wall
   rotate: false
-  xy: 390, 65
+  xy: 498, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1270,21 +1277,21 @@ ImprovementIcons/Yoro Fish Rain
   index: -1
 ResourceIcons/Lapis Lazuli
   rotate: false
-  xy: 1876, 1941
+  xy: 1668, 277
   size: 100, 96
   orig: 100, 96
   offset: 0, 0
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 1876, 1617
+  xy: 1876, 1505
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bamboo farm
   rotate: false
-  xy: 1668, 173
+  xy: 1668, 177
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1296,23 +1303,30 @@ TileSets/FantasyHex/Tiles/Grassland+Jungle+Bamboo farm
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/JungleG+Yam Farm
+TileSets/FantasyHex/Tiles/Plains+Jungle+Bamboo farm
   rotate: false
-  xy: 1668, 209
-  size: 64, 56
-  orig: 64, 56
+  xy: 678, 137
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Treasury Galleon
+  rotate: false
+  xy: 1984, 1948
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/JungleG+Yam Farm
   rotate: false
-  xy: 1668, 209
+  xy: 1668, 213
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/JungleP+Yam Farm
+TileSets/FantasyHex/Tiles/JungleG+Yam Farm
   rotate: false
-  xy: 1776, 317
+  xy: 1668, 213
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1324,60 +1338,60 @@ TileSets/HexaRealm/Tiles/JungleP+Yam Farm
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Kurgan
+TileSets/FantasyHex/Tiles/JungleP+Yam Farm
   rotate: false
-  xy: 1876, 1553
+  xy: 1776, 317
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kurgan
   rotate: false
-  xy: 1876, 1553
+  xy: 606, 109
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Penguin Preserve
+TileSets/FantasyHex/Tiles/Kurgan
   rotate: false
-  xy: 606, 133
-  size: 36, 32
-  orig: 36, 32
+  xy: 606, 109
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Penguin Preserve
   rotate: false
-  xy: 606, 133
+  xy: 1876, 1465
   size: 36, 32
   orig: 36, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Jungle+Bamboo farm
+TileSets/FantasyHex/Tiles/Penguin Preserve
   rotate: false
-  xy: 1984, 1951
+  xy: 1876, 1465
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Llanero
+  rotate: false
+  xy: 606, 73
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Llanero
   rotate: false
-  xy: 1876, 1517
+  xy: 606, 73
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Llanero
+UnitIcons/Buzzer
   rotate: false
-  xy: 1876, 1517
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Treasury Galleon
-  rotate: false
-  xy: 232, 26
-  size: 32, 31
-  orig: 32, 31
+  xy: 1876, 1937
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mamluk
@@ -1396,7 +1410,7 @@ UnitIcons/Mapuche
   index: -1
 UnitIcons/Maracas Player
   rotate: false
-  xy: 1668, 273
+  xy: 174, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1597,13 +1611,6 @@ UnitIcons/Streltsy
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Torch Thrower
-  rotate: false
-  xy: 498, 65
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Torchbearer
   rotate: false
   xy: 836, 173
@@ -1662,21 +1669,21 @@ UnitPromotionIcons/Homeric Resilience
   index: -1
 UnitPromotionIcons/Pirate ability
   rotate: false
-  xy: 174, 65
+  xy: 282, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Redcoat ability
   rotate: false
-  xy: 282, 65
+  xy: 390, 65
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sho't Kal ability
   rotate: false
-  xy: 1876, 1725
+  xy: 1876, 1613
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
