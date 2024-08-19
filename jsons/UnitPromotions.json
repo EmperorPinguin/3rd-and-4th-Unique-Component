@@ -70,7 +70,7 @@
 //	},
 {
 		"name": "Vytis ability",
-		"uniques": ["Damage is ignored when determining unit Strength","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
+		"uniques": ["No damage penalty for wounded units","Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
 	},
 //{
 //		"name": "Warrior Monk",
