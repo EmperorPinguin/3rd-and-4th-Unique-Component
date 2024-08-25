@@ -1220,7 +1220,7 @@
 "Double movement in [Coast]",
 "[1] Movement point cost to embark",
 "[1] Movement point cost to disembark",
-"Heal this unit by [20] HP <upon ending a turn in a [Water] tile>"],
+"[This Unit] heals [20] HP <upon ending a turn in a [Water] tile>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
