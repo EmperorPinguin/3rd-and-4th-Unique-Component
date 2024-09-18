@@ -1323,8 +1323,10 @@
 		"movement": 2
 	},
 	{
-		"name": "Penguinesia Work Boats",
+		"name": "Skynet Work Boats",
+		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
+		"uniqueTo": "Penguinesia",
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
