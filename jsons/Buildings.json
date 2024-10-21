@@ -47,7 +47,7 @@
 		"culture": 1,
 		"faith": 1,
 		"uniques": ["[+100]% Yield from every [Mountain] <in tiles without [Natural Wonder]>","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [in holy cities] cities>"],
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [in holy cities] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
@@ -134,7 +134,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 {
 		"name": "Byzantine Walls",
@@ -346,7 +346,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled"]
+		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture] [in this city] <starting from the [Medieval era]>","Only available <when religion is enabled>"]
 	},
 {
 		"name": "Rock-Hewn Church",
@@ -517,7 +517,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[10]% Food is carried over after population increases [in this city]","[+1 Food] from [Cattle] tiles [in this city]"]
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured", "[10]% Food is carried over after population increases [in this city]","[+1 Food] from [Cattle] tiles [in this city]"]
 	},
 /*
 {
@@ -581,7 +581,7 @@
 			"cityStrength": 5,
 			"cityHealth": 50,
 			"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-				"[+100]% Natural religion spread [in this city]","Hidden when religion is disabled","Can only be built <in [in holy cities] cities>"],
+				"[+100]% Natural religion spread [in this city]","Only available <when religion is enabled>","Can only be built <in [in holy cities] cities>"],
 			"requiredTech": "Theology",
 			"isNationalWonder": true
 		},
@@ -698,7 +698,7 @@
 			"maintenance": 1,
 			"hurryCostModifier": 25,
 			"requiredTech": "Philosophy",
-			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
+			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured","[+1 Faith] from [Colossal Head] tiles [in this city]"]
 		},
 	{ //Panama´s
 		"name": "Colon Free Port",
@@ -739,7 +739,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["[+100]% Yield from every [Holy site]","Gain a free [Cathedral] [in this city]","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [in holy cities] cities>"],
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [in holy cities] cities>"],
 		"requiredTech": "Education",
 		"isNationalWonder": true
 	},
@@ -760,7 +760,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Persia",
 		"maintenance": 2,
-		"uniques": ["[+2 Faith] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Faith] <during a Golden Age>","Only available <when religion is enabled>", "Destroyed when the city is captured"],
 		"faith": 4,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
@@ -966,7 +966,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 {
 		"name": "Ballcourt",
@@ -1111,7 +1111,7 @@
         "culture": 3,
         "faith": 3,
         "science": 3,
-        "uniques": ["Cost increases by [40] per owned city", "[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled",
+        "uniques": ["Cost increases by [40] per owned city", "[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
 		    "[+1 Happiness] for every known Natural Wonder", "[+1 Gold] from every [Wonder]"],
         "quote": "'The good historian… must be fearless, uncorrupted, free, the friend of truth and of liberty. One who calls a fig a fig, and a skiff a skiff, neither giving nor withholding from any, from favour or from enmity, not influenced by pity, by shame, or by remorse. A just judge… a stranger to all, of no country, bound only by his own laws, acknowledging no sovereign, never considering what this or that man may say of him, but relating faithfully everything as it happened.' - Lucian, ancient Greek writer and satirist'",
         "requiredTech": "Education",
