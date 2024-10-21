@@ -197,7 +197,7 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city","All adjacent units heal [+15] HP when healing <in [Forest] tiles>"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -785,7 +785,7 @@
 			"uniques": ["Can move after attacking","No defensive terrain bonus","Prevents spreading of religion to the city it is next to",
 				"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
 				"Can be purchased for [200] [Faith] [in all cities]",
-				"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+				"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
 			],
 			"movement": 4
 		},
@@ -1021,7 +1021,7 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city","Empire enters a [10]-turn Golden Age <by consuming this unit>"],
 		"movement": 2,
 		"religiousStrength": 1000
