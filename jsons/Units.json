@@ -93,8 +93,22 @@
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Survivalism I"],
 		"attackSound": "shot"
-	}
-	{
+	},
+{
+		"name": "Eagle Warrior",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Aztecs",
+		"movement": 2,
+		"strength": 14,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	/*{
 		"name": "Quetzalcoatl",
 		"unitType": "Bomber",
 		"replaces": "Stealth Bomber",
@@ -109,7 +123,7 @@
 		"promotions": ["Blitz"],
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
 		"attackSound": "bombing"
-	},
+	},*/
 {
 		"name": "Sabum Kibittum",
 		"unitType": "Sword",
