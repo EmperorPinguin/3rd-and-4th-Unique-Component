@@ -30,7 +30,7 @@
 //	},
 {
 		"name": "Buin ability",
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark","Eliminates combat penalty for attacking across a coast"]
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>", "[+100]% Strength <when defending> <when [Embarked]>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark","Eliminates combat penalty for attacking across a coast"]
 	},
 //{
 //		"name": "Cur ability",
@@ -54,7 +54,7 @@
 	},
 {
 		"name": "Redcoat ability",
-		"uniques": ["Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
 	},
 {
 		"name": "Sho't Kal ability",
