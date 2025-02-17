@@ -840,7 +840,7 @@
 		"maintenance": 4,
 		"cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"","[+2 Culture] from [Plantation] tiles [in this city]","[+2 Food] [in capital]"],
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "[+2 Culture] from [Plantation] tiles [in this city]", "[+2 Food] [in capital]"],
 		"requiredTech": "Philosophy"
 	},
 {
