@@ -5,10 +5,11 @@
 		"name": "Saloon",
 		"replaces": "Circus",
 		"uniqueTo": "America",
-		"requiredNearbyImprovedResources": ["Horses", "Cattle"],
+		"requiredNearbyImprovedResources": ["Horses", "Cattle", "Sheep"],
 		"happiness": 2,
 		"gold": 2,
 		"hurryCostModifier": 25,
+		"uniques": ["Comment [Available with Horses, Cattle, Sheep]",
 		"requiredTech": "Trapping"
 	},
 	{
@@ -940,7 +941,7 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Iron Working",
-		"uniques": ["Available at Iron Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
+		"uniques": ["Comment [Unlocked at Iron Working]","[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"] 
 	},
@@ -1057,7 +1058,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[+100]% [Food] from City-States", "+2 Merchant slots"]
+		"uniques": ["Indicates the capital city", "[+100]% [Food] from City-States", "Comment [+2 Merchant slots]"]
 	},
 {
 		"name": "Vo Khi",
@@ -1197,7 +1198,7 @@
 		"requiredNearbyImprovedResources": ["Fish","Pearls","Crab"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Available with Fish, Pearls, Crab", "Comment [Unlocked at Sailing]"],
+		"uniques": ["Comment [Available with Fish, Pearls, Crab]", "Comment [Unlocked at Sailing]"],
 		"requiredTech": "Sailing"
 	},
 {
