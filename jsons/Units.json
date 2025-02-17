@@ -1280,7 +1280,7 @@
 	"uniqueTo":"Ketonia",
 	"requiredTech": "Combustion",
 	"uniques": ["[+200]% Strength <vs cities> <when attacking>",
-		"Never appears as a Barbarian unit","[-1] Sight","Available after [Combustion]"],
+		"Never appears as a Barbarian unit","[-1] Sight","Comment [Available after researching Combustion]"],
 	"promotions": ["Indirect Fire","Scouting I"],
 	"attackSound": "artillery"
 	},
