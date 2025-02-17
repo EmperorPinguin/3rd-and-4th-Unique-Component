@@ -631,13 +631,13 @@
 		"name": "Nomadic Herd",
 		"replaces": "Stable",
 		"uniqueTo": "Macrobia",
-		"maintenance": 0,
-		"cost": 60,
+		"maintenance": 1,
+		"cost": 50,
 		"hurryCostModifier": 25,
 		"uniques": ["Unlocked at Animal Husbandry",
-			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [unimproved] [Cattle] tiles>",
-			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [unimproved] [Horses] tiles>",
-			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [unimproved] [Sheep] tiles>"],
+			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [{unimproved} {Cattle}] tiles>",
+			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [{unimproved} {Horses}] tiles>",
+			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [{unimproved} {Sheep}] tiles>"],
 		"requiredTech": "Animal Husbandry"
 	},
 	{
@@ -808,7 +808,7 @@
 			"cost": 125,
 			"culture": 1,
 			"isNationalWonder": true,
-			"uniques": ["Unlocked at Compass","Must be next to [Coast]","Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Nau] appears"],
+			"uniques": ["Unlocked at Compass","Must be next to [Coast]","Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Caravel] appears"],
 			"requiredTech": "Compass"
 		},
 {
@@ -1190,9 +1190,7 @@
 		"[+5]% [Gold] from Trade Routes",
 		"[+15]% Production when constructing [Water] units [in this city]",
 		"Must be next to [Coast]",
-		"[+1 Happiness] from [Luxury resource] tiles [in this city]",
-		"No [Gold] from Water tiles"
-	]
+		"[+1 Happiness] from [Luxury resource] tiles [in this city]"]
 	},
 	{
 		"name": "Aquarium",
