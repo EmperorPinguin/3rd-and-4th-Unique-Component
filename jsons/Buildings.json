@@ -684,7 +684,7 @@
 		"cost": 250,
 		"maintenance": 0,
 		"requiredBuilding": "Harbor",
-		"uniques": ["Comment [Unlocked at Biology]","+1 Engineer Slot","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+8 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
+		"uniques": ["Comment [Unlocked at Biology]","Comment [+1 Engineer Slot]","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+8 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
 		"requiredTech": "Biology"
 	},
 	{
