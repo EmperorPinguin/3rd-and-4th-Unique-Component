@@ -287,7 +287,7 @@
 		"cost": 120,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Unlocked at Compass","[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"uniques": ["Comment [Unlocked at Compass]","[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"promotions": ["Coastal Raider I"],
 		"attackSound": "cannon"
@@ -754,7 +754,7 @@
 		"replaces": "Settler",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Cheaper to buy", "Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Comment [Cheaper to buy]", "Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","[1] Movement point cost to embark", "[1] Movement point cost to disembark","Double movement in [Coast]"],
 		"hurryCostModifier": -50
 	},
@@ -903,7 +903,7 @@
 		"cost": 32,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
-		"uniques": ["Unlocked at Agriculture"]
+		"uniques": ["Comment [Unlocked at Agriculture]"]
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
@@ -1280,7 +1280,7 @@
 	"uniqueTo":"Ketonia",
 	"requiredTech": "Combustion",
 	"uniques": ["[+200]% Strength <vs cities> <when attacking>",
-		"Never appears as a Barbarian unit","[-1] Sight","Comment [Available after researching Combustion]"],
+		"Never appears as a Barbarian unit","[-1] Sight","Comment [Unlocked at Combustion]"],
 	"promotions": ["Indirect Fire","Scouting I"],
 	"attackSound": "artillery"
 	},
