@@ -327,7 +327,19 @@
 		"uniques": ["[+1 Faith] per [1] population [in this city]","Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Architecture"
 	},
-{
+	{
+		"name": "Royal Dockyard",
+		"replaces": "Harbor",
+		"uniqueTo": "England",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production, +1 Gold] from [Coast] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Ocean] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+/*{
 		"name": "British East India Company",
             "replaces": "Courthouse",
             "uniqueTo": "England",
@@ -337,7 +349,7 @@
 			"Provides [1] [Tea]",
 			"Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Mathematics"
-	},
+	},*/
 {
 		"name": "Statue of Aspetos",
 		"replaces": "Shrine",
