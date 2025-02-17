@@ -65,7 +65,7 @@
 		"name": "Orchestra",
 		"replaces": "Opera House",
 		"uniqueTo": "Austria",
-		"culture": 6,
+		"culture": 7,
 		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
