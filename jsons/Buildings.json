@@ -9,7 +9,6 @@
 		"happiness": 2,
 		"gold": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Available with Horses, Cattle"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -121,7 +120,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cost": 120,
-		"uniques": ["Unlocked at Acoustics","[+2 Faith] from [Jungle] tiles [in this city]", "[+34]% Great Person generation [in this city]"],
+		"uniques": ["Comment [Unlocked at Acoustics]","[+2 Faith] from [Jungle] tiles [in this city]", "[+34]% Great Person generation [in this city]"],
 		"requiredTech": "Acoustics"
 	},
 {
@@ -554,7 +553,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
-		"uniques": ["Unlocked at Flight","[+2 Gold] from every specialist [in this city]"]
+		"uniques": ["Comment [Unlocked at Flight]","[+2 Gold] from every specialist [in this city]"]
 		"requiredTech": "Flight"
 	},
 {
@@ -634,7 +633,7 @@
 		"maintenance": 1,
 		"cost": 50,
 		"hurryCostModifier": 25,
-		"uniques": ["Unlocked at Animal Husbandry",
+		"uniques": ["Comment [Unlocked at Animal Husbandry]",
 			"[+1 Food, +1 Production] from [Cattle] tiles [in this city] <in [{unimproved} {Cattle}] tiles>",
 			"[+1 Food, +1 Production] from [Horses] tiles [in this city] <in [{unimproved} {Horses}] tiles>",
 			"[+1 Food, +1 Production] from [Sheep] tiles [in this city] <in [{unimproved} {Sheep}] tiles>"],
@@ -661,7 +660,7 @@
 		"maintenance": 0,
             "cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Unlocked at Writing","Remove extra unhappiness from annexed cities", "Can only be built <in [in annexed cities] cities>"],
+		"uniques": ["Comment [Unlocked at Writing]","Remove extra unhappiness from annexed cities", "Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Writing"
 	},
 {
@@ -686,7 +685,7 @@
 		"cost": 250,
 		"maintenance": 0,
 		"requiredBuilding": "Harbor",
-		"uniques": ["Unlocked at Biology","+1 Engineer Slot","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+8 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
+		"uniques": ["Comment [Unlocked at Biology]","+1 Engineer Slot","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]","[+8 Production] from [Offshore Platform] tiles [in this city]","Must be next to [Coast]"],
 		"requiredTech": "Biology"
 	},
 	{
@@ -784,7 +783,7 @@
 		"cost": 75,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["Unlocked at Optics","[+1 Production] from [Water resource] tiles [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]",
+		"uniques": ["Comment [Unlocked at Optics]","[+1 Production] from [Water resource] tiles [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Optics"
 	},
@@ -808,7 +807,7 @@
 			"cost": 125,
 			"culture": 1,
 			"isNationalWonder": true,
-			"uniques": ["Unlocked at Compass","Must be next to [Coast]","Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Caravel] appears"],
+			"uniques": ["Comment [Unlocked at Compass]","Must be next to [Coast]","Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city","Free [Caravel] appears"],
 			"requiredTech": "Compass"
 		},
 {
@@ -1014,7 +1013,7 @@
 //"[+1 Poduction] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
 //"[+2 Production] from [Holy] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
 "Destroyed when the city is captured",
-"Unlocked at Theology"]
+"Comment [Unlocked at Theology]"]
 	},
 {
 		"name": "Guri Reservoir",
@@ -1042,7 +1041,7 @@
 		"cost": 120,
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"uniques": ["Unlocked at Constuction","[+25]% Great Person generation [in this city]", "Must be next to [Coast]"],
+		"uniques": ["Comment [Unlocked at Constuction]","[+25]% Great Person generation [in this city]", "Must be next to [Coast]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Construction"
@@ -1199,7 +1198,7 @@
 		"requiredNearbyImprovedResources": ["Fish","Pearls","Crab"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Available with Fish, Pearls, Crab", "Unlocked at Sailing"],
+		"uniques": ["Available with Fish, Pearls, Crab", "Comment [Unlocked at Sailing]"],
 		"requiredTech": "Sailing"
 	},
 {
