@@ -9,7 +9,7 @@
 		"happiness": 2,
 		"gold": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Comment [Available with Horses, Cattle, Sheep]",
+		"uniques": ["Comment [Available with Horses, Cattle, Sheep]"],
 		"requiredTech": "Trapping"
 	},
 	{
