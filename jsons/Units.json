@@ -693,8 +693,7 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>",
-					"Gain [20]-[50] [Gold] <by consuming this unit>",
-					"Enemies plunder 30 Gold upon being defeated"],
+					"Gain [20]-[50] [Gold] <by consuming this unit>"],
 		"hurryCostModifier": 30,
 		"civilopediaText": [
 			{
