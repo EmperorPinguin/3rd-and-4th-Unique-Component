@@ -436,7 +436,7 @@
 		"cost": 250,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["[+25]% Production when constructing [Military] units [in this city] ",
+		"uniques": ["[+25]% Production when constructing [Military] units [in this city]",
 					"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>","Cost increases by [15] per owned city"],
 		"requiredTech": "Gunpowder",
 		"civilopediaText": [
@@ -896,7 +896,7 @@
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Salt", "Gold Ore", "Copper", "Ivory"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]","[+2 Gold] from [Gold Ore] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Ivory] tiles [in this city]","Can be build with Salt, Gold Ore, Copper, Ivory"],
+		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]","[+2 Gold] from [Gold Ore] tiles [in this city]","[+2 Gold] from [Copper] tiles [in this city]","[+2 Gold] from [Ivory] tiles [in this city]","Comment [Available with Salt, Gold Ore, Copper, Ivory]"],
 		"requiredTech": "Currency"
 	},
 {
