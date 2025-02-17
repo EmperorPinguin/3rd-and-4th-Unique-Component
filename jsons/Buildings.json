@@ -356,8 +356,7 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Can be on Plains",
-			"[+1 Production] from [Stone] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]",
 			"[+2 Faith] from [Quarry] tiles [in this city]"],
 		"requiredTech": "Calendar"
