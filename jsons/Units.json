@@ -959,7 +959,7 @@
 		"cost": 100,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
-            "uniques": ["Upgrades to Rifleman","No movement cost to pillage"],
+            "uniques": ["Comment [Upgrades to Rifleman]","No movement cost to pillage"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -1071,7 +1071,7 @@
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"promotions": ["Woods Warfare"],
-		"uniques": ["Upgrades to Rifleman"],
+		"uniques": ["Comment [Upgrades to Rifleman]"],
 		"attackSound": "metalhit"
 	},
 {
