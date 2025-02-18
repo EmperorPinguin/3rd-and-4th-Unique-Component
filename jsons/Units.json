@@ -338,7 +338,7 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
-{
+/*{
 		"name": "Redcoat",
 		"unitType": "Gunpowder",
 		"uniqueTo": "England",
@@ -352,7 +352,7 @@
 		"promotions": ["Amphibious", "Redcoat ability"],
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
-	},
+	},*/
 {
 		"name": "Oromo",
 		"unitType": "Sword",
