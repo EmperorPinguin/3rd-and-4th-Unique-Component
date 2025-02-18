@@ -606,22 +606,6 @@
 		"attackSound": "shot"
 	},
 {
-		"name": "Golden Horde",
-		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"uniqueTo": "Mongolia",
-		"movement": 5,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "[+1] Sight"],
-		"promotions": ["Formation I", "Charge"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
-	},
-{
 		"name": "Goumier",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
