@@ -608,16 +608,18 @@
 		"uniques": ["[+2 Culture, +1 Happiness] <after adopting [Military Caste]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
-{
-		"name": "Seowon",
-		"replaces": "Library",
-		"uniqueTo": "Korea",
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["[+1 Science] per [2] population [in this city]","Comment [+1 Artist Slot]"],
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Writing"
-	},
+	{
+			"name": "Seowon",
+			"replaces": "University",
+			"uniqueTo": "Korea",
+			"maintenance": 2,
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"science": 33},
+			"specialistSlots": {"Scientist": 2},
+			"requiredBuilding": "Library",
+			"uniques": ["[+2 Culture] from [Jungle] tiles [in this city]", "[+2 Culture] from [Great Improvement] tiles [in this city]"],
+			"requiredTech": "Education"
+		},
 	{
 			"name": "Amber Fishery",
 			"replaces": "Mint",
