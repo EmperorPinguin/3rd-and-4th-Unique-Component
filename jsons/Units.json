@@ -941,7 +941,7 @@
 		"uniqueTo": "The Huns",
 		"replaces": "Horseman",
 		"movement": 5,
-		"strength": 13,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
