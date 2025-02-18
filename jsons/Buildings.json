@@ -286,12 +286,13 @@
 		"name": "Viking Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Denmark",
-		"cost": 90,
+		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 10},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production, +1 Culture] from [Fishing Boats] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Fishing Boats] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 {
