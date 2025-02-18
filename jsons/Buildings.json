@@ -602,10 +602,10 @@
 		"uniqueTo": "Japan",
 		"hurryCostModifier": 25,
 		"culture": 2,
-		"cost": 100,
+		"happiness": 1,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Culture, +1 Happiness] <after adopting [Military Caste]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 {
