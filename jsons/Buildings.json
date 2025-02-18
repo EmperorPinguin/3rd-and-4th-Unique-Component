@@ -676,6 +676,17 @@
 		"requiredTech": "Writing"
 	},
 {
+		"name": "Örtöö",
+		"replaces": "Market",
+		"uniqueTo": "Mongolia",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 50},
+		"uniques": ["[+1 Production] from [Horses] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+{
 		"name": "Riad",
 		"replaces": "Garden",
 		"uniqueTo": "Morocco",
