@@ -339,6 +339,16 @@
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
+	{
+		"name": "British East India Company",
+		"replaces": "Courthouse",
+		"uniqueTo": "England",
+		"maintenance": 0,
+		"cost": 100,
+		"hurryCostModifier": 0,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "Provides [1] [Tea]"],
+		"requiredTech": "Philosophy"
+	},
 {
 		"name": "Statue of Aspetos",
 		"replaces": "Shrine",
