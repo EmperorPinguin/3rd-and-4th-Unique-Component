@@ -614,7 +614,7 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+2 Culture, +1 Happiness] <after adopting [Military Caste]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Culture, +1 Happiness] <after adopting [Military Caste]>","New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 	{
@@ -1076,7 +1076,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] Experience [in this city]","All newly-trained [Land] units [in this city] receive the [Woodsman] promotion","Destroyed when the city is captured"],
+		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] XP [in this city]","All newly-trained [Land] units [in this city] receive the [Woodsman] promotion","Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 {
@@ -1156,7 +1156,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured","All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion"],
 		"requiredTech": "Steel"
 	},
 	{
