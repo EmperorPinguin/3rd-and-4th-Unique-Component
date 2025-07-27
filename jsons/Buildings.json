@@ -347,7 +347,7 @@
 		"maintenance": 0,
 		"cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "Provides [1] [Tea]"],
+		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "Provides [1] [Tea]"],
 		"requiredTech": "Philosophy"
 	},
 {
@@ -672,7 +672,7 @@
 		"maintenance": 0,
             "cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Comment [Unlocked at Writing]","Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
+		"uniques": ["Comment [Unlocked at Writing]","Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Writing"
 	},
 {
@@ -851,7 +851,7 @@
 		"maintenance": 4,
 		"cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "[+2 Culture] from [Plantation] tiles [in this city]", "[+2 Food] [in capital]"],
+		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "[+2 Culture] from [Plantation] tiles [in this city]", "[+2 Food] [in capital]"],
 		"requiredTech": "Philosophy"
 	},
 {
@@ -895,7 +895,7 @@
 		"faith": 3,
 		"cost": 100,
 		"hurryCostModifier": 0,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
+		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Philosophy"
 	},
 {
