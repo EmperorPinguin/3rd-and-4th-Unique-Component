@@ -589,7 +589,7 @@
 			"faith": 8,
 			"cityStrength": 5,
 			"cityHealth": 50,
-			"uniques": ["Empire enters golden age","Doubles Gold given to enemy if city is captured","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"uniques": ["Empire enters golden age","[+100]% Gold given to enemy if city is captured <in this city>","Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 				"[+100]% Natural religion spread [in this city]","Only available <when religion is enabled>","Can only be built <in [in holy cities] cities>"],
 			"requiredTech": "Theology",
 			"isNationalWonder": true
