@@ -39,14 +39,14 @@ BuildingIcons/Amber Fishery
   orig: 586, 586
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Colossal Head
+TileSets/FantasyHex/Tiles/Colossal Head
   rotate: false
   xy: 1124, 678
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Colossal Head
+TileSets/HexaRealm/Tiles/Colossal Head
   rotate: false
   xy: 1124, 678
   size: 500, 500
@@ -1303,27 +1303,6 @@ TileSets/FantasyHex/Tiles/Grassland+Jungle+Bamboo farm
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Jungle+Bamboo farm
-  rotate: false
-  xy: 678, 137
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Treasury Galleon
-  rotate: false
-  xy: 1984, 1948
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleG+Yam Farm
-  rotate: false
-  xy: 1668, 213
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/JungleG+Yam Farm
   rotate: false
   xy: 1668, 213
@@ -1331,9 +1310,9 @@ TileSets/FantasyHex/Tiles/JungleG+Yam Farm
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/JungleP+Yam Farm
+TileSets/HexaRealm/Tiles/JungleG+Yam Farm
   rotate: false
-  xy: 1776, 317
+  xy: 1668, 213
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1345,9 +1324,9 @@ TileSets/FantasyHex/Tiles/JungleP+Yam Farm
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Kurgan
+TileSets/HexaRealm/Tiles/JungleP+Yam Farm
   rotate: false
-  xy: 606, 109
+  xy: 1776, 317
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1359,11 +1338,11 @@ TileSets/FantasyHex/Tiles/Kurgan
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Penguin Preserve
+TileSets/HexaRealm/Tiles/Kurgan
   rotate: false
-  xy: 1876, 1465
-  size: 36, 32
-  orig: 36, 32
+  xy: 606, 109
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Penguin Preserve
@@ -1373,9 +1352,16 @@ TileSets/FantasyHex/Tiles/Penguin Preserve
   orig: 36, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Llanero
+TileSets/HexaRealm/Tiles/Penguin Preserve
   rotate: false
-  xy: 606, 73
+  xy: 1876, 1465
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Jungle+Bamboo farm
+  rotate: false
+  xy: 678, 137
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1385,6 +1371,20 @@ TileSets/FantasyHex/Units/Llanero
   xy: 606, 73
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Llanero
+  rotate: false
+  xy: 606, 73
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Treasury Galleon
+  rotate: false
+  xy: 1984, 1948
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
 UnitIcons/Buzzer
